@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Toast from 'react-native-toast-message'
-import AsyncStorage from '@react-native-async-storage/async-storage'
 import { jwtDecode } from 'jwt-decode'
 import Routers from '@navigation/index'
 import type { RootStackParamList } from 'src/types/navigation'
 import { getToken, removeToken } from 'src/utils/tokenStorage'
+import { GestureHandlerRootView } from 'react-native-gesture-handler'
 
 export default function App() {
   const [initialRoute, setInitialRoute] = useState<keyof RootStackParamList | null>(null)
@@ -35,9 +35,9 @@ export default function App() {
   if (!initialRoute) return null
 
   return (
-    <>
+    <GestureHandlerRootView style={{ flex: 1 }}>
       <Routers initialRouteName={initialRoute as keyof RootStackParamList} />
       <Toast />
-    </>
+    </GestureHandlerRootView>
   )
 }

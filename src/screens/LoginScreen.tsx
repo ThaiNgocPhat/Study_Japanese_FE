@@ -30,16 +30,15 @@ const LoginScreen = () => {
       const response = await authApi.login({ username, password })
       const token = response.data.data.token
       await saveToken(token)
-      await AsyncStorage.setItem('accessToken', token)
       const decodedToken: any = jwtDecode(token)
       const name = decodedToken.name
       const usernameFromToken = decodedToken.username
+      await AsyncStorage.setItem('userName', name)
       Toast.show({
         type: 'success',
         text1: 'Đăng nhập thành công',
       })
-
-      navigation.navigate('Home', { name, username: usernameFromToken })
+      navigation.navigate('Home')
     } catch (error: any) {
       const msg = error?.response?.data?.message || error?.message || 'Đăng nhập thất bại.'
       Toast.show({

@@ -1,0 +1,65 @@
+import TopicListScreen, { TopicItem } from '@components/TopicListScreen'
+const topics: TopicItem[] = [
+  { title: '～ないと、～なくちゃ', screen: 'GrammarNaitoNakuchaScreen' },
+  { title: '～ちゃう', screen: 'GrammarChauScreen' },
+  { title: '～とく', screen: 'GrammarTokuScreen' },
+  { title: '～みたい、～らしい、～っぽい', screen: 'GrammarMitaiRashiiPpoiScreen' },
+  { title: 'まるで～よう/ みたい', screen: 'GrammarMarudeYouMitaiScreen' },
+  { title: '～ように/ ～ ような', screen: 'GrammarYouniYounaScreen' },
+  { title: '～ようとする/ ようとしない', screen: 'GrammarYouToSuruScreen' },
+  { title: '～ばいい/ ～たらいい/ ～といい', screen: 'GrammarBaTaraToIiScreen' },
+  { title: '～ばかり', screen: 'GrammarBakariScreen' },
+  { title: '～さえ', screen: 'GrammarSaeScreen' },
+  { title: '～さえ～ば', screen: 'GrammarSaeBaScreen' },
+  { title: '～こそ', screen: 'GrammarKosoScreen' },
+  { title: '～ところです', screen: 'GrammarTokoroDesuScreen' },
+  { title: '～べきだ/ べきではない', screen: 'GrammarBekidaScreen' },
+  { title: '～てしょうがない', screen: 'GrammarTeShouganaiScreen' },
+  { title: '～て・でたまらない/ ならない', screen: 'GrammarTamaranaideScreen' },
+  { title: '～つもりだったのに', screen: 'GrammarTsumoriDattanoniScreen' },
+  { title: '～ため (に)', screen: 'GrammarTameNiScreen' },
+  { title: '～がる', screen: 'GrammarGaruScreen' },
+  { title: '～てほしい', screen: 'GrammarTeHoshiiScreen' },
+  { title: '～うちに', screen: 'GrammarUchiNiScreen' },
+  { title: '～あいだ、あいだに', screen: 'GrammarAidaAidaNiScreen' },
+  { title: '～たびに', screen: 'GrammarTabiNiScreen' },
+  { title: '～最中に', screen: 'GrammarSaichuuNiScreen' },
+  { title: '～から～にかけて', screen: 'GrammarKaraNiKaketeScreen' },
+  { title: '～ということ/というの', screen: 'GrammarToIuKotoScreen' },
+  { title: '～かな', screen: 'GrammarKanaScreen' },
+  { title: '～わけだ/ わけがない/ わけはない', screen: 'GrammarWakeDaScreen' },
+  { title: '～わけじゃない/ わけではない', screen: 'GrammarWakeJanaiScreen' },
+  { title: '～わけにはいかない', screen: 'GrammarWakeNiWaIkanaiScreen' },
+  { title: '～（んだ）もの/ もん', screen: 'GrammarMonoMonScreen' },
+  { title: '～おかげで', screen: 'GrammarOkageDeScreen' },
+  { title: '～に違いない', screen: 'GrammarNiChigaiNaiScreen' },
+  { title: 'Các cách dùng của って', screen: 'GrammarTteUsageScreen' },
+  { title: '～なんか、なんて', screen: 'GrammarNankaNanteScreen' },
+  { title: '～かわりに', screen: 'GrammarKawariniScreen' },
+  { title: '～うえに', screen: 'GrammarUeNiScreen' },
+  { title: '～に加えて', screen: 'GrammarNiKuwaeteScreen' },
+  { title: '～ことがある/ こともある', screen: 'GrammarKotoGaAruScreen' },
+  { title: '～おそれがある', screen: 'GrammarOsoreGaAruScreen' },
+  { title: '～に決まっている', screen: 'GrammarNiKimatteIruScreen' },
+  { title: '～によって', screen: 'GrammarNiYotteScreen' },
+  {
+    title: 'Các mẫu câu với という',
+    screen: 'GrammarToIuPatternsScreen',
+  },
+  { title: '～ものか/ もんか', screen: 'GrammarMonokaScreen' },
+  { title: '～どんなに～ことか', screen: 'GrammarDonnaniKotoKaScreen' },
+  {
+    title: '～として（は）/ としても/ としての',
+    screen: 'GrammarToshiteScreen',
+  },
+  {
+    title: '～ばと思う/ ばいいのに/ばよかった',
+    screen: 'GrammarBaToOmouScreen',
+  },
+]
+
+const GrammarN3CategoryScreen = () => {
+  return <TopicListScreen screenTitle="Ngữ pháp N3" topics={topics} />
+}
+
+export default GrammarN3CategoryScreen

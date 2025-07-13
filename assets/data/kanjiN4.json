@@ -1,0 +1,1871 @@
+[
+  {
+    "kanji": "業",
+    "onYomi": "ギョウ・ゴウ",
+    "kunYomi": "わざ",
+    "meaning": "nghiệp, nghề",
+    "examples": "農業（のうぎょう）- nông nghiệp、授業（じゅぎょう）- tiết học"
+  },
+  {
+    "kanji": "局",
+    "onYomi": "キョク",
+    "kunYomi": "",
+    "meaning": "cục, trạm",
+    "examples": "郵便局（ゆうびんきょく）- bưu điện"
+  },
+  {
+    "kanji": "近",
+    "onYomi": "キン",
+    "kunYomi": "ちか.い",
+    "meaning": "gần",
+    "examples": "近く（ちかく）- gần、最近（さいきん）- gần đây"
+  },
+  {
+    "kanji": "係",
+    "onYomi": "ケイ",
+    "kunYomi": "かか.り",
+    "meaning": "liên hệ, phụ trách",
+    "examples": "係の人（かかりのひと）- người phụ trách"
+  },
+  {
+    "kanji": "形",
+    "onYomi": "ケイ・ギョウ",
+    "kunYomi": "かた・かたち",
+    "meaning": "hình dạng",
+    "examples": "人形（にんぎょう）- búp bê、形（かたち）- hình dạng"
+  },
+  {
+    "kanji": "計",
+    "onYomi": "ケイ",
+    "kunYomi": "はか.る",
+    "meaning": "kế hoạch, đo",
+    "examples": "計画（けいかく）- kế hoạch、時計（とけい）- đồng hồ"
+  },
+  {
+    "kanji": "決",
+    "onYomi": "ケツ",
+    "kunYomi": "き.める・き.まる",
+    "meaning": "quyết định",
+    "examples": "決める（きめる）- quyết định、決定（けってい）- sự quyết định"
+  },
+  {
+    "kanji": "県",
+    "onYomi": "ケン",
+    "kunYomi": "",
+    "meaning": "tỉnh",
+    "examples": "県（けん）- tỉnh、県庁（けんちょう）- ủy ban tỉnh"
+  },
+  {
+    "kanji": "研",
+    "onYomi": "ケン",
+    "kunYomi": "と.ぐ",
+    "meaning": "nghiên cứu",
+    "examples": "研究（けんきゅう）- nghiên cứu"
+  },
+  {
+    "kanji": "見",
+    "onYomi": "ケン",
+    "kunYomi": "み.る・み.える・み.せる",
+    "meaning": "nhìn, xem",
+    "examples": "見る（みる）- nhìn、意見（いけん）- ý kiến"
+  },
+  {
+    "kanji": "験",
+    "onYomi": "ケン",
+    "kunYomi": "ため.す",
+    "meaning": "thí nghiệm, thi cử",
+    "examples": "試験（しけん）- kỳ thi、経験（けいけん）- kinh nghiệm"
+  },
+  {
+    "kanji": "庫",
+    "onYomi": "コ・ク",
+    "kunYomi": "",
+    "meaning": "kho",
+    "examples": "車庫（しゃこ）- gara xe、倉庫（そうこ）- nhà kho"
+  },
+  {
+    "kanji": "湖",
+    "onYomi": "コ",
+    "kunYomi": "みずうみ",
+    "meaning": "hồ nước",
+    "examples": "湖（みずうみ）- hồ、琵琶湖（びわこ）- hồ Biwa"
+  },
+  {
+    "kanji": "向",
+    "onYomi": "コウ",
+    "kunYomi": "む.く・む.ける・む.かう",
+    "meaning": "hướng về",
+    "examples": "向かう（むかう）- hướng về、方向（ほうこう）- phương hướng"
+  },
+  {
+    "kanji": "幸",
+    "onYomi": "コウ",
+    "kunYomi": "しあわ.せ・さいわ.い",
+    "meaning": "hạnh phúc",
+    "examples": "幸せ（しあわせ）- hạnh phúc、幸福（こうふく）- sự hạnh phúc"
+  },
+  {
+    "kanji": "港",
+    "onYomi": "コウ",
+    "kunYomi": "みなと",
+    "meaning": "cảng",
+    "examples": "港（みなと）- cảng、空港（くうこう）- sân bay"
+  },
+  {
+    "kanji": "号",
+    "onYomi": "ゴウ",
+    "kunYomi": "",
+    "meaning": "hiệu, số",
+    "examples": "番号（ばんごう）- số hiệu、信号（しんごう）- tín hiệu"
+  },
+  {
+    "kanji": "根",
+    "onYomi": "コン",
+    "kunYomi": "ね",
+    "meaning": "rễ",
+    "examples": "根（ね）- rễ、根本（こんぽん）- căn bản"
+  },
+  {
+    "kanji": "祭",
+    "onYomi": "サイ",
+    "kunYomi": "まつ.り・まつ.る",
+    "meaning": "lễ hội",
+    "examples": "祭り（まつり）- lễ hội、文化祭（ぶんかさい）- lễ hội văn hóa"
+  },
+  {
+    "kanji": "皿",
+    "onYomi": "",
+    "kunYomi": "さら",
+    "meaning": "đĩa",
+    "examples": "皿（さら）- cái đĩa、小皿（こざら）- đĩa nhỏ"
+  },
+  {
+    "kanji": "仕",
+    "onYomi": "シ",
+    "kunYomi": "つか.える",
+    "meaning": "phục vụ, làm việc",
+    "examples": "仕事（しごと）- công việc、仕える（つかえる）- phục vụ"
+  },
+  {
+    "kanji": "死",
+    "onYomi": "シ",
+    "kunYomi": "し.ぬ",
+    "meaning": "chết",
+    "examples": "死ぬ（しぬ）- chết、死亡（しぼう）- tử vong"
+  },
+  {
+    "kanji": "使",
+    "onYomi": "シ",
+    "kunYomi": "つか.う",
+    "meaning": "sử dụng",
+    "examples": "使う（つかう）- sử dụng、使用（しよう）- việc sử dụng"
+  },
+  {
+    "kanji": "始",
+    "onYomi": "シ",
+    "kunYomi": "はじ.める・はじ.まる",
+    "meaning": "bắt đầu",
+    "examples": "始める（はじめる）- bắt đầu、開始（かいし）- khai mạc"
+  },
+  {
+    "kanji": "指",
+    "onYomi": "シ",
+    "kunYomi": "ゆび・さす",
+    "meaning": "ngón tay, chỉ",
+    "examples": "指（ゆび）、指す（さす）"
+  },
+  {
+    "kanji": "歯",
+    "onYomi": "シ",
+    "kunYomi": "は",
+    "meaning": "răng",
+    "examples": "歯（は）、歯医者（はいしゃ）"
+  },
+  {
+    "kanji": "詩",
+    "onYomi": "シ",
+    "kunYomi": "",
+    "meaning": "thơ ca",
+    "examples": "詩（し）、詩人（しじん）"
+  },
+  {
+    "kanji": "次",
+    "onYomi": "ジ",
+    "kunYomi": "つぐ・つぎ",
+    "meaning": "kế tiếp",
+    "examples": "次（つぎ）、次回（じかい）"
+  },
+  {
+    "kanji": "事",
+    "onYomi": "ジ",
+    "kunYomi": "こと",
+    "meaning": "sự việc",
+    "examples": "仕事（しごと）、大事（だいじ）"
+  },
+  {
+    "kanji": "持",
+    "onYomi": "ジ",
+    "kunYomi": "もつ",
+    "meaning": "cầm, giữ",
+    "examples": "持つ（もつ）、気持ち（きもち）"
+  },
+  {
+    "kanji": "式",
+    "onYomi": "シキ",
+    "kunYomi": "",
+    "meaning": "nghi lễ, hình thức",
+    "examples": "結婚式（けっこんしき）、方式（ほうしき）"
+  },
+  {
+    "kanji": "実",
+    "onYomi": "ジツ",
+    "kunYomi": "み・みのる",
+    "meaning": "thực tế, quả",
+    "examples": "実（み）、実際（じっさい）"
+  },
+  {
+    "kanji": "写",
+    "onYomi": "シャ",
+    "kunYomi": "うつす・うつる",
+    "meaning": "chép, sao chép",
+    "examples": "写真（しゃしん）、写す（うつす）"
+  },
+  {
+    "kanji": "者",
+    "onYomi": "シャ",
+    "kunYomi": "もの",
+    "meaning": "người",
+    "examples": "医者（いしゃ）、学者（がくしゃ）"
+  },
+  {
+    "kanji": "主",
+    "onYomi": "シュ",
+    "kunYomi": "ぬし・おも",
+    "meaning": "chính, chủ",
+    "examples": "主人（しゅじん）、主な（おもな）"
+  },
+  {
+    "kanji": "守",
+    "onYomi": "シュ",
+    "kunYomi": "まもる",
+    "meaning": "bảo vệ",
+    "examples": "守る（まもる）、留守（るす）"
+  },
+  {
+    "kanji": "取",
+    "onYomi": "シュ",
+    "kunYomi": "とる",
+    "meaning": "lấy",
+    "examples": "取る（とる）、取り引き（とりひき）"
+  },
+  {
+    "kanji": "酒",
+    "onYomi": "シュ",
+    "kunYomi": "さけ・さか",
+    "meaning": "rượu",
+    "examples": "お酒（おさけ）、日本酒（にほんしゅ）"
+  },
+  {
+    "kanji": "受",
+    "onYomi": "ジュ",
+    "kunYomi": "うける・うかる",
+    "meaning": "nhận, thi",
+    "examples": "受ける（うける）、受験（じゅけん）"
+  },
+  {
+    "kanji": "州",
+    "onYomi": "シュウ",
+    "kunYomi": "",
+    "meaning": "châu, bang",
+    "examples": "九州（きゅうしゅう）、本州（ほんしゅう）"
+  },
+  {
+    "kanji": "拾",
+    "onYomi": "シュウ",
+    "kunYomi": "ひろう",
+    "meaning": "nhặt",
+    "examples": "拾う（ひろう）、拾得物（しゅうとくぶつ）"
+  },
+  {
+    "kanji": "終",
+    "onYomi": "シュウ",
+    "kunYomi": "おわる・おえる",
+    "meaning": "kết thúc",
+    "examples": "終わる（おわる）、終電（しゅうでん）"
+  },
+  {
+    "kanji": "習",
+    "onYomi": "シュウ",
+    "kunYomi": "ならう",
+    "meaning": "học",
+    "examples": "習う（ならう）、練習（れんしゅう）"
+  },
+  {
+    "kanji": "集",
+    "onYomi": "シュウ",
+    "kunYomi": "あつまる・あつめる",
+    "meaning": "tập trung",
+    "examples": "集める（あつめる）、集合（しゅうごう）"
+  },
+  {
+    "kanji": "住",
+    "onYomi": "ジュウ",
+    "kunYomi": "すむ",
+    "meaning": "sống, cư trú",
+    "examples": "住む（すむ）、住所（じゅうしょ）"
+  },
+  {
+    "kanji": "重",
+    "onYomi": "ジュウ・チョウ",
+    "kunYomi": "おもい・かさなる",
+    "meaning": "nặng, chồng chất",
+    "examples": "重い（おもい）、重要（じゅうよう）"
+  },
+  {
+    "kanji": "宿",
+    "onYomi": "シュク",
+    "kunYomi": "やど",
+    "meaning": "trọ, nghỉ",
+    "examples": "宿（やど）、宿題（しゅくだい）"
+  },
+  {
+    "kanji": "所",
+    "onYomi": "ショ",
+    "kunYomi": "ところ",
+    "meaning": "nơi chốn",
+    "examples": "所（ところ）、近所（きんじょ）"
+  },
+  {
+    "kanji": "暑",
+    "onYomi": "ショ",
+    "kunYomi": "あつい",
+    "meaning": "nóng",
+    "examples": "暑い（あつい）、猛暑（もうしょ）"
+  },
+  {
+    "kanji": "助",
+    "onYomi": "ジョ",
+    "kunYomi": "たすける・たすかる",
+    "meaning": "giúp đỡ",
+    "examples": "助ける（たすける）、援助（えんじょ）"
+  },
+  {
+    "kanji": "昭",
+    "onYomi": "ショウ",
+    "kunYomi": "",
+    "meaning": "chiếu sáng (thời Showa)",
+    "examples": "昭和（しょうわ）"
+  },
+  {
+    "kanji": "消",
+    "onYomi": "ショウ",
+    "kunYomi": "きえる・けす",
+    "meaning": "tắt, biến mất",
+    "examples": "消す（けす）、消火（しょうか）"
+  },
+  {
+    "kanji": "商",
+    "onYomi": "ショウ",
+    "kunYomi": "",
+    "meaning": "buôn bán",
+    "examples": "商店（しょうてん）、商品（しょうひん）"
+  },
+  {
+    "kanji": "章",
+    "onYomi": "ショウ",
+    "kunYomi": "",
+    "meaning": "chương",
+    "examples": "章（しょう）、文章（ぶんしょう）"
+  },
+  {
+    "kanji": "勝",
+    "onYomi": "ショウ",
+    "kunYomi": "かつ",
+    "meaning": "thắng",
+    "examples": "勝つ（かつ）、優勝（ゆうしょう）"
+  },
+  {
+    "kanji": "乗",
+    "onYomi": "ジョウ",
+    "kunYomi": "のる・のせる",
+    "meaning": "lên xe",
+    "examples": "乗る（のる）、乗車（じょうしゃ）"
+  },
+  {
+    "kanji": "植",
+    "onYomi": "ショク",
+    "kunYomi": "うえる",
+    "meaning": "trồng",
+    "examples": "植える（うえる）、植物（しょくぶつ）"
+  },
+  {
+    "kanji": "申",
+    "onYomi": "シン",
+    "kunYomi": "もうす",
+    "meaning": "nói (khiêm nhường)",
+    "examples": "申す（もうす）、申し込み（もうしこみ）"
+  },
+  {
+    "kanji": "身",
+    "onYomi": "シン",
+    "kunYomi": "み",
+    "meaning": "cơ thể, bản thân",
+    "examples": "身（み）、自身（じしん）"
+  },
+  {
+    "kanji": "神",
+    "onYomi": "シン・ジン",
+    "kunYomi": "かみ",
+    "meaning": "thần",
+    "examples": "神（かみ）、神社（じんじゃ）"
+  },
+  {
+    "kanji": "真",
+    "onYomi": "シン",
+    "kunYomi": "ま",
+    "meaning": "chân thật",
+    "examples": "真ん中（まんなか）、写真（しゃしん）"
+  },
+  {
+    "kanji": "深",
+    "onYomi": "シン",
+    "kunYomi": "ふかい",
+    "meaning": "sâu",
+    "examples": "深い（ふかい）、深夜（しんや）"
+  },
+  {
+    "kanji": "進",
+    "onYomi": "シン",
+    "kunYomi": "すすむ・すすめる",
+    "meaning": "tiến lên",
+    "examples": "進む（すすむ）、進学（しんがく）"
+  },
+  {
+    "kanji": "世",
+    "onYomi": "セイ・セ",
+    "kunYomi": "よ",
+    "meaning": "thế giới",
+    "examples": "世界（せかい）、世話（せわ）"
+  },
+  {
+    "kanji": "整",
+    "onYomi": "セイ",
+    "kunYomi": "ととのう・ととのえる",
+    "meaning": "sắp xếp",
+    "examples": "整理（せいり）、整える（ととのえる）"
+  },
+  {
+    "kanji": "昔",
+    "onYomi": "",
+    "kunYomi": "むかし",
+    "meaning": "ngày xưa",
+    "examples": "昔（むかし）、昔話（むかしばなし）"
+  },
+  {
+    "kanji": "全",
+    "onYomi": "ゼン",
+    "kunYomi": "まったく・すべて",
+    "meaning": "toàn bộ",
+    "examples": "全部（ぜんぶ）、安全（あんぜん）"
+  },
+  {
+    "kanji": "送",
+    "onYomi": "ソウ",
+    "kunYomi": "おくる",
+    "meaning": "gửi",
+    "examples": "送る（おくる）、放送（ほうそう）"
+  },
+  {
+    "kanji": "想",
+    "onYomi": "ソウ",
+    "kunYomi": "",
+    "meaning": "tưởng tượng",
+    "examples": "想像（そうぞう）、理想（りそう）"
+  },
+  {
+    "kanji": "息",
+    "onYomi": "ソク",
+    "kunYomi": "いき",
+    "meaning": "hơi thở",
+    "examples": "息（いき）、休息（きゅうそく）"
+  },
+  {
+    "kanji": "速",
+    "onYomi": "ソク",
+    "kunYomi": "はやい",
+    "meaning": "nhanh",
+    "examples": "速い（はやい）、速度（そくど）"
+  },
+  {
+    "kanji": "族",
+    "onYomi": "ゾク",
+    "kunYomi": "",
+    "meaning": "gia tộc",
+    "examples": "家族（かぞく）、民族（みんぞく）"
+  },
+  {
+    "kanji": "他",
+    "onYomi": "タ",
+    "kunYomi": "ほか",
+    "meaning": "khác",
+    "examples": "他（ほか）、他人（たにん）"
+  },
+  {
+    "kanji": "打",
+    "onYomi": "ダ",
+    "kunYomi": "うつ",
+    "meaning": "đánh",
+    "examples": "打つ（うつ）、打球（だきゅう）"
+  },
+  {
+    "kanji": "対",
+    "onYomi": "タイ",
+    "kunYomi": "",
+    "meaning": "đối, ngược",
+    "examples": "対する（たいする）、反対（はんたい）"
+  },
+  {
+    "kanji": "待",
+    "onYomi": "タイ",
+    "kunYomi": "まつ",
+    "meaning": "chờ đợi",
+    "examples": "待つ（まつ）、期待（きたい）"
+  },
+  {
+    "kanji": "代",
+    "onYomi": "ダイ・タイ",
+    "kunYomi": "かわる・かえる・しろ",
+    "meaning": "thay thế",
+    "examples": "時代（じだい）、代表（だいひょう）"
+  },
+  {
+    "kanji": "第",
+    "onYomi": "ダイ",
+    "kunYomi": "",
+    "meaning": "thứ tự",
+    "examples": "第一（だいいち）、第二（だいに）"
+  },
+  {
+    "kanji": "題",
+    "onYomi": "ダイ",
+    "kunYomi": "",
+    "meaning": "chủ đề",
+    "examples": "話題（わだい）、問題（もんだい）"
+  },
+  {
+    "kanji": "炭",
+    "onYomi": "タン",
+    "kunYomi": "すみ",
+    "meaning": "than",
+    "examples": "炭（すみ）、石炭（せきたん）"
+  },
+  {
+    "kanji": "短",
+    "onYomi": "タン",
+    "kunYomi": "みじかい",
+    "meaning": "ngắn",
+    "examples": "短い（みじかい）、短所（たんしょ）"
+  },
+  {
+    "kanji": "談",
+    "onYomi": "ダン",
+    "kunYomi": "",
+    "meaning": "nói chuyện",
+    "examples": "会談（かいだん）、相談（そうだん）"
+  },
+  {
+    "kanji": "着",
+    "onYomi": "チャク",
+    "kunYomi": "きる・つく",
+    "meaning": "mặc, đến",
+    "examples": "着る（きる）、到着（とうちゃく）"
+  },
+  {
+    "kanji": "注",
+    "onYomi": "チュウ",
+    "kunYomi": "そそぐ",
+    "meaning": "chú ý, rót",
+    "examples": "注意（ちゅうい）、注ぐ（そそぐ）"
+  },
+  {
+    "kanji": "柱",
+    "onYomi": "チュウ",
+    "kunYomi": "はしら",
+    "meaning": "cột, trụ",
+    "examples": "柱（はしら）、電柱（でんちゅう）"
+  },
+  {
+    "kanji": "丁",
+    "onYomi": "チョウ",
+    "kunYomi": "",
+    "meaning": "khu phố, đơn vị đếm",
+    "examples": "丁目（ちょうめ）、丁寧（ていねい）"
+  },
+  {
+    "kanji": "帳",
+    "onYomi": "チョウ",
+    "kunYomi": "",
+    "meaning": "sổ",
+    "examples": "通帳（つうちょう）、手帳（てちょう）"
+  },
+  {
+    "kanji": "調",
+    "onYomi": "チョウ",
+    "kunYomi": "しらべる・ととのう",
+    "meaning": "điều tra, điều chỉnh",
+    "examples": "調べる（しらべる）、調子（ちょうし）"
+  },
+  {
+    "kanji": "追",
+    "onYomi": "ツイ",
+    "kunYomi": "おう",
+    "meaning": "đuổi theo",
+    "examples": "追う（おう）、追加（ついか）"
+  },
+  {
+    "kanji": "定",
+    "onYomi": "テイ・ジョウ",
+    "kunYomi": "さだめる",
+    "meaning": "quyết định",
+    "examples": "決定（けってい）、予定（よてい）"
+  },
+  {
+    "kanji": "庭",
+    "onYomi": "テイ",
+    "kunYomi": "にわ",
+    "meaning": "vườn",
+    "examples": "庭（にわ）、家庭（かてい）"
+  },
+  {
+    "kanji": "笛",
+    "onYomi": "テキ",
+    "kunYomi": "ふえ",
+    "meaning": "cái sáo",
+    "examples": "笛（ふえ）、口笛（くちぶえ）"
+  },
+  {
+    "kanji": "鉄",
+    "onYomi": "テツ",
+    "kunYomi": "",
+    "meaning": "sắt",
+    "examples": "鉄（てつ）、地下鉄（ちかてつ）"
+  },
+  {
+    "kanji": "転",
+    "onYomi": "テン",
+    "kunYomi": "ころぶ・ころがる",
+    "meaning": "lăn, ngã",
+    "examples": "転ぶ（ころぶ）、自転車（じてんしゃ）"
+  },
+  {
+    "kanji": "都",
+    "onYomi": "ト・ツ",
+    "kunYomi": "みやこ",
+    "meaning": "thủ đô, thành phố",
+    "examples": "東京都（とうきょうと）、都（みやこ）"
+  },
+  {
+    "kanji": "度",
+    "onYomi": "ド・タク",
+    "kunYomi": "たび",
+    "meaning": "mức độ, lần",
+    "examples": "一度（いちど）、温度（おんど）"
+  },
+  {
+    "kanji": "投",
+    "onYomi": "トウ",
+    "kunYomi": "なげる",
+    "meaning": "ném",
+    "examples": "投げる（なげる）、投手（とうしゅ）"
+  },
+  {
+    "kanji": "島",
+    "onYomi": "トウ",
+    "kunYomi": "しま",
+    "meaning": "đảo",
+    "examples": "島（しま）、列島（れっとう）"
+  },
+  {
+    "kanji": "湯",
+    "onYomi": "トウ",
+    "kunYomi": "ゆ",
+    "meaning": "nước nóng",
+    "examples": "お湯（おゆ）、熱湯（ねっとう）"
+  },
+  {
+    "kanji": "登",
+    "onYomi": "トウ・ト",
+    "kunYomi": "のぼる",
+    "meaning": "leo lên",
+    "examples": "登る（のぼる）、登山（とざん）"
+  },
+  {
+    "kanji": "等",
+    "onYomi": "トウ",
+    "kunYomi": "ひとしい",
+    "meaning": "bình đẳng, v.v.",
+    "examples": "等しい（ひとしい）、高等学校（こうとうがっこう）"
+  },
+  {
+    "kanji": "動",
+    "onYomi": "ドウ",
+    "kunYomi": "うごく・うごかす",
+    "meaning": "chuyển động",
+    "examples": "動く（うごく）、運動（うんどう）"
+  },
+  {
+    "kanji": "童",
+    "onYomi": "ドウ",
+    "kunYomi": "わらべ",
+    "meaning": "trẻ con",
+    "examples": "童話（どうわ）、児童（じどう）"
+  },
+  {
+    "kanji": "農",
+    "onYomi": "ノウ",
+    "kunYomi": "",
+    "meaning": "nông nghiệp",
+    "examples": "農業（のうぎょう）、農家（のうか）"
+  },
+  {
+    "kanji": "波",
+    "onYomi": "ハ",
+    "kunYomi": "なみ",
+    "meaning": "sóng",
+    "examples": "波（なみ）、電波（でんぱ）"
+  },
+  {
+    "kanji": "配",
+    "onYomi": "ハイ",
+    "kunYomi": "くばる",
+    "meaning": "phân phát",
+    "examples": "配る（くばる）、心配（しんぱい）"
+  },
+  {
+    "kanji": "倍",
+    "onYomi": "バイ",
+    "kunYomi": "",
+    "meaning": "gấp đôi",
+    "examples": "２倍（にばい）、倍率（ばいりつ）"
+  },
+  {
+    "kanji": "箱",
+    "onYomi": "",
+    "kunYomi": "はこ",
+    "meaning": "cái hộp",
+    "examples": "箱（はこ）、ごみ箱（ごみばこ）"
+  },
+  {
+    "kanji": "畑",
+    "onYomi": "",
+    "kunYomi": "はたけ・はた",
+    "meaning": "ruộng (khô), vườn",
+    "examples": "畑（はたけ）、田畑（たはた）"
+  },
+  {
+    "kanji": "発",
+    "onYomi": "ハツ・ホツ",
+    "kunYomi": "",
+    "meaning": "xuất phát, phát minh",
+    "examples": "出発（しゅっぱつ）、発見（はっけん）"
+  },
+  {
+    "kanji": "反",
+    "onYomi": "ハン・ホン・タン",
+    "kunYomi": "そる・そらす",
+    "meaning": "phản đối",
+    "examples": "反対（はんたい）、反省（はんせい）"
+  },
+  {
+    "kanji": "坂",
+    "onYomi": "ハン",
+    "kunYomi": "さか",
+    "meaning": "dốc",
+    "examples": "坂（さか）、坂道（さかみち）"
+  },
+  {
+    "kanji": "板",
+    "onYomi": "ハン・バン",
+    "kunYomi": "いた",
+    "meaning": "tấm ván",
+    "examples": "板（いた）、黒板（こくばん）"
+  },
+  {
+    "kanji": "皮",
+    "onYomi": "ヒ",
+    "kunYomi": "かわ",
+    "meaning": "da, vỏ",
+    "examples": "皮（かわ）、皮膚（ひふ）"
+  },
+  {
+    "kanji": "悲",
+    "onYomi": "ヒ",
+    "kunYomi": "かなしい・かなしむ",
+    "meaning": "buồn",
+    "examples": "悲しい（かなしい）、悲劇（ひげき）"
+  },
+  {
+    "kanji": "美",
+    "onYomi": "ビ",
+    "kunYomi": "うつくしい",
+    "meaning": "đẹp",
+    "examples": "美しい（うつくしい）、美術（びじゅつ）"
+  },
+  {
+    "kanji": "鼻",
+    "onYomi": "ビ",
+    "kunYomi": "はな",
+    "meaning": "mũi",
+    "examples": "鼻（はな）、鼻血（はなぢ）"
+  },
+  {
+    "kanji": "筆",
+    "onYomi": "ヒツ",
+    "kunYomi": "ふで",
+    "meaning": "bút lông",
+    "examples": "筆（ふで）、鉛筆（えんぴつ）"
+  },
+  {
+    "kanji": "氷",
+    "onYomi": "ヒョウ",
+    "kunYomi": "こおり・ひ",
+    "meaning": "nước đá",
+    "examples": "氷（こおり）、氷山（ひょうざん）"
+  },
+  {
+    "kanji": "表",
+    "onYomi": "ヒョウ",
+    "kunYomi": "おもて・あらわす",
+    "meaning": "biểu thị, mặt ngoài",
+    "examples": "表（おもて）、発表（はっぴょう）"
+  },
+  {
+    "kanji": "病",
+    "onYomi": "ビョウ",
+    "kunYomi": "やむ・やまい",
+    "meaning": "bệnh",
+    "examples": "病気（びょうき）、病院（びょういん）"
+  },
+  {
+    "kanji": "秒",
+    "onYomi": "ビョウ",
+    "kunYomi": "",
+    "meaning": "giây (đơn vị thời gian)",
+    "examples": "秒（びょう）、秒速（びょうそく）"
+  },
+  {
+    "kanji": "不",
+    "onYomi": "フ",
+    "kunYomi": "",
+    "meaning": "không, phủ định",
+    "examples": "不安（ふあん）、不便（ふべん）"
+  },
+  {
+    "kanji": "夫",
+    "onYomi": "フ・フウ",
+    "kunYomi": "おっと",
+    "meaning": "chồng",
+    "examples": "夫（おっと）、夫婦（ふうふ）"
+  },
+  {
+    "kanji": "付",
+    "onYomi": "フ",
+    "kunYomi": "つける・つく",
+    "meaning": "gắn, kèm theo",
+    "examples": "付ける（つける）、受付（うけつけ）"
+  },
+  {
+    "kanji": "府",
+    "onYomi": "フ",
+    "kunYomi": "",
+    "meaning": "chính quyền, phủ",
+    "examples": "政府（せいふ）、京都府（きょうとふ）"
+  },
+  {
+    "kanji": "復",
+    "onYomi": "フク",
+    "kunYomi": "",
+    "meaning": "phục hồi",
+    "examples": "回復（かいふく）、復習（ふくしゅう）"
+  },
+  {
+    "kanji": "物",
+    "onYomi": "ブツ・モツ",
+    "kunYomi": "もの",
+    "meaning": "vật",
+    "examples": "食べ物（たべもの）、動物（どうぶつ）"
+  },
+  {
+    "kanji": "負",
+    "onYomi": "フ",
+    "kunYomi": "まける・おう",
+    "meaning": "thua, mang (nợ, trách nhiệm)",
+    "examples": "負ける（まける）、負担（ふたん）"
+  },
+  {
+    "kanji": "部",
+    "onYomi": "ブ",
+    "kunYomi": "",
+    "meaning": "bộ phận",
+    "examples": "部屋（へや）、全部（ぜんぶ）"
+  },
+  {
+    "kanji": "服",
+    "onYomi": "フク",
+    "kunYomi": "",
+    "meaning": "quần áo",
+    "examples": "洋服（ようふく）、和服（わふく）"
+  },
+  {
+    "kanji": "福",
+    "onYomi": "フク",
+    "kunYomi": "",
+    "meaning": "phúc, may mắn",
+    "examples": "幸福（こうふく）、福祉（ふくし）"
+  },
+  {
+    "kanji": "粉",
+    "onYomi": "フン",
+    "kunYomi": "こな・こ",
+    "meaning": "bột",
+    "examples": "粉（こな）、小麦粉（こむぎこ）"
+  },
+  {
+    "kanji": "兵",
+    "onYomi": "ヘイ・ヒョウ",
+    "kunYomi": "",
+    "meaning": "binh lính",
+    "examples": "兵士（へいし）、兵隊（へいたい）"
+  },
+  {
+    "kanji": "別",
+    "onYomi": "ベツ",
+    "kunYomi": "わかれる",
+    "meaning": "chia tay, riêng biệt",
+    "examples": "別れる（わかれる）、特別（とくべつ）"
+  },
+  {
+    "kanji": "変",
+    "onYomi": "ヘン",
+    "kunYomi": "かわる・かえる",
+    "meaning": "thay đổi, kỳ lạ",
+    "examples": "変わる（かわる）、変化（へんか）"
+  },
+  {
+    "kanji": "便",
+    "onYomi": "ベン・ビン",
+    "kunYomi": "たより",
+    "meaning": "thuận tiện, thư từ",
+    "examples": "便利（べんり）、郵便（ゆうびん）"
+  },
+  {
+    "kanji": "包",
+    "onYomi": "ホウ",
+    "kunYomi": "つつむ",
+    "meaning": "gói",
+    "examples": "包む（つつむ）、包装（ほうそう）"
+  },
+  {
+    "kanji": "法",
+    "onYomi": "ホウ・ハッ・ホッ・フラン",
+    "kunYomi": "",
+    "meaning": "pháp luật, phương pháp",
+    "examples": "方法（ほうほう）、法律（ほうりつ）"
+  },
+  {
+    "kanji": "望",
+    "onYomi": "ボウ・モウ",
+    "kunYomi": "のぞむ",
+    "meaning": "mong ước",
+    "examples": "希望（きぼう）、望む（のぞむ）"
+  },
+  {
+    "kanji": "牧",
+    "onYomi": "ボク",
+    "kunYomi": "まき",
+    "meaning": "chăn nuôi",
+    "examples": "牧場（ぼくじょう）、牧師（ぼくし）"
+  },
+  {
+    "kanji": "末",
+    "onYomi": "マツ・バツ",
+    "kunYomi": "すえ",
+    "meaning": "cuối cùng",
+    "examples": "週末（しゅうまつ）、月末（げつまつ）"
+  },
+  {
+    "kanji": "満",
+    "onYomi": "マン",
+    "kunYomi": "みちる・みたす",
+    "meaning": "đầy, thoả mãn",
+    "examples": "満足（まんぞく）、満員（まんいん）"
+  },
+  {
+    "kanji": "未",
+    "onYomi": "ミ",
+    "kunYomi": "",
+    "meaning": "chưa",
+    "examples": "未来（みらい）、未定（みてい）"
+  },
+  {
+    "kanji": "脈",
+    "onYomi": "ミャク",
+    "kunYomi": "",
+    "meaning": "mạch",
+    "examples": "脈（みゃく）、脈拍（みゃくはく）"
+  },
+  {
+    "kanji": "民",
+    "onYomi": "ミン",
+    "kunYomi": "たみ",
+    "meaning": "dân",
+    "examples": "国民（こくみん）、民族（みんぞく）"
+  },
+  {
+    "kanji": "無",
+    "onYomi": "ム・ブ",
+    "kunYomi": "ない",
+    "meaning": "không",
+    "examples": "無理（むり）、無料（むりょう）"
+  },
+  {
+    "kanji": "明",
+    "onYomi": "メイ・ミョウ",
+    "kunYomi": "あかるい・あける",
+    "meaning": "sáng, rõ ràng",
+    "examples": "明るい（あかるい）、説明（せつめい）"
+  },
+  {
+    "kanji": "鳴",
+    "onYomi": "メイ",
+    "kunYomi": "なく・ならす・なる",
+    "meaning": "hót, kêu",
+    "examples": "鳴く（なく）、鳴る（なる）"
+  },
+  {
+    "kanji": "面",
+    "onYomi": "メン",
+    "kunYomi": "おも・おもて・つら",
+    "meaning": "mặt",
+    "examples": "面白い（おもしろい）、画面（がめん）"
+  },
+  {
+    "kanji": "問",
+    "onYomi": "モン",
+    "kunYomi": "とう・とい",
+    "meaning": "hỏi",
+    "examples": "質問（しつもん）、問題（もんだい）"
+  },
+  {
+    "kanji": "役",
+    "onYomi": "ヤク・エキ",
+    "kunYomi": "",
+    "meaning": "vai trò, chức vụ",
+    "examples": "役に立つ（やくにたつ）、役所（やくしょ）"
+  },
+  {
+    "kanji": "薬",
+    "onYomi": "ヤク",
+    "kunYomi": "くすり",
+    "meaning": "thuốc",
+    "examples": "薬（くすり）、薬局（やっきょく）"
+  },
+  {
+    "kanji": "由",
+    "onYomi": "ユ・ユウ・ユイ",
+    "kunYomi": "よし",
+    "meaning": "lý do, do bởi",
+    "examples": "理由（りゆう）、自由（じゆう）"
+  },
+  {
+    "kanji": "油",
+    "onYomi": "ユ",
+    "kunYomi": "あぶら",
+    "meaning": "dầu",
+    "examples": "油（あぶら）、石油（せきゆ）"
+  },
+  {
+    "kanji": "有",
+    "onYomi": "ユウ・ウ",
+    "kunYomi": "ある",
+    "meaning": "có",
+    "examples": "有名（ゆうめい）、有る（ある）"
+  },
+  {
+    "kanji": "遊",
+    "onYomi": "ユウ",
+    "kunYomi": "あそぶ",
+    "meaning": "chơi",
+    "examples": "遊ぶ（あそぶ）、遊園地（ゆうえんち）"
+  },
+  {
+    "kanji": "予",
+    "onYomi": "ヨ",
+    "kunYomi": "",
+    "meaning": "dự đoán, trước",
+    "examples": "予習（よしゅう）、予定（よてい）"
+  },
+  {
+    "kanji": "様",
+    "onYomi": "ヨウ",
+    "kunYomi": "さま",
+    "meaning": "ngài, trạng thái",
+    "examples": "様子（ようす）、お客様（おきゃくさま）"
+  },
+  {
+    "kanji": "洋",
+    "onYomi": "ヨウ",
+    "kunYomi": "",
+    "meaning": "Tây, đại dương",
+    "examples": "洋服（ようふく）、西洋（せいよう）"
+  },
+  {
+    "kanji": "羊",
+    "onYomi": ["ヨウ"],
+    "kunYomi": ["ひつじ"],
+    "meaning": "con cừu",
+    "examples": ["羊の毛 (ひつじのけ) - lông cừu", "羊肉 (ようにく) - thịt cừu"]
+  },
+  {
+    "kanji": "葉",
+    "onYomi": ["ヨウ"],
+    "kunYomi": ["は"],
+    "meaning": "lá cây",
+    "examples": ["木の葉 (このは) - lá cây", "落ち葉 (おちば) - lá rụng"]
+  },
+  {
+    "kanji": "陽",
+    "onYomi": ["ヨウ"],
+    "kunYomi": [],
+    "meaning": "ánh dương, dương (trong âm dương)",
+    "examples": ["太陽 (たいよう) - mặt trời", "陽気 (ようき) - thời tiết/ tươi vui"]
+  },
+  {
+    "kanji": "様",
+    "onYomi": ["ヨウ"],
+    "kunYomi": ["さま"],
+    "meaning": "dạng, ngài (kính ngữ)",
+    "examples": ["様子 (ようす) - tình trạng", "田中様 (たなかさま) - ngài Tanaka"]
+  },
+  {
+    "kanji": "落",
+    "onYomi": ["ラク"],
+    "kunYomi": ["お.ちる", "お.とす"],
+    "meaning": "rơi, rụng",
+    "examples": ["落ちる (おちる) - rơi", "落とす (おとす) - làm rơi"]
+  },
+  {
+    "kanji": "流",
+    "onYomi": ["リュウ", "ル"],
+    "kunYomi": ["なが.れる", "なが.す"],
+    "meaning": "dòng chảy, chảy",
+    "examples": ["流れる (ながれる) - chảy", "流行 (りゅうこう) - thịnh hành"]
+  },
+  {
+    "kanji": "旅",
+    "onYomi": ["リョ"],
+    "kunYomi": ["たび"],
+    "meaning": "chuyến đi, du lịch",
+    "examples": ["旅館 (りょかん) - nhà trọ kiểu Nhật", "旅に出る (たびにでる) - đi du lịch"]
+  },
+  {
+    "kanji": "両",
+    "onYomi": ["リョウ"],
+    "kunYomi": [],
+    "meaning": "cả hai, hai bên",
+    "examples": ["両親 (りょうしん) - cha mẹ", "両方 (りょうほう) - cả hai phía"]
+  },
+  {
+    "kanji": "緑",
+    "onYomi": ["リョク", "ロク"],
+    "kunYomi": ["みどり"],
+    "meaning": "màu xanh lá",
+    "examples": ["緑茶 (りょくちゃ) - trà xanh", "緑色 (みどりいろ) - màu xanh lá"]
+  },
+  {
+    "kanji": "礼",
+    "onYomi": ["レイ", "ライ"],
+    "kunYomi": [],
+    "meaning": "lễ nghi, cảm ơn",
+    "examples": ["失礼 (しつれい) - thất lễ", "礼儀 (れいぎ) - lễ nghĩa"]
+  },
+  {
+    "kanji": "列",
+    "onYomi": ["レツ", "レ"],
+    "kunYomi": [],
+    "meaning": "hàng, dãy",
+    "examples": ["行列 (ぎょうれつ) - hàng người", "列車 (れっしゃ) - tàu hỏa"]
+  },
+  {
+    "kanji": "練",
+    "onYomi": ["レン"],
+    "kunYomi": ["ね.る"],
+    "meaning": "luyện tập",
+    "examples": ["練習 (れんしゅう) - luyện tập", "頭を練る (あたまをねる) - suy nghĩ kỹ"]
+  },
+  {
+    "kanji": "路",
+    "onYomi": ["ロ"],
+    "kunYomi": ["じ"],
+    "meaning": "đường đi",
+    "examples": ["道路 (どうろ) - con đường", "通路 (つうろ) - lối đi"]
+  },
+  {
+    "kanji": "和",
+    "onYomi": ["ワ", "オ"],
+    "kunYomi": ["やわ.らぐ", "なご.む"],
+    "meaning": "hòa bình, Nhật Bản",
+    "examples": ["平和 (へいわ) - hòa bình", "和食 (わしょく) - món Nhật"]
+  },
+  {
+    "kanji": "愛",
+    "onYomi": ["アイ"],
+    "kunYomi": [],
+    "meaning": "tình yêu",
+    "examples": ["愛情 (あいじょう) - tình cảm", "恋愛 (れんあい) - tình yêu lãng mạn"]
+  },
+  {
+    "kanji": "案",
+    "onYomi": ["アン"],
+    "kunYomi": [],
+    "meaning": "đề án, đề xuất",
+    "examples": ["案内 (あんない) - hướng dẫn", "提案 (ていあん) - đề xuất"]
+  },
+  {
+    "kanji": "以",
+    "onYomi": ["イ"],
+    "kunYomi": [],
+    "meaning": "dĩ (từ), lấy làm mốc",
+    "examples": ["以上 (いじょう) - hơn, trở lên", "以下 (いか) - dưới"]
+  },
+  {
+    "kanji": "意",
+    "onYomi": ["イ"],
+    "kunYomi": [],
+    "meaning": "ý chí, ý định",
+    "examples": ["意味 (いみ) - ý nghĩa", "意見 (いけん) - ý kiến"]
+  },
+  {
+    "kanji": "医",
+    "onYomi": ["イ"],
+    "kunYomi": [],
+    "meaning": "y học, bác sĩ",
+    "examples": ["医者 (いしゃ) - bác sĩ", "医学 (いがく) - y học"]
+  },
+  {
+    "kanji": "員",
+    "onYomi": ["イン"],
+    "kunYomi": [],
+    "meaning": "nhân viên, thành viên",
+    "examples": ["社員 (しゃいん) - nhân viên công ty", "店員 (てんいん) - nhân viên bán hàng"]
+  },
+  {
+    "kanji": "引",
+    "onYomi": ["イン"],
+    "kunYomi": ["ひ.く", "ひ.ける"],
+    "meaning": "kéo",
+    "examples": ["引く (ひく) - kéo", "割引 (わりびき) - giảm giá"]
+  },
+  {
+    "kanji": "運",
+    "onYomi": ["ウン"],
+    "kunYomi": ["はこ.ぶ"],
+    "meaning": "vận chuyển, vận may",
+    "examples": ["運動 (うんどう) - vận động", "運ぶ (はこぶ) - vận chuyển"]
+  },
+  {
+    "kanji": "泳",
+    "onYomi": ["エイ"],
+    "kunYomi": ["およ.ぐ"],
+    "meaning": "bơi",
+    "examples": ["水泳 (すいえい) - bơi lội", "泳ぐ (およぐ) - bơi"]
+  },
+  {
+    "kanji": "駅",
+    "onYomi": ["エキ"],
+    "kunYomi": [],
+    "meaning": "nhà ga",
+    "examples": ["駅前 (えきまえ) - trước ga", "東京駅 (とうきょうえき) - ga Tokyo"]
+  },
+  {
+    "kanji": "央",
+    "onYomi": ["オウ"],
+    "kunYomi": [],
+    "meaning": "trung ương",
+    "examples": ["中央 (ちゅうおう) - trung tâm", "中央駅 (ちゅうおうえき) - ga trung tâm"]
+  },
+  {
+    "kanji": "横",
+    "onYomi": ["オウ"],
+    "kunYomi": ["よこ"],
+    "meaning": "ngang",
+    "examples": ["横断歩道 (おうだんほどう) - vạch sang đường", "横 (よこ) - bên cạnh"]
+  },
+  {
+    "kanji": "屋",
+    "onYomi": ["オク"],
+    "kunYomi": ["や"],
+    "meaning": "cửa hàng, mái nhà",
+    "examples": ["部屋 (へや) - căn phòng", "八百屋 (やおや) - tiệm rau"]
+  },
+  {
+    "kanji": "温",
+    "onYomi": ["オン"],
+    "kunYomi": ["あたた.かい", "あたた.まる"],
+    "meaning": "ấm áp",
+    "examples": ["温泉 (おんせん) - suối nước nóng", "温かい (あたたかい) - ấm"]
+  },
+  {
+    "kanji": "化",
+    "onYomi": ["カ", "ケ"],
+    "kunYomi": ["ば.ける", "ば.かす"],
+    "meaning": "biến đổi, hóa",
+    "examples": ["文化 (ぶんか) - văn hóa", "化け物 (ばけもの) - yêu quái"]
+  },
+  {
+    "kanji": "荷",
+    "onYomi": ["カ"],
+    "kunYomi": ["に"],
+    "meaning": "hàng hóa, hành lý",
+    "examples": ["荷物 (にもつ) - hành lý", "出荷 (しゅっか) - xuất hàng"]
+  },
+  {
+    "kanji": "界",
+    "onYomi": [],
+    "kunYomi": [],
+    "meaning": "",
+    "examples": []
+  },
+  {
+    "kanji": "開",
+    "onYomi": "カイ",
+    "kunYomi": "ひらく、あける",
+    "meaning": "mở",
+    "examples": "開く（ひらく）、開ける（あける）、開会（かいかい）"
+  },
+  {
+    "kanji": "階",
+    "onYomi": "カイ",
+    "kunYomi": "",
+    "meaning": "tầng",
+    "examples": "一階（いっかい）、階段（かいだん）"
+  },
+  {
+    "kanji": "寒",
+    "onYomi": "カン",
+    "kunYomi": "さむい",
+    "meaning": "lạnh",
+    "examples": "寒い（さむい）、寒気（さむけ）"
+  },
+  {
+    "kanji": "感",
+    "onYomi": "カン",
+    "kunYomi": "",
+    "meaning": "cảm giác",
+    "examples": "感情（かんじょう）、感謝（かんしゃ）"
+  },
+  {
+    "kanji": "漢",
+    "onYomi": "カン",
+    "kunYomi": "",
+    "meaning": "Hán (Trung Quốc)",
+    "examples": "漢字（かんじ）、漢語（かんご）"
+  },
+  {
+    "kanji": "館",
+    "onYomi": "カン",
+    "kunYomi": "",
+    "meaning": "toà nhà",
+    "examples": "図書館（としょかん）、旅館（りょかん）"
+  },
+  {
+    "kanji": "岸",
+    "onYomi": "ガン",
+    "kunYomi": "きし",
+    "meaning": "bờ",
+    "examples": "岸（きし）、海岸（かいがん）"
+  },
+  {
+    "kanji": "起",
+    "onYomi": "キ",
+    "kunYomi": "おきる、おこす",
+    "meaning": "dậy, khởi",
+    "examples": "起きる（おきる）、起こす（おこす）、起業（きぎょう）"
+  },
+  {
+    "kanji": "期",
+    "onYomi": "キ",
+    "kunYomi": "",
+    "meaning": "kỳ, thời kỳ",
+    "examples": "学期（がっき）、期待（きたい）"
+  },
+  {
+    "kanji": "客",
+    "onYomi": "キャク",
+    "kunYomi": "",
+    "meaning": "khách",
+    "examples": "客（きゃく）、客室（きゃくしつ）"
+  },
+  {
+    "kanji": "究",
+    "onYomi": "キュウ",
+    "kunYomi": "",
+    "meaning": "nghiên cứu",
+    "examples": "研究（けんきゅう）、究明（きゅうめい）"
+  },
+  {
+    "kanji": "急",
+    "onYomi": "キュウ",
+    "kunYomi": "いそぐ",
+    "meaning": "vội vàng",
+    "examples": "急ぐ（いそぐ）、急行（きゅうこう）"
+  },
+  {
+    "kanji": "級",
+    "onYomi": "キュウ",
+    "kunYomi": "",
+    "meaning": "cấp, lớp",
+    "examples": "初級（しょきゅう）、高級（こうきゅう）"
+  },
+  {
+    "kanji": "宮",
+    "onYomi": "キュウ、グウ",
+    "kunYomi": "みや",
+    "meaning": "cung, đền",
+    "examples": "神宮（じんぐう）、宮（みや）"
+  },
+  {
+    "kanji": "去",
+    "onYomi": "キョ、コ",
+    "kunYomi": "さる",
+    "meaning": "rời đi",
+    "examples": "去る（さる）、去年（きょねん）"
+  },
+  {
+    "kanji": "橋",
+    "onYomi": "キョウ",
+    "kunYomi": "はし",
+    "meaning": "cây cầu",
+    "examples": "橋（はし）、鉄橋（てっきょう）"
+  },
+  {
+    "kanji": "業",
+    "onYomi": "ギョウ、ゴウ",
+    "kunYomi": "わざ",
+    "meaning": "nghiệp, công việc",
+    "examples": "工業（こうぎょう）、業者（ぎょうしゃ）"
+  },
+  {
+    "kanji": "局",
+    "onYomi": "キョク",
+    "kunYomi": "",
+    "meaning": "cục, trạm",
+    "examples": "郵便局（ゆうびんきょく）、薬局（やっきょく）"
+  },
+  {
+    "kanji": "近",
+    "onYomi": "キン",
+    "kunYomi": "ちかい",
+    "meaning": "gần",
+    "examples": "近い（ちかい）、最近（さいきん）"
+  },
+  {
+    "kanji": "係",
+    "onYomi": "ケイ",
+    "kunYomi": "かかり",
+    "meaning": "liên quan, phụ trách",
+    "examples": "係（かかり）、関係（かんけい）"
+  },
+  {
+    "kanji": "形",
+    "onYomi": "ケイ、ギョウ",
+    "kunYomi": "かたち、かた",
+    "meaning": "hình, hình dáng",
+    "examples": "形（かたち）、形式（けいしき）"
+  },
+  {
+    "kanji": "計",
+    "onYomi": "ケイ",
+    "kunYomi": "はかる",
+    "meaning": "kế hoạch, đo",
+    "examples": "計る（はかる）、時計（とけい）"
+  },
+  {
+    "kanji": "決",
+    "onYomi": "ケツ",
+    "kunYomi": "きめる、きまる",
+    "meaning": "quyết định",
+    "examples": "決める（きめる）、決定（けってい）"
+  },
+  {
+    "kanji": "県",
+    "onYomi": "ケン",
+    "kunYomi": "",
+    "meaning": "tỉnh",
+    "examples": "県（けん）、県庁（けんちょう）"
+  },
+  {
+    "kanji": "研",
+    "onYomi": "ケン",
+    "kunYomi": "とぐ",
+    "meaning": "mài, nghiên cứu",
+    "examples": "研究（けんきゅう）、研ぐ（とぐ）"
+  },
+  {
+    "kanji": "見",
+    "onYomi": "ケン",
+    "kunYomi": "みる、みえる、みせる",
+    "meaning": "nhìn, thấy",
+    "examples": "見る（みる）、見せる（みせる）、意見（いけん）"
+  },
+  {
+    "kanji": "験",
+    "onYomi": "ケン",
+    "kunYomi": "",
+    "meaning": "thử, kiểm tra",
+    "examples": "試験（しけん）、体験（たいけん）"
+  },
+  {
+    "kanji": "庫",
+    "onYomi": "コ",
+    "kunYomi": "",
+    "meaning": "kho",
+    "examples": "倉庫（そうこ）、車庫（しゃこ）"
+  },
+  {
+    "kanji": "湖",
+    "onYomi": "コ",
+    "kunYomi": "みずうみ",
+    "meaning": "hồ",
+    "examples": "湖（みずうみ）、湖水（こすい）"
+  },
+  {
+    "kanji": "向",
+    "onYomi": "コウ",
+    "kunYomi": "むく、むける、むかう、むこう",
+    "meaning": "hướng về",
+    "examples": "向かう（むかう）、方向（ほうこう）、向こう（むこう）"
+  },
+  {
+    "kanji": "幸",
+    "onYomi": "コウ",
+    "kunYomi": "しあわせ、さいわい",
+    "meaning": "hạnh phúc",
+    "examples": "幸せ（しあわせ）、幸福（こうふく）"
+  },
+  {
+    "kanji": "港",
+    "onYomi": "コウ",
+    "kunYomi": "みなと",
+    "meaning": "cảng",
+    "examples": "港（みなと）、空港（くうこう）"
+  },
+  {
+    "kanji": "号",
+    "onYomi": "ゴウ",
+    "kunYomi": "",
+    "meaning": "số hiệu",
+    "examples": "番号（ばんごう）、信号（しんごう）"
+  },
+  {
+    "kanji": "根",
+    "onYomi": "コン",
+    "kunYomi": "ね",
+    "meaning": "rễ",
+    "examples": "根（ね）、根本（こんぽん）"
+  },
+  {
+    "kanji": "祭",
+    "onYomi": "サイ",
+    "kunYomi": "まつり、まつる",
+    "meaning": "lễ hội",
+    "examples": "祭り（まつり）、文化祭（ぶんかさい）"
+  },
+  {
+    "kanji": "皿",
+    "onYomi": "ベイ",
+    "kunYomi": "さら",
+    "meaning": "đĩa",
+    "examples": "皿（さら）、小皿（こざら）"
+  },
+  {
+    "kanji": "仕",
+    "onYomi": "シ",
+    "kunYomi": "つかえる",
+    "meaning": "phục vụ, làm việc",
+    "examples": "仕事（しごと）、仕える（つかえる）"
+  },
+  {
+    "kanji": "死",
+    "onYomi": "シ",
+    "kunYomi": "しぬ",
+    "meaning": "chết",
+    "examples": "死ぬ（しぬ）、死亡（しぼう）"
+  },
+  {
+    "kanji": "使",
+    "onYomi": "シ",
+    "kunYomi": "つかう",
+    "meaning": "sử dụng",
+    "examples": "使う（つかう）、使用（しよう）"
+  },
+  {
+    "kanji": "始",
+    "onYomi": "シ",
+    "kunYomi": "はじめる、はじまる",
+    "meaning": "bắt đầu",
+    "examples": "始める（はじめる）、開始（かいし）"
+  },
+  {
+    "kanji": "指",
+    "onYomi": "シ",
+    "kunYomi": "ゆび、さす",
+    "meaning": "ngón tay, chỉ",
+    "examples": "指（ゆび）、指す（さす）、指導（しどう）"
+  },
+  {
+    "kanji": "歯",
+    "onYomi": "シ",
+    "kunYomi": "は",
+    "meaning": "răng",
+    "examples": "歯（は）、歯医者（はいしゃ）"
+  },
+  {
+    "kanji": "詩",
+    "onYomi": "シ",
+    "kunYomi": "",
+    "meaning": "thơ",
+    "examples": "詩人（しじん）、詩（し）"
+  },
+  {
+    "kanji": "次",
+    "onYomi": "ジ、シ",
+    "kunYomi": "つぎ、つぐ",
+    "meaning": "tiếp theo",
+    "examples": "次（つぎ）、次回（じかい）"
+  },
+  {
+    "kanji": "事",
+    "onYomi": "ジ",
+    "kunYomi": "こと",
+    "meaning": "sự việc",
+    "examples": "仕事（しごと）、事件（じけん）"
+  },
+  {
+    "kanji": "持",
+    "onYomi": "ジ",
+    "kunYomi": "もつ",
+    "meaning": "mang, cầm",
+    "examples": "持つ（もつ）、気持ち（きもち）"
+  },
+  {
+    "kanji": "式",
+    "onYomi": "シキ",
+    "kunYomi": "",
+    "meaning": "nghi lễ, kiểu",
+    "examples": "結婚式（けっこんしき）、方式（ほうしき）"
+  },
+  {
+    "kanji": "実",
+    "onYomi": "ジツ",
+    "kunYomi": "み、みのる",
+    "meaning": "thật, thực tế",
+    "examples": "実（み）、実際（じっさい）、実る（みのる）"
+  },
+  {
+    "kanji": "写",
+    "onYomi": "シャ",
+    "kunYomi": "うつす、うつる",
+    "meaning": "chép, chụp",
+    "examples": "写真（しゃしん）、写す（うつす）"
+  },
+  {
+    "kanji": "者",
+    "onYomi": "シャ",
+    "kunYomi": "もの",
+    "meaning": "người",
+    "examples": "医者（いしゃ）、学者（がくしゃ）"
+  },
+  {
+    "kanji": "主",
+    "onYomi": "シュ",
+    "kunYomi": "ぬし、おも",
+    "meaning": "chủ, chính",
+    "examples": "主人（しゅじん）、主に（おもに）"
+  },
+  {
+    "kanji": "守",
+    "onYomi": "シュ、ス",
+    "kunYomi": "まもる、もり",
+    "meaning": "bảo vệ",
+    "examples": "守る（まもる）、留守（るす）"
+  },
+  {
+    "kanji": "取",
+    "onYomi": "シュ",
+    "kunYomi": "とる",
+    "meaning": "lấy",
+    "examples": "取る（とる）、取得（しゅとく）"
+  },
+  {
+    "kanji": "酒",
+    "onYomi": "シュ",
+    "kunYomi": "さけ、さか",
+    "meaning": "rượu",
+    "examples": "お酒（さけ）、日本酒（にほんしゅ）"
+  },
+  {
+    "kanji": "受",
+    "onYomi": "ジュ",
+    "kunYomi": "うける、うかる",
+    "meaning": "nhận",
+    "examples": "受ける（うける）、受験（じゅけん）"
+  },
+  {
+    "kanji": "州",
+    "onYomi": "シュウ",
+    "kunYomi": "",
+    "meaning": "bang, châu",
+    "examples": "州（しゅう）、九州（きゅうしゅう）"
+  },
+  {
+    "kanji": "拾",
+    "onYomi": "シュウ、ジュウ",
+    "kunYomi": "ひろう",
+    "meaning": "nhặt",
+    "examples": "拾う（ひろう）、拾得物（しゅうとくぶつ）"
+  },
+  {
+    "kanji": "終",
+    "onYomi": "シュウ",
+    "kunYomi": "おわる、おえる",
+    "meaning": "kết thúc",
+    "examples": "終わる（おわる）、終了（しゅうりょう）"
+  },
+  {
+    "kanji": "習",
+    "onYomi": "シュウ",
+    "kunYomi": "ならう",
+    "meaning": "học",
+    "examples": "習う（ならう）、練習（れんしゅう）"
+  },
+  {
+    "kanji": "集",
+    "onYomi": "シュウ",
+    "kunYomi": "あつまる、あつめる",
+    "meaning": "tập hợp",
+    "examples": "集める（あつめる）、集合（しゅうごう）"
+  },
+  {
+    "kanji": "住",
+    "onYomi": "ジュウ",
+    "kunYomi": "すむ、すまう",
+    "meaning": "sống, cư trú",
+    "examples": "住む（すむ）、住所（じゅうしょ）"
+  },
+  {
+    "kanji": "重",
+    "onYomi": "ジュウ、チョウ",
+    "kunYomi": "おもい、かさねる",
+    "meaning": "nặng",
+    "examples": "重い（おもい）、重要（じゅうよう）"
+  },
+  {
+    "kanji": "宿",
+    "onYomi": "シュク",
+    "kunYomi": "やど、やどる",
+    "meaning": "trọ",
+    "examples": "宿（やど）、宿題（しゅくだい）"
+  },
+  {
+    "kanji": "所",
+    "onYomi": "ショ",
+    "kunYomi": "ところ",
+    "meaning": "nơi",
+    "examples": "場所（ばしょ）、近所（きんじょ）"
+  },
+  {
+    "kanji": "暑",
+    "onYomi": "ショ",
+    "kunYomi": "あつい",
+    "meaning": "nóng",
+    "examples": "暑い（あつい）、猛暑（もうしょ）"
+  },
+  {
+    "kanji": "助",
+    "onYomi": "ジョ",
+    "kunYomi": "たすける、たすかる",
+    "meaning": "giúp đỡ",
+    "examples": "助ける（たすける）、助手（じょしゅ）"
+  },
+  {
+    "kanji": "昭",
+    "onYomi": "ショウ",
+    "kunYomi": "",
+    "meaning": "chiếu sáng",
+    "examples": "昭和（しょうわ）"
+  },
+  {
+    "kanji": "消",
+    "onYomi": "ショウ",
+    "kunYomi": "けす、きえる",
+    "meaning": "xóa, biến mất",
+    "examples": "消す（けす）、消える（きえる）、消防（しょうぼう）"
+  },
+  {
+    "kanji": "商",
+    "onYomi": "ショウ",
+    "kunYomi": "あきなう",
+    "meaning": "buôn bán",
+    "examples": "商売（しょうばい）、商品（しょうひん）"
+  },
+  {
+    "kanji": "章",
+    "onYomi": "ショウ",
+    "kunYomi": "",
+    "meaning": "chương (sách)",
+    "examples": "章（しょう）、文章（ぶんしょう）"
+  },
+  {
+    "kanji": "勝",
+    "onYomi": "ショウ",
+    "kunYomi": "かつ、まさる",
+    "meaning": "thắng",
+    "examples": "勝つ（かつ）、優勝（ゆうしょう）"
+  },
+  {
+    "kanji": "乗",
+    "onYomi": "ジョウ",
+    "kunYomi": "のる、のせる",
+    "meaning": "lên xe",
+    "examples": "乗る（のる）、乗車（じょうしゃ）"
+  },
+  {
+    "kanji": "植",
+    "onYomi": "ショク",
+    "kunYomi": "うえる、うわる",
+    "meaning": "trồng",
+    "examples": "植える（うえる）、植物（しょくぶつ）"
+  },
+  {
+    "kanji": "申",
+    "onYomi": "シン",
+    "kunYomi": "もうす",
+    "meaning": "nói (khiêm nhường)",
+    "examples": "申し込む（もうしこむ）、申請（しんせい）"
+  },
+  {
+    "kanji": "身",
+    "onYomi": "シン",
+    "kunYomi": "み",
+    "meaning": "thân thể",
+    "examples": "身（み）、自身（じしん）"
+  },
+  {
+    "kanji": "神",
+    "onYomi": "シン、ジン",
+    "kunYomi": "かみ、かん、こう",
+    "meaning": "thần",
+    "examples": "神（かみ）、神社（じんじゃ）、神様（かみさま）"
+  }
+]

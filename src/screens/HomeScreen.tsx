@@ -1,26 +1,17 @@
-import React from 'react'
-import { View, StyleSheet } from 'react-native'
-import Header from '@components/home/Header'
-import { useRoute } from '@react-navigation/native'
-import type { RouteProp } from '@react-navigation/native'
-import { RootStackParamList } from 'src/types/navigation'
 import { LinearGradient } from 'expo-linear-gradient'
+import React from 'react'
+import { StyleSheet } from 'react-native'
+import AppTabs from '@components/AppTabs'
 
 const HomeScreen = () => {
-  const route = useRoute<RouteProp<RootStackParamList, 'Home'>>()
-  const name = route.params?.name ?? 'Người dùng'
-
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <View>
-        <Header name={name} />
-      </View>
+      <AppTabs />
     </LinearGradient>
   )
 }
 
 export default HomeScreen
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
