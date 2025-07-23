@@ -7,22 +7,21 @@ import authApi from 'src/api/authApi'
 import Toast from 'react-native-toast-message'
 import { LinearGradient } from 'expo-linear-gradient'
 
-const VerifyScreen = () => {
-  const [otp, setOtp] = useState('')
-  const route = useRoute<any>()
+const VerifyForgotPasswordScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
-
+  const [resetOtp, setResetOtp] = useState('')
+  const route = useRoute<any>()
   const email = route.params?.email
 
-  const handleVerify = async () => {
+  const handleVerifyForgotPassword = async () => {
     try {
-      const res = await authApi.verifyOtp({ email, otp })
+      const res = await authApi.verifyForgotPassword({ email, resetOtp })
       Toast.show({
         type: 'success',
         text1: 'Xác thực thành công',
         text2: res.data.message,
       })
-      navigation.navigate('Login')
+      navigation.navigate('ResetPassword', { email })
     } catch (error: any) {
       const msg = error?.response?.data?.message || 'Xác thực thất bại'
       Toast.show({
@@ -33,9 +32,9 @@ const VerifyScreen = () => {
     }
   }
 
-  const handleResendOtp = async () => {
+  const handleResendOtpForgotPassword = async () => {
     try {
-      await authApi.resendOtp({ email })
+      await authApi.resendOtpForgotPassword({ email })
       Toast.show({
         type: 'success',
         text1: 'Đã gửi lại mã OTP',
@@ -53,19 +52,19 @@ const VerifyScreen = () => {
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <Text style={styles.title}>Nhập mã OTP đã gửi tới email</Text>
+      <Text style={styles.title}>Mã OTP khôi phục mật khẩu đã gửi tới email</Text>
       <Text style={styles.email}>{email}</Text>
       <TextInput
         style={styles.input}
         placeholder="Mã OTP"
         keyboardType="number-pad"
-        value={otp}
-        onChangeText={setOtp}
+        value={resetOtp}
+        onChangeText={setResetOtp}
       />
-      <TouchableOpacity style={styles.button} onPress={handleVerify}>
+      <TouchableOpacity style={styles.button} onPress={handleVerifyForgotPassword}>
         <Text style={styles.buttonText}>Xác minh</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.resendButton} onPress={handleResendOtp}>
+      <TouchableOpacity style={styles.resendButton} onPress={handleResendOtpForgotPassword}>
         <Text style={styles.resendButtonText}>Gửi lại mã OTP</Text>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Login')} style={styles.backButton}>
@@ -75,14 +74,13 @@ const VerifyScreen = () => {
   )
 }
 
-export default VerifyScreen
+export default VerifyForgotPasswordScreen
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 24,
     justifyContent: 'center',
-    backgroundColor: '#fdf6e3',
   },
   title: {
     fontSize: 20,

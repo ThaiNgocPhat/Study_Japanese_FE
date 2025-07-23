@@ -1,6 +1,6 @@
 import React from 'react'
 import KanjiListScreen from '@components/KanjiListScreen'
-import kanjiN4 from '../../../assets/data/kanjiN4.json'
+import kanjiN4 from '../../../assets/data/kanji/kanjiN4.json'
 import { KanjiData } from 'src/types/kanji'
 
 const normalizeField = (field: string | string[]): string[] => {

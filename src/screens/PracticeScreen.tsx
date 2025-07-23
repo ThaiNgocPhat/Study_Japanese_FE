@@ -17,6 +17,10 @@ const features = [
     name: 'Test chữ cái',
     icon: <MaterialCommunityIcons name="format-letter-case" size={32} color="#88c9bf" />,
   },
+  {
+    name: 'Test ngữ pháp',
+    icon: <MaterialCommunityIcons name="book-outline" size={32} color="#88c9bf" />,
+  },
 ]
 
 const PracticeScreen = () => {
@@ -41,7 +45,6 @@ export default PracticeScreen
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fdf6e3',
   },
   banner: {
     width: '100%',

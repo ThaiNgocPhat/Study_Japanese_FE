@@ -35,7 +35,9 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics }) => {
             key={index}
             style={styles.item}
             onPress={() => {
-              if (topic.screen) {
+              if (topic.onPress) {
+                topic.onPress()
+              } else if (topic.screen) {
                 navigation.navigate(topic.screen as any)
               }
             }}

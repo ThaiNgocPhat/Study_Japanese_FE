@@ -44,7 +44,6 @@ export default GrammarTemplateScreen
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fdf6e3',
   },
   backButton: {
     position: 'absolute',

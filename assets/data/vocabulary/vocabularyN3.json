@@ -1,0 +1,6022 @@
+{
+  "1": [
+    {
+      "word": "相手",
+      "kanji": "あいて",
+      "romaji": "aite",
+      "hanViet": "TƯƠNG THỦ",
+      "meaning": "Đối phương, người đối diện"
+    },
+    {
+      "word": "知り合い",
+      "kanji": "しりあい",
+      "romaji": "shiriai",
+      "hanViet": "TRI HỢP",
+      "meaning": "Người quen"
+    },
+    {
+      "word": "友人",
+      "kanji": "ゆうじん",
+      "romaji": "yuujin",
+      "hanViet": "HỮU NHÂN",
+      "meaning": "Bạn bè"
+    },
+    {
+      "word": "仲",
+      "kanji": "なか",
+      "romaji": "naka",
+      "hanViet": "TRỌNG",
+      "meaning": "Mối quan hệ"
+    },
+    {
+      "word": "年上",
+      "kanji": "としうえ",
+      "romaji": "toshiue",
+      "hanViet": "NIÊN THƯỢNG",
+      "meaning": "Người lớn tuổi hơn"
+    },
+    {
+      "word": "目上",
+      "kanji": "めうえ",
+      "romaji": "meue",
+      "hanViet": "MỤC THƯỢNG",
+      "meaning": "Cấp trên, bề trên"
+    },
+    {
+      "word": "先輩",
+      "kanji": "せんぱい",
+      "romaji": "senpai",
+      "hanViet": "TIÊN BỐI",
+      "meaning": "Đàn anh, tiền bối"
+    },
+    {
+      "word": "後輩",
+      "kanji": "こうはい",
+      "romaji": "kouhai",
+      "hanViet": "HẬU BỐI",
+      "meaning": "Đàn em, hậu bối"
+    },
+    {
+      "word": "上司",
+      "kanji": "じょうし",
+      "romaji": "joushi",
+      "hanViet": "THƯỢNG TI",
+      "meaning": "Cấp trên"
+    },
+    {
+      "word": "部下",
+      "kanji": "ぶか",
+      "romaji": "buka",
+      "hanViet": "BỘ HẠ",
+      "meaning": "Cấp dưới"
+    },
+    {
+      "word": "同僚",
+      "kanji": "どうりょう",
+      "romaji": "douryou",
+      "hanViet": "ĐỒNG LIÊU",
+      "meaning": "Đồng nghiệp"
+    },
+    {
+      "word": "相手",
+      "kanji": "あいて",
+      "romaji": "aite",
+      "hanViet": "TƯƠNG THỦ",
+      "meaning": "Đối tác, người kia"
+    },
+    {
+      "word": "知人",
+      "kanji": "ちじん",
+      "romaji": "chijin",
+      "hanViet": "TRI NHÂN",
+      "meaning": "Người quen biết"
+    },
+    {
+      "word": "成人",
+      "kanji": "せいじん",
+      "romaji": "seijin",
+      "hanViet": "THÀNH NHÂN",
+      "meaning": "Người trưởng thành"
+    },
+    {
+      "word": "合格",
+      "kanji": "ごうかく",
+      "romaji": "goukaku",
+      "hanViet": "HỢP CÁCH",
+      "meaning": "Đỗ (kỳ thi, kiểm tra)"
+    },
+    {
+      "word": "進学",
+      "kanji": "しんがく",
+      "romaji": "shingaku",
+      "hanViet": "TIẾN HỌC",
+      "meaning": "Học lên cao"
+    },
+    {
+      "word": "退学",
+      "kanji": "たいがく",
+      "romaji": "taigaku",
+      "hanViet": "THOÁI HỌC",
+      "meaning": "Thôi học, nghỉ học"
+    },
+    {
+      "word": "就職",
+      "kanji": "しゅうしょく",
+      "romaji": "shuushoku",
+      "hanViet": "TỰU CHỨC",
+      "meaning": "Đi làm"
+    },
+    {
+      "word": "退職",
+      "kanji": "たいしょく",
+      "romaji": "taishoku",
+      "hanViet": "THOÁI CHỨC",
+      "meaning": "Nghỉ việc"
+    },
+    {
+      "word": "失業",
+      "kanji": "しつぎょう",
+      "romaji": "shitsugyou",
+      "hanViet": "THẤT NGHIỆP",
+      "meaning": "Thất nghiệp"
+    },
+    {
+      "word": "残業",
+      "kanji": "ざんぎょう",
+      "romaji": "zangyou",
+      "hanViet": "TÀN NGHIỆP",
+      "meaning": "Làm thêm giờ"
+    },
+    {
+      "word": "生活",
+      "kanji": "せいかつ",
+      "romaji": "seikatsu",
+      "hanViet": "SINH HOẠT",
+      "meaning": "Cuộc sống"
+    },
+    {
+      "word": "通勤",
+      "kanji": "つうきん",
+      "romaji": "tsuukin",
+      "hanViet": "THÔNG CẦN",
+      "meaning": "Đi làm (đi và về hằng ngày)"
+    },
+    {
+      "word": "学歴",
+      "kanji": "がくれき",
+      "romaji": "gakureki",
+      "hanViet": "HỌC LỊCH",
+      "meaning": "Quá trình học hành, bằng cấp"
+    },
+    {
+      "word": "面接",
+      "kanji": "めんせつ",
+      "romaji": "mensetsu",
+      "hanViet": "DIỆN TIẾP",
+      "meaning": "Phỏng vấn"
+    },
+    {
+      "word": "休憩",
+      "kanji": "きゅうけい",
+      "romaji": "kyuukei",
+      "hanViet": "HƯU KHẾ",
+      "meaning": "Nghỉ giải lao"
+    },
+    {
+      "word": "観光",
+      "kanji": "かんこう",
+      "romaji": "kankou",
+      "hanViet": "QUAN QUANG",
+      "meaning": "Tham quan, du lịch"
+    },
+    {
+      "word": "帰省",
+      "kanji": "きせい",
+      "romaji": "kisei",
+      "hanViet": "QUY TỈNH",
+      "meaning": "Về quê"
+    },
+    {
+      "word": "参加",
+      "kanji": "さんか",
+      "romaji": "sanka",
+      "hanViet": "THAM GIA",
+      "meaning": "Tham gia"
+    },
+    {
+      "word": "出席",
+      "kanji": "しゅっせき",
+      "romaji": "shusseki",
+      "hanViet": "XUẤT TỊCH",
+      "meaning": "Có mặt, tham dự"
+    },
+    {
+      "word": "欠席",
+      "kanji": "けっせき",
+      "romaji": "kesseki",
+      "hanViet": "KHIẾM TỊCH",
+      "meaning": "Vắng mặt"
+    }
+  ],
+  "2": [
+    {
+      "word": "会",
+      "kanji": "会",
+      "romaji": "kai",
+      "hanViet": "HỘI",
+      "meaning": "Cuộc họp, buổi gặp"
+    },
+    {
+      "word": "注文",
+      "kanji": "注文",
+      "romaji": "chuumon",
+      "hanViet": "CHÚ VĂN",
+      "meaning": "Đặt hàng, gọi món"
+    },
+    {
+      "word": "費用",
+      "kanji": "費用",
+      "romaji": "hiyou",
+      "hanViet": "PHÍ DỤNG",
+      "meaning": "Chi phí"
+    },
+    {
+      "word": "割引",
+      "kanji": "割引",
+      "romaji": "waribiki",
+      "hanViet": "CÁT DẪN",
+      "meaning": "Giảm giá"
+    },
+    {
+      "word": "無料",
+      "kanji": "無料",
+      "romaji": "muryou",
+      "hanViet": "VÔ LIÊU",
+      "meaning": "Miễn phí"
+    },
+    {
+      "word": "現金",
+      "kanji": "現金",
+      "romaji": "genkin",
+      "hanViet": "HIỆN KIM",
+      "meaning": "Tiền mặt"
+    },
+    {
+      "word": "支払い",
+      "kanji": "支払い",
+      "romaji": "shiharai",
+      "hanViet": "CHI PHẤT",
+      "meaning": "Thanh toán"
+    },
+    {
+      "word": "値上がり",
+      "kanji": "値上がり",
+      "romaji": "neagari",
+      "hanViet": "TRỊ THƯỢNG",
+      "meaning": "Tăng giá"
+    },
+    {
+      "word": "値下がり",
+      "kanji": "値下がり",
+      "romaji": "nesagari",
+      "hanViet": "TRỊ HẠ",
+      "meaning": "Giảm giá"
+    },
+    {
+      "word": "生",
+      "kanji": "生",
+      "romaji": "nama",
+      "hanViet": "SINH",
+      "meaning": "Tươi, sống"
+    },
+    {
+      "word": "製品",
+      "kanji": "製品",
+      "romaji": "seihin",
+      "hanViet": "CHẾ PHẨM",
+      "meaning": "Sản phẩm"
+    },
+    {
+      "word": "題名",
+      "kanji": "題名",
+      "romaji": "daimei",
+      "hanViet": "ĐỀ DANH",
+      "meaning": "Tựa đề"
+    },
+    {
+      "word": "著者",
+      "kanji": "著者",
+      "romaji": "chosha",
+      "hanViet": "TRỨ GIẢ",
+      "meaning": "Tác giả"
+    },
+    {
+      "word": "作品",
+      "kanji": "作品",
+      "romaji": "sakuhin",
+      "hanViet": "TÁC PHẨM",
+      "meaning": "Tác phẩm"
+    },
+    {
+      "word": "制服",
+      "kanji": "制服",
+      "romaji": "seifuku",
+      "hanViet": "CHẾ PHỤC",
+      "meaning": "Đồng phục"
+    },
+    {
+      "word": "洗剤",
+      "kanji": "洗剤",
+      "romaji": "senzai",
+      "hanViet": "TẨY TỄ",
+      "meaning": "Chất tẩy rửa"
+    },
+    {
+      "word": "底",
+      "kanji": "底",
+      "romaji": "soko",
+      "hanViet": "ĐỂ",
+      "meaning": "Đáy"
+    },
+    {
+      "word": "地下",
+      "kanji": "地下",
+      "romaji": "chika",
+      "hanViet": "ĐỊA HẠ",
+      "meaning": "Tầng hầm"
+    },
+    {
+      "word": "寺",
+      "kanji": "寺",
+      "romaji": "tera",
+      "hanViet": "TỰ",
+      "meaning": "Chùa"
+    },
+    {
+      "word": "道",
+      "kanji": "道",
+      "romaji": "michi",
+      "hanViet": "ĐẠO",
+      "meaning": "Đường"
+    },
+    {
+      "word": "坂",
+      "kanji": "坂",
+      "romaji": "saka",
+      "hanViet": "PHẢN",
+      "meaning": "Dốc"
+    },
+    {
+      "word": "煙",
+      "kanji": "煙",
+      "romaji": "kemuri",
+      "hanViet": "YÊN",
+      "meaning": "Khói"
+    },
+    {
+      "word": "灰",
+      "kanji": "灰",
+      "romaji": "hai",
+      "hanViet": "HÔI",
+      "meaning": "Tro"
+    },
+    {
+      "word": "判",
+      "kanji": "判",
+      "romaji": "han",
+      "hanViet": "PHÁN",
+      "meaning": "Con dấu"
+    },
+    {
+      "word": "名刺",
+      "kanji": "名刺",
+      "romaji": "meishi",
+      "hanViet": "DANH THÍCH",
+      "meaning": "Danh thiếp"
+    },
+    {
+      "word": "免許",
+      "kanji": "免許",
+      "romaji": "menkyo",
+      "hanViet": "MIỄN HỨA",
+      "meaning": "Giấy phép, bằng"
+    },
+    {
+      "word": "前半",
+      "kanji": "前半",
+      "romaji": "zenhan",
+      "hanViet": "TIỀN BÁN",
+      "meaning": "Nửa đầu"
+    },
+    {
+      "word": "後半",
+      "kanji": "後半",
+      "romaji": "kouhan",
+      "hanViet": "HẬU BÁN",
+      "meaning": "Nửa sau"
+    },
+    {
+      "word": "最高",
+      "kanji": "最高",
+      "romaji": "saikou",
+      "hanViet": "TỐI CAO",
+      "meaning": "Tốt nhất, cao nhất"
+    },
+    {
+      "word": "最低",
+      "kanji": "最低",
+      "romaji": "saitei",
+      "hanViet": "TỐI ĐÊ",
+      "meaning": "Tệ nhất, thấp nhất"
+    }
+  ],
+  "3": [
+    {
+      "word": "あらわす",
+      "kanji": "表す",
+      "romaji": "arawasu",
+      "hanViet": "BIỂU",
+      "meaning": "Biểu thị, biểu lộ"
+    },
+    {
+      "word": "うかがう",
+      "kanji": "伺う",
+      "romaji": "ukagau",
+      "hanViet": "TÝ",
+      "meaning": "Thăm hỏi, nghe (khiêm nhường ngữ của 聞く・行く)"
+    },
+    {
+      "word": "うつす",
+      "kanji": "写す",
+      "romaji": "utsusu",
+      "hanViet": "TẢ",
+      "meaning": "Chụp (ảnh), sao chép"
+    },
+    {
+      "word": "えんりょ",
+      "kanji": "遠慮",
+      "romaji": "enryo",
+      "hanViet": "VIỄN LỰ",
+      "meaning": "Ngại ngần, khách sáo"
+    },
+    {
+      "word": "おどろく",
+      "kanji": "驚く",
+      "romaji": "odoroku",
+      "hanViet": "KINH",
+      "meaning": "Ngạc nhiên"
+    },
+    {
+      "word": "おれる",
+      "kanji": "折れる",
+      "romaji": "oreru",
+      "hanViet": "CHIẾT",
+      "meaning": "Gãy, bị bẻ gãy"
+    },
+    {
+      "word": "かくにん",
+      "kanji": "確認",
+      "romaji": "kakunin",
+      "hanViet": "XÁC NHẬN",
+      "meaning": "Xác nhận"
+    },
+    {
+      "word": "かまう",
+      "kanji": "構う",
+      "romaji": "kamau",
+      "hanViet": "CẤU",
+      "meaning": "Quan tâm, để ý"
+    },
+    {
+      "word": "きげん",
+      "kanji": "機嫌",
+      "romaji": "kigen",
+      "hanViet": "CƠ HIỀM",
+      "meaning": "Tâm trạng, sắc mặt"
+    },
+    {
+      "word": "きょうりょく",
+      "kanji": "協力",
+      "romaji": "kyouryoku",
+      "hanViet": "HIỆP LỰC",
+      "meaning": "Hợp tác"
+    },
+    {
+      "word": "くやしい",
+      "kanji": "悔しい",
+      "romaji": "kuyashii",
+      "hanViet": "HỐI",
+      "meaning": "Cay cú, tiếc nuối"
+    },
+    {
+      "word": "こしょう",
+      "kanji": "故障",
+      "romaji": "koshou",
+      "hanViet": "CỐ CHƯỚNG",
+      "meaning": "Hỏng hóc"
+    },
+    {
+      "word": "さそう",
+      "kanji": "誘う",
+      "romaji": "sasou",
+      "hanViet": "DỤ",
+      "meaning": "Mời, rủ"
+    },
+    {
+      "word": "さっきょく",
+      "kanji": "作曲",
+      "romaji": "sakkyoku",
+      "hanViet": "TÁC KHÚC",
+      "meaning": "Sáng tác nhạc"
+    },
+    {
+      "word": "しっぱい",
+      "kanji": "失敗",
+      "romaji": "shippai",
+      "hanViet": "THẤT BẠI",
+      "meaning": "Thất bại, sai sót"
+    },
+    {
+      "word": "しゅうしょく",
+      "kanji": "就職",
+      "romaji": "shuushoku",
+      "hanViet": "TỰU CHỨC",
+      "meaning": "Đi làm, nhận việc"
+    },
+    {
+      "word": "しょうたい",
+      "kanji": "招待",
+      "romaji": "shoutai",
+      "hanViet": "CHIÊU ĐÃI",
+      "meaning": "Mời"
+    },
+    {
+      "word": "しんじる",
+      "kanji": "信じる",
+      "romaji": "shinjiru",
+      "hanViet": "TÍN",
+      "meaning": "Tin tưởng"
+    },
+    {
+      "word": "すませる",
+      "kanji": "済ませる",
+      "romaji": "sumaseru",
+      "hanViet": "TẾ",
+      "meaning": "Hoàn thành, làm xong"
+    },
+    {
+      "word": "せいせき",
+      "kanji": "成績",
+      "romaji": "seiseki",
+      "hanViet": "THÀNH TÍCH",
+      "meaning": "Thành tích, kết quả"
+    },
+    {
+      "word": "そうぞう",
+      "kanji": "想像",
+      "romaji": "souzou",
+      "hanViet": "TƯỞNG TƯỢNG",
+      "meaning": "Tưởng tượng"
+    },
+    {
+      "word": "そだつ",
+      "kanji": "育つ",
+      "romaji": "sodatsu",
+      "hanViet": "DỤC",
+      "meaning": "Lớn lên, trưởng thành"
+    },
+    {
+      "word": "たおれる",
+      "kanji": "倒れる",
+      "romaji": "taoreru",
+      "hanViet": "ĐẢO",
+      "meaning": "Ngã, đổ"
+    },
+    {
+      "word": "たずねる",
+      "kanji": "訪ねる",
+      "romaji": "tazuneru",
+      "hanViet": "PHÓNG",
+      "meaning": "Thăm viếng"
+    },
+    {
+      "word": "ためる",
+      "kanji": "貯める",
+      "romaji": "tameru",
+      "hanViet": "TRỮ",
+      "meaning": "Tiết kiệm, tích trữ"
+    },
+    {
+      "word": "ちゅうい",
+      "kanji": "注意",
+      "romaji": "chuui",
+      "hanViet": "CHÚ Ý",
+      "meaning": "Chú ý, nhắc nhở"
+    },
+    {
+      "word": "つづける",
+      "kanji": "続ける",
+      "romaji": "tsuzukeru",
+      "hanViet": "TỤC",
+      "meaning": "Tiếp tục"
+    },
+    {
+      "word": "つれていく",
+      "kanji": "連れて行く",
+      "romaji": "tsureteiku",
+      "hanViet": "LIÊN HÀNH",
+      "meaning": "Dẫn theo (ai đó)"
+    },
+    {
+      "word": "とどける",
+      "kanji": "届ける",
+      "romaji": "todokeru",
+      "hanViet": "GIỚI",
+      "meaning": "Gửi đến, thông báo"
+    },
+    {
+      "word": "なおる",
+      "kanji": "治る・直る",
+      "romaji": "naoru",
+      "hanViet": "TRỊ / TRỰC",
+      "meaning": "Khỏi (bệnh) / Được sửa chữa"
+    }
+  ],
+  "4": [
+    {
+      "word": "可笑しい",
+      "kanji": "おかしい",
+      "romaji": "okashii",
+      "hanViet": "KHẢ TIẾU",
+      "meaning": "Kỳ quặc, buồn cười"
+    },
+    {
+      "word": "我慢",
+      "kanji": "がまん",
+      "romaji": "gaman",
+      "hanViet": "NGÃ MẠN",
+      "meaning": "Chịu đựng, nhẫn nại"
+    },
+    {
+      "word": "片付ける",
+      "kanji": "かたづける",
+      "romaji": "katadzukeru",
+      "hanViet": "PHIẾN PHÓ",
+      "meaning": "Dọn dẹp, sắp xếp"
+    },
+    {
+      "word": "事情",
+      "kanji": "じじょう",
+      "romaji": "jijou",
+      "hanViet": "SỰ TÌNH",
+      "meaning": "Tình hình, sự tình"
+    },
+    {
+      "word": "冗談",
+      "kanji": "じょうだん",
+      "romaji": "joudan",
+      "hanViet": "NHŨNG ĐÀM",
+      "meaning": "Đùa, nói đùa"
+    },
+    {
+      "word": "想像",
+      "kanji": "そうぞう",
+      "romaji": "souzou",
+      "hanViet": "TƯỞNG TƯỢNG",
+      "meaning": "Tưởng tượng"
+    },
+    {
+      "word": "証明書",
+      "kanji": "しょうめいしょ",
+      "romaji": "shoumeisho",
+      "hanViet": "CHỨNG MINH THƯ",
+      "meaning": "Giấy chứng nhận"
+    },
+    {
+      "word": "必要",
+      "kanji": "ひつよう",
+      "romaji": "hitsuyou",
+      "hanViet": "TẤT YẾU",
+      "meaning": "Cần thiết"
+    },
+    {
+      "word": "急に",
+      "kanji": "きゅうに",
+      "romaji": "kyuu ni",
+      "hanViet": "CẤP",
+      "meaning": "Đột nhiên"
+    },
+    {
+      "word": "割合",
+      "kanji": "わりあい",
+      "romaji": "wariai",
+      "hanViet": "CÁT HỢP",
+      "meaning": "Tỷ lệ, tương đối"
+    },
+    {
+      "word": "発音",
+      "kanji": "はつおん",
+      "romaji": "hatsuon",
+      "hanViet": "PHÁT ÂM",
+      "meaning": "Phát âm"
+    },
+    {
+      "word": "知識",
+      "kanji": "ちしき",
+      "romaji": "chishiki",
+      "hanViet": "TRI THỨC",
+      "meaning": "Kiến thức"
+    },
+    {
+      "word": "役に立つ",
+      "kanji": "やくにたつ",
+      "romaji": "yaku ni tatsu",
+      "hanViet": "DỊCH LẬP",
+      "meaning": "Có ích, hữu ích"
+    },
+    {
+      "word": "事故",
+      "kanji": "じこ",
+      "romaji": "jiko",
+      "hanViet": "SỰ CỐ",
+      "meaning": "Tai nạn"
+    },
+    {
+      "word": "受付",
+      "kanji": "うけつけ",
+      "romaji": "uketsuke",
+      "hanViet": "THỤ PHÓ",
+      "meaning": "Quầy tiếp tân"
+    },
+    {
+      "word": "運転手",
+      "kanji": "うんてんしゅ",
+      "romaji": "untenshu",
+      "hanViet": "VẬN CHUYỂN THỦ",
+      "meaning": "Tài xế"
+    },
+    {
+      "word": "混む",
+      "kanji": "こむ",
+      "romaji": "komu",
+      "hanViet": "HỖN",
+      "meaning": "Đông đúc"
+    },
+    {
+      "word": "表現",
+      "kanji": "ひょうげん",
+      "romaji": "hyougen",
+      "hanViet": "BIỂU HIỆN",
+      "meaning": "Biểu hiện, diễn đạt"
+    },
+    {
+      "word": "大抵",
+      "kanji": "たいてい",
+      "romaji": "taitei",
+      "hanViet": "ĐẠI ĐỂ",
+      "meaning": "Thông thường, thường"
+    },
+    {
+      "word": "温度",
+      "kanji": "おんど",
+      "romaji": "ondo",
+      "hanViet": "ÔN ĐỘ",
+      "meaning": "Nhiệt độ"
+    },
+    {
+      "word": "故障",
+      "kanji": "こしょう",
+      "romaji": "koshou",
+      "hanViet": "CỐ CHƯỚNG",
+      "meaning": "Hỏng hóc"
+    },
+    {
+      "word": "予習",
+      "kanji": "よしゅう",
+      "romaji": "yoshuu",
+      "hanViet": "DỰ TẬP",
+      "meaning": "Soạn bài trước"
+    },
+    {
+      "word": "通う",
+      "kanji": "かよう",
+      "romaji": "kayou",
+      "hanViet": "THÔNG",
+      "meaning": "Đi học/làm (thường xuyên)"
+    },
+    {
+      "word": "心配",
+      "kanji": "しんぱい",
+      "romaji": "shinpai",
+      "hanViet": "TÂM PHỐI",
+      "meaning": "Lo lắng"
+    },
+    {
+      "word": "習慣",
+      "kanji": "しゅうかん",
+      "romaji": "shuukan",
+      "hanViet": "TẬP QUÁN",
+      "meaning": "Thói quen, tập quán"
+    },
+    {
+      "word": "困る",
+      "kanji": "こまる",
+      "romaji": "komaru",
+      "hanViet": "KHỐN",
+      "meaning": "Khó khăn, phiền"
+    },
+    {
+      "word": "決して",
+      "kanji": "けっして",
+      "romaji": "kesshite",
+      "hanViet": "QUYẾT",
+      "meaning": "Nhất quyết không (＋ない)"
+    },
+    {
+      "word": "自然",
+      "kanji": "しぜん",
+      "romaji": "shizen",
+      "hanViet": "TỰ NHIÊN",
+      "meaning": "Tự nhiên"
+    },
+    {
+      "word": "発表",
+      "kanji": "はっぴょう",
+      "romaji": "happyou",
+      "hanViet": "PHÁT BIỂU",
+      "meaning": "Phát biểu, công bố"
+    },
+    {
+      "word": "資料",
+      "kanji": "しりょう",
+      "romaji": "shiryou",
+      "hanViet": "TƯ LIỆU",
+      "meaning": "Tài liệu"
+    }
+  ],
+  "5": [
+    {
+      "word": "つとめる",
+      "kanji": "務める",
+      "romaji": "tsutomeru",
+      "hanViet": "VỤ",
+      "meaning": "Làm việc (ở công ty...)"
+    },
+    {
+      "word": "しんじる",
+      "kanji": "信じる",
+      "romaji": "shinjiru",
+      "hanViet": "TÍN",
+      "meaning": "Tin tưởng"
+    },
+    {
+      "word": "ゆるす",
+      "kanji": "許す",
+      "romaji": "yurusu",
+      "hanViet": "HỨA",
+      "meaning": "Tha thứ, cho phép"
+    },
+    {
+      "word": "たのむ",
+      "kanji": "頼む",
+      "romaji": "tanomu",
+      "hanViet": "LẠI",
+      "meaning": "Nhờ vả, yêu cầu"
+    },
+    {
+      "word": "たよる",
+      "kanji": "頼る",
+      "romaji": "tayoru",
+      "hanViet": "LẠI",
+      "meaning": "Dựa dẫm, phụ thuộc"
+    },
+    {
+      "word": "かんじる",
+      "kanji": "感じる",
+      "romaji": "kanjiru",
+      "hanViet": "CẢM",
+      "meaning": "Cảm nhận, cảm thấy"
+    },
+    {
+      "word": "さけぶ",
+      "kanji": "叫ぶ",
+      "romaji": "sakebu",
+      "hanViet": "KHIẾU",
+      "meaning": "Gào, hét"
+    },
+    {
+      "word": "かわいがる",
+      "romaji": "kawaigaru",
+      "hanViet": "",
+      "meaning": "Yêu chiều, cưng chiều"
+    },
+    {
+      "word": "ほめる",
+      "kanji": "褒める",
+      "romaji": "homeru",
+      "hanViet": "BAO",
+      "meaning": "Khen ngợi"
+    },
+    {
+      "word": "しかる",
+      "romaji": "shikaru",
+      "hanViet": "",
+      "meaning": "La mắng"
+    },
+    {
+      "word": "いばる",
+      "romaji": "ibaru",
+      "hanViet": "",
+      "meaning": "Kiêu ngạo"
+    },
+    {
+      "word": "あばれる",
+      "romaji": "abareru",
+      "hanViet": "",
+      "meaning": "Quậy phá, nổi giận"
+    },
+    {
+      "word": "どなる",
+      "romaji": "donaru",
+      "hanViet": "",
+      "meaning": "Hét lên, quát"
+    },
+    {
+      "word": "あまえる",
+      "romaji": "amaeru",
+      "hanViet": "",
+      "meaning": "Nhõng nhẽo, nũng nịu"
+    },
+    {
+      "word": "おどかす",
+      "romaji": "odokasu",
+      "hanViet": "",
+      "meaning": "Hù doạ"
+    },
+    {
+      "word": "うらぎる",
+      "kanji": "裏切る",
+      "romaji": "uragiru",
+      "hanViet": "LÍ THIẾT",
+      "meaning": "Phản bội"
+    },
+    {
+      "word": "わびる",
+      "romaji": "wabiru",
+      "hanViet": "",
+      "meaning": "Xin lỗi, tạ lỗi"
+    },
+    {
+      "word": "たたく",
+      "romaji": "tataku",
+      "hanViet": "",
+      "meaning": "Đánh, gõ"
+    },
+    {
+      "word": "ける",
+      "romaji": "keru",
+      "hanViet": "",
+      "meaning": "Đá"
+    },
+    {
+      "word": "なぐる",
+      "romaji": "naguru",
+      "hanViet": "",
+      "meaning": "Đấm"
+    },
+    {
+      "word": "つかまえる",
+      "kanji": "捕まえる",
+      "romaji": "tsukamaeru",
+      "hanViet": "BỘ",
+      "meaning": "Bắt, tóm"
+    },
+    {
+      "word": "にげる",
+      "kanji": "逃げる",
+      "romaji": "nigeru",
+      "hanViet": "ĐÀO",
+      "meaning": "Chạy trốn"
+    },
+    {
+      "word": "さける",
+      "kanji": "避ける",
+      "romaji": "sakeru",
+      "hanViet": "TỊ",
+      "meaning": "Tránh né"
+    },
+    {
+      "word": "かくれる",
+      "kanji": "隠れる",
+      "romaji": "kakureru",
+      "hanViet": "ẨN",
+      "meaning": "Trốn, ẩn nấp"
+    },
+    {
+      "word": "おそう",
+      "kanji": "襲う",
+      "romaji": "osou",
+      "hanViet": "TẬP",
+      "meaning": "Tấn công, ập đến"
+    },
+    {
+      "word": "いじめる",
+      "romaji": "ijimeru",
+      "hanViet": "",
+      "meaning": "Bắt nạt"
+    },
+    {
+      "word": "ぬすむ",
+      "kanji": "盗む",
+      "romaji": "nusumu",
+      "hanViet": "ĐẠO",
+      "meaning": "Ăn trộm"
+    },
+    {
+      "word": "だます",
+      "romaji": "damasu",
+      "hanViet": "",
+      "meaning": "Lừa gạt"
+    },
+    {
+      "word": "さがす",
+      "kanji": "探す／捜す",
+      "romaji": "sagasu",
+      "hanViet": "THÁM / SƯU",
+      "meaning": "Tìm kiếm"
+    },
+    {
+      "word": "ひろう",
+      "kanji": "拾う",
+      "romaji": "hirou",
+      "hanViet": "THẬP",
+      "meaning": "Nhặt lên"
+    }
+  ],
+  "6": [
+    {
+      "word": "壊れる",
+      "kanji": "こわれる",
+      "romaji": "kowareru",
+      "hanViet": "HOẠI",
+      "meaning": "Bị hỏng, bị vỡ"
+    },
+    {
+      "word": "割れる",
+      "kanji": "われる",
+      "romaji": "wareru",
+      "hanViet": "CÁT",
+      "meaning": "Bị vỡ, nứt, hỏng"
+    },
+    {
+      "word": "破れる",
+      "kanji": "やぶれる",
+      "romaji": "yabureru",
+      "hanViet": "PHÁ",
+      "meaning": "Bị rách, vỡ"
+    },
+    {
+      "word": "汚れる",
+      "kanji": "よごれる",
+      "romaji": "yogoreru",
+      "hanViet": "Ô",
+      "meaning": "Bị bẩn"
+    },
+    {
+      "word": "付きます",
+      "kanji": "つきます",
+      "romaji": "tsukimasu",
+      "hanViet": "PHÓ",
+      "meaning": "Dính, gắn, kèm theo"
+    },
+    {
+      "word": "外れます",
+      "kanji": "はずれます",
+      "romaji": "hazuremasu",
+      "hanViet": "NGOẠI",
+      "meaning": "Tuột ra, bung ra, rời ra"
+    },
+    {
+      "word": "止まります",
+      "kanji": "とまります",
+      "romaji": "tomarimasu",
+      "hanViet": "CHỈ",
+      "meaning": "Dừng lại"
+    },
+    {
+      "word": "間違えます",
+      "kanji": "まちがえます",
+      "romaji": "machigaemasu",
+      "hanViet": "GIAN VI",
+      "meaning": "Nhầm, sai"
+    },
+    {
+      "word": "落とします",
+      "kanji": "おとします",
+      "romaji": "otoshimasu",
+      "hanViet": "LẠC",
+      "meaning": "Làm rơi, đánh rơi"
+    },
+    {
+      "word": "掛かります",
+      "kanji": "かかります",
+      "romaji": "kakarimasu",
+      "hanViet": "QUẢI",
+      "meaning": "Khóa (chìa khóa), mất (thời gian, tiền bạc)"
+    },
+    {
+      "word": "拭きます",
+      "kanji": "ふきます",
+      "romaji": "fukimasu",
+      "hanViet": "THỨC",
+      "meaning": "Lau (bàn, ghế...)"
+    },
+    {
+      "word": "取り替えます",
+      "kanji": "とりかえます",
+      "romaji": "torikaemasu",
+      "hanViet": "THỦ THẾ",
+      "meaning": "Thay thế, đổi"
+    },
+    {
+      "word": "片づけます",
+      "kanji": "かたづけます",
+      "romaji": "katazukemasu",
+      "hanViet": "PHIẾN",
+      "meaning": "Dọn dẹp, thu dọn"
+    },
+    {
+      "word": "指します",
+      "kanji": "さします",
+      "romaji": "sashimasu",
+      "hanViet": "CHỈ",
+      "meaning": "Chỉ (ngón tay), chỉ định"
+    },
+    {
+      "word": "倒れます",
+      "kanji": "たおれます",
+      "romaji": "taoremasu",
+      "hanViet": "ĐẢO",
+      "meaning": "Đổ, ngã"
+    },
+    {
+      "word": "燃えます",
+      "kanji": "もえます",
+      "romaji": "moemasu",
+      "hanViet": "NHIÊN",
+      "meaning": "Cháy được, bắt lửa"
+    },
+    {
+      "word": "並びます",
+      "kanji": "ならびます",
+      "romaji": "narabimasu",
+      "hanViet": "TỊNH",
+      "meaning": "Xếp hàng, được xếp"
+    },
+    {
+      "word": "並べます",
+      "kanji": "ならべます",
+      "romaji": "narabemasu",
+      "hanViet": "TỊNH",
+      "meaning": "Xếp, bày, sắp"
+    },
+    {
+      "word": "植えます",
+      "kanji": "うえます",
+      "romaji": "uemasu",
+      "hanViet": "THỰC",
+      "meaning": "Trồng (cây)"
+    },
+    {
+      "word": "戻します",
+      "kanji": "もどします",
+      "romaji": "modoshimasu",
+      "hanViet": "LỆ",
+      "meaning": "Hoàn trả, trả lại chỗ cũ"
+    },
+    {
+      "word": "まとめます",
+      "romaji": "matomemasu",
+      "hanViet": "TỔNG",
+      "meaning": "Tóm tắt, tổng hợp"
+    },
+    {
+      "word": "決めます",
+      "kanji": "きめます",
+      "romaji": "kimemasu",
+      "hanViet": "QUYẾT",
+      "meaning": "Quyết định"
+    },
+    {
+      "word": "予習します",
+      "kanji": "よしゅうします",
+      "romaji": "yoshuushimasu",
+      "hanViet": "DƯ TẬP",
+      "meaning": "Soạn bài, chuẩn bị bài trước"
+    },
+    {
+      "word": "復習します",
+      "kanji": "ふくしゅうします",
+      "romaji": "fukushuushimasu",
+      "hanViet": "PHỤC TẬP",
+      "meaning": "Ôn bài"
+    },
+    {
+      "word": "そのままにします",
+      "romaji": "sonomama ni shimasu",
+      "hanViet": "TRẠNG THÁI GIỮ NGUYÊN",
+      "meaning": "Để nguyên như vậy"
+    },
+    {
+      "word": "ミーティング",
+      "romaji": "miitingu",
+      "meaning": "Cuộc họp"
+    },
+    {
+      "word": "予定",
+      "kanji": "よてい",
+      "romaji": "yotei",
+      "hanViet": "DỰ ĐỊNH",
+      "meaning": "Kế hoạch, dự định"
+    },
+    {
+      "word": "ごみ箱",
+      "kanji": "ごみばこ",
+      "romaji": "gomibako",
+      "hanViet": "TƯƠNG",
+      "meaning": "Thùng rác"
+    },
+    {
+      "word": "鏡",
+      "kanji": "かがみ",
+      "romaji": "kagami",
+      "hanViet": "KÍNH",
+      "meaning": "Gương soi"
+    },
+    {
+      "word": "玄関",
+      "kanji": "げんかん",
+      "romaji": "genkan",
+      "hanViet": "HUYỀN QUAN",
+      "meaning": "Lối vào, tiền sảnh"
+    },
+    {
+      "word": "廊下",
+      "kanji": "ろうか",
+      "romaji": "rouka",
+      "hanViet": "HÀNH LANG",
+      "meaning": "Hành lang"
+    }
+  ],
+  "7": [
+    {
+      "word": "叫ぶ",
+      "kanji": "叫ぶ",
+      "romaji": "sakebu",
+      "hanViet": "KHIẾU",
+      "meaning": "Gào, hét, la"
+    },
+    {
+      "word": "黙る",
+      "kanji": "黙る",
+      "romaji": "damaru",
+      "hanViet": "MẶC",
+      "meaning": "Im lặng"
+    },
+    {
+      "word": "飼う",
+      "kanji": "飼う",
+      "romaji": "kau",
+      "hanViet": "TỰ",
+      "meaning": "Nuôi (động vật)"
+    },
+    {
+      "word": "数える",
+      "kanji": "数える",
+      "romaji": "kazoeru",
+      "hanViet": "SỐ",
+      "meaning": "Đếm"
+    },
+    {
+      "word": "乾く",
+      "kanji": "乾く",
+      "romaji": "kawaku",
+      "hanViet": "KIỀN",
+      "meaning": "Khô (tự động từ)"
+    },
+    {
+      "word": "乾かす",
+      "kanji": "乾かす",
+      "romaji": "kawakasu",
+      "hanViet": "KIỀN",
+      "meaning": "Làm khô (tha động từ)"
+    },
+    {
+      "word": "畳む",
+      "kanji": "畳む",
+      "romaji": "tatamu",
+      "hanViet": "ĐIỆP",
+      "meaning": "Gấp, gập"
+    },
+    {
+      "word": "誘う",
+      "kanji": "誘う",
+      "romaji": "sasou",
+      "hanViet": "DỤ",
+      "meaning": "Mời, rủ"
+    },
+    {
+      "word": "おごる",
+      "romaji": "ogoru",
+      "hanViet": "XA",
+      "meaning": "Chiêu đãi, khao"
+    },
+    {
+      "word": "預かる",
+      "kanji": "預かる",
+      "romaji": "azukaru",
+      "hanViet": "DỰ",
+      "meaning": "Trông nom, chăm sóc"
+    },
+    {
+      "word": "預ける",
+      "kanji": "預ける",
+      "romaji": "azukeru",
+      "hanViet": "DỰ",
+      "meaning": "Gửi (ai đó trông nom)"
+    },
+    {
+      "word": "決まる",
+      "kanji": "決まる",
+      "romaji": "kimaru",
+      "hanViet": "QUYẾT",
+      "meaning": "Được quyết định"
+    },
+    {
+      "word": "決める",
+      "kanji": "決める",
+      "romaji": "kimeru",
+      "hanViet": "QUYẾT",
+      "meaning": "Quyết định"
+    },
+    {
+      "word": "写る",
+      "kanji": "写る",
+      "romaji": "utsuru",
+      "hanViet": "TẢ",
+      "meaning": "Được chụp ảnh"
+    },
+    {
+      "word": "写す",
+      "kanji": "写す",
+      "romaji": "utsusu",
+      "hanViet": "TẢ",
+      "meaning": "Chụp ảnh, chép lại"
+    },
+    {
+      "word": "思い出す",
+      "kanji": "思い出す",
+      "romaji": "omoidasu",
+      "hanViet": "TƯ XUẤT",
+      "meaning": "Nhớ ra"
+    },
+    {
+      "word": "教わる",
+      "kanji": "教わる",
+      "romaji": "osowaru",
+      "hanViet": "GIÁO",
+      "meaning": "Được dạy"
+    },
+    {
+      "word": "申し込む",
+      "kanji": "申し込む",
+      "romaji": "moushikomu",
+      "hanViet": "THÂN NHẬP",
+      "meaning": "Đăng ký"
+    },
+    {
+      "word": "断る",
+      "kanji": "断る",
+      "romaji": "kotowaru",
+      "hanViet": "ĐOẠN",
+      "meaning": "Từ chối"
+    },
+    {
+      "word": "見つかる",
+      "kanji": "見つかる",
+      "romaji": "mitsukaru",
+      "hanViet": "KIẾN",
+      "meaning": "Được tìm thấy"
+    },
+    {
+      "word": "見つける",
+      "kanji": "見つける",
+      "romaji": "mitsukeru",
+      "hanViet": "KIẾN",
+      "meaning": "Tìm thấy"
+    },
+    {
+      "word": "捕まる",
+      "kanji": "捕まる",
+      "romaji": "tsukamaru",
+      "hanViet": "BỘ",
+      "meaning": "Bị bắt"
+    },
+    {
+      "word": "捕まえる",
+      "kanji": "捕まえる",
+      "romaji": "tsukamaeru",
+      "hanViet": "BỘ",
+      "meaning": "Bắt"
+    },
+    {
+      "word": "乗る",
+      "kanji": "乗る",
+      "romaji": "noru",
+      "hanViet": "THỪA",
+      "meaning": "Lên xe"
+    },
+    {
+      "word": "乗せる",
+      "kanji": "乗せる",
+      "romaji": "noseru",
+      "hanViet": "THỪA",
+      "meaning": "Cho lên xe"
+    },
+    {
+      "word": "降りる",
+      "kanji": "降りる",
+      "romaji": "oriru",
+      "hanViet": "GIÁNG",
+      "meaning": "Xuống (xe)"
+    },
+    {
+      "word": "降ろす",
+      "kanji": "降ろす",
+      "romaji": "orosu",
+      "hanViet": "GIÁNG",
+      "meaning": "Cho xuống (xe)"
+    },
+    {
+      "word": "直る",
+      "kanji": "直る",
+      "romaji": "naoru",
+      "hanViet": "TRỰC",
+      "meaning": "Được sửa"
+    },
+    {
+      "word": "直す",
+      "kanji": "直す",
+      "romaji": "naosu",
+      "hanViet": "TRỰC",
+      "meaning": "Sửa"
+    },
+    {
+      "word": "治る",
+      "kanji": "治る",
+      "romaji": "naoru",
+      "hanViet": "TRỊ",
+      "meaning": "Khỏi bệnh"
+    },
+    {
+      "word": "治す",
+      "kanji": "治す",
+      "romaji": "naosu",
+      "hanViet": "TRỊ",
+      "meaning": "Chữa bệnh"
+    }
+  ],
+  "8": [
+    {
+      "word": "かたづけます",
+      "kanji": "片付けます",
+      "romaji": "katazukemasu",
+      "hanViet": "PHIẾN PHÓ",
+      "meaning": "Dọn dẹp, thu xếp"
+    },
+    {
+      "word": "こしょうします",
+      "kanji": "故障します",
+      "romaji": "koshoushimasu",
+      "hanViet": "CỐ CHƯỚNG",
+      "meaning": "Hỏng, trục trặc"
+    },
+    {
+      "word": "しゅっせきします",
+      "kanji": "出席します",
+      "romaji": "shusseki shimasu",
+      "hanViet": "XUẤT TỊCH",
+      "meaning": "Tham dự, có mặt"
+    },
+    {
+      "word": "けっせきします",
+      "kanji": "欠席します",
+      "romaji": "kesseki shimasu",
+      "hanViet": "KHIẾM TỊCH",
+      "meaning": "Vắng mặt"
+    },
+    {
+      "word": "ゆうしょうします",
+      "kanji": "優勝します",
+      "romaji": "yuushou shimasu",
+      "hanViet": "ƯU THẮNG",
+      "meaning": "Chiến thắng, vô địch"
+    },
+    {
+      "word": "じゅしょうします",
+      "kanji": "受賞します",
+      "romaji": "jushou shimasu",
+      "hanViet": "THỤ THƯỞNG",
+      "meaning": "Nhận thưởng"
+    },
+    {
+      "word": "けいさんします",
+      "kanji": "計算します",
+      "romaji": "keisan shimasu",
+      "hanViet": "KẾ TOÁN",
+      "meaning": "Tính toán"
+    },
+    {
+      "word": "やくだちます",
+      "kanji": "役立ちます",
+      "romaji": "yakudachimasu",
+      "hanViet": "DỊCH LẬP",
+      "meaning": "Hữu ích, có ích"
+    },
+    {
+      "word": "ふえます",
+      "kanji": "増えます",
+      "romaji": "fuemasu",
+      "hanViet": "TĂNG",
+      "meaning": "Tăng lên"
+    },
+    {
+      "word": "へります",
+      "kanji": "減ります",
+      "romaji": "herimasu",
+      "hanViet": "GIẢM",
+      "meaning": "Giảm xuống"
+    },
+    {
+      "word": "ぬれます",
+      "kanji": "濡れます",
+      "romaji": "nuremasu",
+      "hanViet": "NHU",
+      "meaning": "Ướt"
+    },
+    {
+      "word": "かわきます",
+      "kanji": "乾きます",
+      "romaji": "kawakimasu",
+      "hanViet": "KIỀN",
+      "meaning": "Khô"
+    },
+    {
+      "word": "すべります",
+      "kanji": "滑ります",
+      "romaji": "suberimasu",
+      "hanViet": "HOẠT",
+      "meaning": "Trượt"
+    },
+    {
+      "word": "ころびます",
+      "kanji": "転びます",
+      "romaji": "korobimasu",
+      "hanViet": "CHUYỂN",
+      "meaning": "Ngã"
+    },
+    {
+      "word": "おれます",
+      "kanji": "折れます",
+      "romaji": "oremasu",
+      "hanViet": "CHIẾT",
+      "meaning": "Gãy (tự động từ)"
+    },
+    {
+      "word": "おります",
+      "kanji": "折ります",
+      "romaji": "orimasu",
+      "hanViet": "CHIẾT",
+      "meaning": "Bẻ gãy (tha động từ)"
+    },
+    {
+      "word": "やぶれます",
+      "kanji": "破れます",
+      "romaji": "yaburemasu",
+      "hanViet": "PHÁ",
+      "meaning": "Bị rách"
+    },
+    {
+      "word": "やぶります",
+      "kanji": "破ります",
+      "romaji": "yaburimasu",
+      "hanViet": "PHÁ",
+      "meaning": "Làm rách"
+    },
+    {
+      "word": "なくなります",
+      "kanji": "無くなります",
+      "romaji": "nakunarimasu",
+      "hanViet": "VÔ",
+      "meaning": "Bị mất, biến mất"
+    },
+    {
+      "word": "なくします",
+      "kanji": "無くします",
+      "romaji": "nakushimasu",
+      "hanViet": "VÔ",
+      "meaning": "Làm mất"
+    },
+    {
+      "word": "こわれます",
+      "kanji": "壊れます",
+      "romaji": "kowaremasu",
+      "hanViet": "HOẠI",
+      "meaning": "Bị hỏng"
+    },
+    {
+      "word": "こわします",
+      "kanji": "壊します",
+      "romaji": "kowashimasu",
+      "hanViet": "HOẠI",
+      "meaning": "Làm hỏng"
+    },
+    {
+      "word": "われます",
+      "kanji": "割れます",
+      "romaji": "waremasu",
+      "hanViet": "CÁT",
+      "meaning": "Bị vỡ"
+    },
+    {
+      "word": "わります",
+      "kanji": "割ります",
+      "romaji": "warimasu",
+      "hanViet": "CÁT",
+      "meaning": "Làm vỡ"
+    },
+    {
+      "word": "なおります",
+      "kanji": "治ります",
+      "romaji": "naorimasu",
+      "hanViet": "TRỊ",
+      "meaning": "Khỏi bệnh, hồi phục"
+    },
+    {
+      "word": "なおします",
+      "kanji": "治します",
+      "romaji": "naoshimasu",
+      "hanViet": "TRỊ",
+      "meaning": "Chữa bệnh"
+    },
+    {
+      "word": "みつかります",
+      "kanji": "見つかります",
+      "romaji": "mitsukarimasu",
+      "hanViet": "KIẾN",
+      "meaning": "Được tìm thấy"
+    },
+    {
+      "word": "みつけます",
+      "kanji": "見つけます",
+      "romaji": "mitsukemasu",
+      "hanViet": "KIẾN",
+      "meaning": "Tìm thấy"
+    },
+    {
+      "word": "つかまります",
+      "kanji": "捕まります",
+      "romaji": "tsukamarimasu",
+      "hanViet": "BỘ",
+      "meaning": "Bị bắt"
+    },
+    {
+      "word": "つかまえます",
+      "kanji": "捕まえます",
+      "romaji": "tsukamaemasu",
+      "hanViet": "BỘ",
+      "meaning": "Bắt"
+    }
+  ],
+  "9": [
+    {
+      "word": "くどい",
+      "romaji": "kudoi",
+      "hanViet": "DÀI DÒNG",
+      "meaning": "Dài dòng; lắm lời; dai dẳng"
+    },
+    {
+      "word": "しつこい",
+      "romaji": "shitsukoi",
+      "hanViet": "LẰNG NHẰNG",
+      "meaning": "Lằng nhằng; lèo nhèo"
+    },
+    {
+      "word": "けち",
+      "romaji": "kechi",
+      "hanViet": "KI BO",
+      "meaning": "Keo kiệt; bủn xỉn"
+    },
+    {
+      "word": "ずうずうしい",
+      "romaji": "zuuzuushii",
+      "hanViet": "TRƠ TRẼN",
+      "meaning": "Trơ trẽn; vô liêm sỉ"
+    },
+    {
+      "word": "しつこく注意する",
+      "romaji": "shitsukoku chuui suru",
+      "hanViet": "NHẮC NHỞ DAI DẲNG",
+      "meaning": "Nhắc nhở dai dẳng"
+    },
+    {
+      "word": "だらしない",
+      "romaji": "darashinai",
+      "hanViet": "LÔI THÔI",
+      "meaning": "Lôi thôi; luộm thuộm"
+    },
+    {
+      "word": "ずるい",
+      "romaji": "zurui",
+      "hanViet": "GIAN XẢO",
+      "meaning": "Không công bằng; chơi không đẹp"
+    },
+    {
+      "word": "にくらしい",
+      "romaji": "nikurashii",
+      "hanViet": "ĐÁNG GHÉT",
+      "meaning": "Đáng ghét; hằn học"
+    },
+    {
+      "word": "憎い",
+      "kanji": "にくい",
+      "romaji": "nikui",
+      "hanViet": "TĂNG",
+      "meaning": "Căm ghét"
+    },
+    {
+      "word": "鈍い",
+      "kanji": "にぶい",
+      "romaji": "nibui",
+      "hanViet": "ĐỘN",
+      "meaning": "Cùn, chậm chạp"
+    },
+    {
+      "word": "鋭い",
+      "kanji": "するどい",
+      "romaji": "surudoi",
+      "hanViet": "DUỆ",
+      "meaning": "Sắc bén; nhạy bén"
+    },
+    {
+      "word": "荒い",
+      "kanji": "あらい",
+      "romaji": "arai",
+      "hanViet": "HOANG",
+      "meaning": "Thô bạo; dữ dội"
+    },
+    {
+      "word": "粗い",
+      "kanji": "あらい",
+      "romaji": "arai",
+      "hanViet": "THÔ",
+      "meaning": "Thô, chưa mịn, chưa tinh"
+    },
+    {
+      "word": "強引な",
+      "kanji": "ごういんな",
+      "romaji": "gouin na",
+      "hanViet": "CƯỜNG DẪN",
+      "meaning": "Cưỡng ép; ép buộc"
+    },
+    {
+      "word": "勝手な",
+      "kanji": "かってな",
+      "romaji": "katte na",
+      "hanViet": "THẮNG THỦ",
+      "meaning": "Tự tiện; ích kỷ"
+    },
+    {
+      "word": "強気な",
+      "kanji": "つよきな",
+      "romaji": "tsuyoki na",
+      "hanViet": "CƯỜNG KHÍ",
+      "meaning": "Mạnh mẽ; kiên định"
+    },
+    {
+      "word": "頑固な",
+      "kanji": "がんこな",
+      "romaji": "ganko na",
+      "hanViet": "NGOAN CỐ",
+      "meaning": "Bảo thủ; cứng đầu"
+    },
+    {
+      "word": "プライドが高い",
+      "romaji": "puraido ga takai",
+      "hanViet": "TỰ TRỌNG CAO",
+      "meaning": "Tự cao; tự trọng cao"
+    },
+    {
+      "word": "正直な",
+      "kanji": "しょうじきな",
+      "romaji": "shoujiki na",
+      "hanViet": "CHÍNH TRỰC",
+      "meaning": "Thẳng thắn; trung thực"
+    },
+    {
+      "word": "素直な",
+      "kanji": "すなおな",
+      "romaji": "sunao na",
+      "hanViet": "TỐ TRỰC",
+      "meaning": "Dễ bảo; ngoan ngoãn"
+    },
+    {
+      "word": "率直な",
+      "kanji": "そっちょくな",
+      "romaji": "sotchoku na",
+      "hanViet": "SUẤT TRỰC",
+      "meaning": "Thẳng thắn; bộc trực"
+    },
+    {
+      "word": "謙虚な",
+      "kanji": "けんきょな",
+      "romaji": "kenkyo na",
+      "hanViet": "KHIÊM HƯ",
+      "meaning": "Khiêm tốn"
+    },
+    {
+      "word": "慎重な",
+      "kanji": "しんちょうな",
+      "romaji": "shinchou na",
+      "hanViet": "THẬN TRỌNG",
+      "meaning": "Cẩn thận; thận trọng"
+    },
+    {
+      "word": "穏やかな",
+      "kanji": "おだやかな",
+      "romaji": "odayaka na",
+      "hanViet": "ỔN",
+      "meaning": "Điềm đạm; ôn hòa"
+    },
+    {
+      "word": "真剣な",
+      "kanji": "しんけんな",
+      "romaji": "shinken na",
+      "hanViet": "CHÂN KIẾM",
+      "meaning": "Nghiêm túc"
+    },
+    {
+      "word": "主要な",
+      "kanji": "しゅような",
+      "romaji": "shuyou na",
+      "hanViet": "CHỦ YẾU",
+      "meaning": "Chính; chủ yếu"
+    },
+    {
+      "word": "貴重な",
+      "kanji": "きちょうな",
+      "romaji": "kichou na",
+      "hanViet": "QUÝ TRỌNG",
+      "meaning": "Quý giá; quý trọng"
+    },
+    {
+      "word": "偉い",
+      "kanji": "えらい",
+      "romaji": "erai",
+      "hanViet": "VĨ",
+      "meaning": "Vĩ đại; đáng kính"
+    },
+    {
+      "word": "独特な",
+      "kanji": "どくとくな",
+      "romaji": "dokutoku na",
+      "hanViet": "ĐỘC ĐẶC",
+      "meaning": "Độc đáo; đặc trưng"
+    },
+    {
+      "word": "特別な",
+      "kanji": "とくべつな",
+      "romaji": "tokubetsu na",
+      "hanViet": "ĐẶC BIỆT",
+      "meaning": "Đặc biệt"
+    }
+  ],
+  "10": [
+    {
+      "word": "かんがえ",
+      "kanji": "考え",
+      "romaji": "kangae",
+      "hanViet": "KHẢO",
+      "meaning": "Suy nghĩ, ý tưởng"
+    },
+    {
+      "word": "うまれ",
+      "kanji": "生まれ",
+      "romaji": "umare",
+      "hanViet": "SINH",
+      "meaning": "Sự ra đời, nơi sinh"
+    },
+    {
+      "word": "としうえ",
+      "kanji": "年上",
+      "romaji": "toshiue",
+      "hanViet": "NIÊN THƯỢNG",
+      "meaning": "Người lớn tuổi hơn"
+    },
+    {
+      "word": "めうえ",
+      "kanji": "目上",
+      "romaji": "meue",
+      "hanViet": "MỤC THƯỢNG",
+      "meaning": "Cấp trên"
+    },
+    {
+      "word": "せんぱい",
+      "kanji": "先輩",
+      "romaji": "senpai",
+      "hanViet": "TIÊN BỐI",
+      "meaning": "Đàn anh/chị"
+    },
+    {
+      "word": "こうはい",
+      "kanji": "後輩",
+      "romaji": "kouhai",
+      "hanViet": "HẬU BỐI",
+      "meaning": "Đàn em"
+    },
+    {
+      "word": "じょうし",
+      "kanji": "上司",
+      "romaji": "joushi",
+      "hanViet": "THƯỢNG TI",
+      "meaning": "Cấp trên, sếp"
+    },
+    {
+      "word": "あいて",
+      "kanji": "相手",
+      "romaji": "aite",
+      "hanViet": "TƯƠNG THỦ",
+      "meaning": "Đối phương, đối tượng"
+    },
+    {
+      "word": "ともだち",
+      "kanji": "友達",
+      "romaji": "tomodachi",
+      "hanViet": "HỮU ĐẠT",
+      "meaning": "Bạn bè"
+    },
+    {
+      "word": "なか",
+      "kanji": "仲",
+      "romaji": "naka",
+      "hanViet": "TRỌNG",
+      "meaning": "Quan hệ"
+    },
+    {
+      "word": "せいかつ",
+      "kanji": "生活",
+      "romaji": "seikatsu",
+      "hanViet": "SINH HOẠT",
+      "meaning": "Cuộc sống, sinh hoạt"
+    },
+    {
+      "word": "つうきん",
+      "kanji": "通勤",
+      "romaji": "tsuukin",
+      "hanViet": "THÔNG CẦN",
+      "meaning": "Đi làm (đi lại)"
+    },
+    {
+      "word": "がくれき",
+      "kanji": "学歴",
+      "romaji": "gakureki",
+      "hanViet": "HỌC LỊCH",
+      "meaning": "Quá trình học hành"
+    },
+    {
+      "word": "きゅうりょう",
+      "kanji": "給料",
+      "romaji": "kyuuryou",
+      "hanViet": "CẤP LIÊU",
+      "meaning": "Lương"
+    },
+    {
+      "word": "めんせつ",
+      "kanji": "面接",
+      "romaji": "mensetsu",
+      "hanViet": "DIỆN TIẾP",
+      "meaning": "Phỏng vấn"
+    },
+    {
+      "word": "きこく",
+      "kanji": "帰国",
+      "romaji": "kikoku",
+      "hanViet": "QUY QUỐC",
+      "meaning": "Về nước"
+    },
+    {
+      "word": "きせい",
+      "kanji": "帰省",
+      "romaji": "kisei",
+      "hanViet": "QUY TỈNH",
+      "meaning": "Về quê"
+    },
+    {
+      "word": "きたく",
+      "kanji": "帰宅",
+      "romaji": "kitaku",
+      "hanViet": "QUY TRẠCH",
+      "meaning": "Về nhà"
+    },
+    {
+      "word": "さんか",
+      "kanji": "参加",
+      "romaji": "sanka",
+      "hanViet": "THAM GIA",
+      "meaning": "Tham gia"
+    },
+    {
+      "word": "しゅっせき",
+      "kanji": "出席",
+      "romaji": "shusseki",
+      "hanViet": "XUẤT TỊCH",
+      "meaning": "Có mặt, tham dự"
+    },
+    {
+      "word": "けっせき",
+      "kanji": "欠席",
+      "romaji": "kesseki",
+      "hanViet": "KHIẾM TỊCH",
+      "meaning": "Vắng mặt"
+    },
+    {
+      "word": "ちこく",
+      "kanji": "遅刻",
+      "romaji": "chikoku",
+      "hanViet": "TRÌ KHẮC",
+      "meaning": "Đến muộn"
+    },
+    {
+      "word": "そうたい",
+      "kanji": "早退",
+      "romaji": "soutai",
+      "hanViet": "TẢO THOÁI",
+      "meaning": "Về sớm"
+    },
+    {
+      "word": "しゅっさん",
+      "kanji": "出産",
+      "romaji": "shussan",
+      "hanViet": "XUẤT SẢN",
+      "meaning": "Sinh đẻ"
+    },
+    {
+      "word": "たいしょく",
+      "kanji": "退職",
+      "romaji": "taishoku",
+      "hanViet": "THOÁI CHỨC",
+      "meaning": "Nghỉ việc"
+    },
+    {
+      "word": "しつぎょう",
+      "kanji": "失業",
+      "romaji": "shitsugyou",
+      "hanViet": "THẤT NGHIỆP",
+      "meaning": "Thất nghiệp"
+    },
+    {
+      "word": "ざんぎょう",
+      "kanji": "残業",
+      "romaji": "zangyou",
+      "hanViet": "TÀN NGHIỆP",
+      "meaning": "Làm thêm giờ"
+    },
+    {
+      "word": "せいかく",
+      "kanji": "性格",
+      "romaji": "seikaku",
+      "hanViet": "TÍNH CÁCH",
+      "meaning": "Tính cách"
+    },
+    {
+      "word": "せいよう",
+      "kanji": "西洋",
+      "romaji": "seiyou",
+      "hanViet": "TÂY DƯƠNG",
+      "meaning": "Phương Tây"
+    },
+    {
+      "word": "とうよう",
+      "kanji": "東洋",
+      "romaji": "touyou",
+      "hanViet": "ĐÔNG DƯƠNG",
+      "meaning": "Phương Đông"
+    }
+  ],
+  "11": [
+    {
+      "word": "指導",
+      "kanji": "指導",
+      "romaji": "shidou",
+      "hanViet": "CHỈ ĐẠO",
+      "meaning": "Hướng dẫn, chỉ đạo"
+    },
+    {
+      "word": "強調",
+      "kanji": "強調",
+      "romaji": "kyouchou",
+      "hanViet": "CƯỜNG ĐIỀU",
+      "meaning": "Nhấn mạnh"
+    },
+    {
+      "word": "省略",
+      "kanji": "省略",
+      "romaji": "shouryaku",
+      "hanViet": "TỈNH LƯỢC",
+      "meaning": "Lược bỏ, rút gọn"
+    },
+    {
+      "word": "挑戦",
+      "kanji": "挑戦",
+      "romaji": "chousen",
+      "hanViet": "THIÊU CHIẾN",
+      "meaning": "Thử thách, thách thức"
+    },
+    {
+      "word": "やる気",
+      "romaji": "yaruki",
+      "hanViet": "KHÍ",
+      "meaning": "Động lực, cảm hứng"
+    },
+    {
+      "word": "申請",
+      "kanji": "申請",
+      "romaji": "shinsei",
+      "hanViet": "THÂN THỈNH",
+      "meaning": "Đăng ký, xin (giấy tờ)"
+    },
+    {
+      "word": "本人",
+      "kanji": "本人",
+      "romaji": "honnin",
+      "hanViet": "BẢN NHÂN",
+      "meaning": "Người đó, bản thân"
+    },
+    {
+      "word": "契約",
+      "kanji": "契約",
+      "romaji": "keiyaku",
+      "hanViet": "KHẾ ƯỚC",
+      "meaning": "Hợp đồng, khế ước"
+    },
+    {
+      "word": "証明",
+      "kanji": "証明",
+      "romaji": "shoumei",
+      "hanViet": "CHỨNG MINH",
+      "meaning": "Chứng minh"
+    },
+    {
+      "word": "変更",
+      "kanji": "変更",
+      "romaji": "henkou",
+      "hanViet": "BIẾN CANH",
+      "meaning": "Thay đổi"
+    },
+    {
+      "word": "保存",
+      "kanji": "保存",
+      "romaji": "hozon",
+      "hanViet": "BẢO TỒN",
+      "meaning": "Lưu, bảo quản"
+    },
+    {
+      "word": "追加",
+      "kanji": "追加",
+      "romaji": "tsuika",
+      "hanViet": "TRUY GIA",
+      "meaning": "Thêm vào"
+    },
+    {
+      "word": "参加",
+      "kanji": "参加",
+      "romaji": "sanka",
+      "hanViet": "THAM GIA",
+      "meaning": "Tham gia"
+    },
+    {
+      "word": "集中",
+      "kanji": "集中",
+      "romaji": "shuuchuu",
+      "hanViet": "TẬP TRUNG",
+      "meaning": "Tập trung"
+    },
+    {
+      "word": "報告",
+      "kanji": "報告",
+      "romaji": "houkoku",
+      "hanViet": "BÁO CÁO",
+      "meaning": "Báo cáo"
+    },
+    {
+      "word": "録画",
+      "kanji": "録画",
+      "romaji": "rokuga",
+      "hanViet": "LỤC HỌA",
+      "meaning": "Ghi hình"
+    },
+    {
+      "word": "混雑",
+      "kanji": "混雑",
+      "romaji": "konzatsu",
+      "hanViet": "HỖN TẠP",
+      "meaning": "Đông đúc, tắc nghẽn"
+    },
+    {
+      "word": "渋滞",
+      "kanji": "渋滞",
+      "romaji": "juutai",
+      "hanViet": "SÁP TRỆ",
+      "meaning": "Kẹt xe, tắc đường"
+    },
+    {
+      "word": "衝突",
+      "kanji": "衝突",
+      "romaji": "shoutotsu",
+      "hanViet": "XUNG ĐỘT",
+      "meaning": "Va chạm, xung đột"
+    },
+    {
+      "word": "事故",
+      "kanji": "事故",
+      "romaji": "jiko",
+      "hanViet": "SỰ CỐ",
+      "meaning": "Tai nạn"
+    },
+    {
+      "word": "事件",
+      "kanji": "事件",
+      "romaji": "jiken",
+      "hanViet": "SỰ KIỆN",
+      "meaning": "Vụ việc"
+    },
+    {
+      "word": "故障",
+      "kanji": "故障",
+      "romaji": "koshou",
+      "hanViet": "CỐ CHƯỚNG",
+      "meaning": "Hư hỏng"
+    },
+    {
+      "word": "修理",
+      "kanji": "修理",
+      "romaji": "shuuri",
+      "hanViet": "TU LÍ",
+      "meaning": "Sửa chữa"
+    },
+    {
+      "word": "停電",
+      "kanji": "停電",
+      "romaji": "teiden",
+      "hanViet": "ĐÌNH ĐIỆN",
+      "meaning": "Mất điện"
+    },
+    {
+      "word": "自慢",
+      "kanji": "自慢",
+      "romaji": "jiman",
+      "hanViet": "TỰ MẠN",
+      "meaning": "Tự hào, khoe khoang"
+    },
+    {
+      "word": "感心",
+      "kanji": "感心",
+      "romaji": "kanshin",
+      "hanViet": "CẢM TÂM",
+      "meaning": "Khâm phục"
+    },
+    {
+      "word": "興奮",
+      "kanji": "興奮",
+      "romaji": "koufun",
+      "hanViet": "HƯNG PHẤN",
+      "meaning": "Hưng phấn"
+    },
+    {
+      "word": "予想",
+      "kanji": "予想",
+      "romaji": "yosou",
+      "hanViet": "DỰ TƯỞNG",
+      "meaning": "Dự đoán"
+    },
+    {
+      "word": "専門",
+      "kanji": "専門",
+      "romaji": "senmon",
+      "hanViet": "CHUYÊN MÔN",
+      "meaning": "Chuyên môn"
+    },
+    {
+      "word": "調査",
+      "kanji": "調査",
+      "romaji": "chousa",
+      "hanViet": "ĐIỀU TRA",
+      "meaning": "Điều tra, khảo sát"
+    }
+  ],
+  "12": [
+    {
+      "word": "ほほえむ",
+      "romaji": "hohoemu",
+      "hanViet": "TIẾU",
+      "meaning": "Mỉm cười"
+    },
+    {
+      "word": "だまる",
+      "romaji": "damaru",
+      "hanViet": "MẶC",
+      "meaning": "Im lặng"
+    },
+    {
+      "word": "どなる",
+      "romaji": "donaru",
+      "hanViet": "NỘ",
+      "meaning": "La hét, gào lên"
+    },
+    {
+      "word": "あばれる",
+      "romaji": "abareru",
+      "hanViet": "BẠO",
+      "meaning": "Nổi giận, làm ầm lên"
+    },
+    {
+      "word": "どく",
+      "romaji": "doku",
+      "hanViet": "THOÁI",
+      "meaning": "Tránh ra"
+    },
+    {
+      "word": "どける",
+      "romaji": "dokeru",
+      "hanViet": "THOÁI",
+      "meaning": "Đẩy ra, tránh ra"
+    },
+    {
+      "word": "かぶる",
+      "romaji": "kaburu",
+      "hanViet": "BỊ",
+      "meaning": "Đội, dội (nước)"
+    },
+    {
+      "word": "かぶせる",
+      "romaji": "kabuseru",
+      "hanViet": "BỊ",
+      "meaning": "Phủ lên, đổ (tội)"
+    },
+    {
+      "word": "かじる",
+      "romaji": "kajiru",
+      "hanViet": "NIẾT",
+      "meaning": "Gặm, cắn"
+    },
+    {
+      "word": "うつ",
+      "kanji": "打つ",
+      "romaji": "utsu",
+      "hanViet": "ĐẢ",
+      "meaning": "Đánh"
+    },
+    {
+      "word": "ける",
+      "romaji": "keru",
+      "hanViet": "XÚC",
+      "meaning": "Đá"
+    },
+    {
+      "word": "はく",
+      "romaji": "haku",
+      "hanViet": "THỔ",
+      "meaning": "Nôn, ói"
+    },
+    {
+      "word": "さけぶ",
+      "romaji": "sakebu",
+      "hanViet": "KHIẾU",
+      "meaning": "Hét, la lên"
+    },
+    {
+      "word": "だまる",
+      "romaji": "damaru",
+      "hanViet": "MẶC",
+      "meaning": "Im lặng"
+    },
+    {
+      "word": "たおれる",
+      "romaji": "taoreru",
+      "hanViet": "ĐẢO",
+      "meaning": "Ngã, đổ"
+    },
+    {
+      "word": "たおす",
+      "romaji": "taosu",
+      "hanViet": "ĐẢO",
+      "meaning": "Làm đổ, đánh bại"
+    },
+    {
+      "word": "おきる",
+      "kanji": "起きる",
+      "romaji": "okiru",
+      "hanViet": "KHỞI",
+      "meaning": "Thức dậy"
+    },
+    {
+      "word": "おこす",
+      "kanji": "起こす",
+      "romaji": "okosu",
+      "hanViet": "KHỞI",
+      "meaning": "Đánh thức"
+    },
+    {
+      "word": "たずねる",
+      "kanji": "訪ねる",
+      "romaji": "tazuneru",
+      "hanViet": "PHÓNG",
+      "meaning": "Thăm hỏi"
+    },
+    {
+      "word": "たずねる",
+      "kanji": "尋ねる",
+      "romaji": "tazuneru",
+      "hanViet": "TẦM",
+      "meaning": "Hỏi"
+    },
+    {
+      "word": "こたえる",
+      "kanji": "答える",
+      "romaji": "kotaeru",
+      "hanViet": "ĐÁP",
+      "meaning": "Trả lời"
+    },
+    {
+      "word": "なぐる",
+      "romaji": "naguru",
+      "hanViet": "ẨU",
+      "meaning": "Đấm, đánh"
+    },
+    {
+      "word": "つかまえる",
+      "kanji": "捕まえる",
+      "romaji": "tsukamaeru",
+      "hanViet": "BỘ",
+      "meaning": "Bắt, tóm"
+    },
+    {
+      "word": "つかまる",
+      "kanji": "捕まる",
+      "romaji": "tsukamaru",
+      "hanViet": "BỘ",
+      "meaning": "Bị bắt"
+    },
+    {
+      "word": "のる",
+      "kanji": "乗る",
+      "romaji": "noru",
+      "hanViet": "THỪA",
+      "meaning": "Lên (xe, tàu...)"
+    },
+    {
+      "word": "のせる",
+      "kanji": "乗せる",
+      "romaji": "noseru",
+      "hanViet": "THỪA",
+      "meaning": "Cho lên (xe)"
+    },
+    {
+      "word": "おりる",
+      "kanji": "降りる",
+      "romaji": "oriru",
+      "hanViet": "GIÁNG",
+      "meaning": "Xuống (xe, cầu thang...)"
+    },
+    {
+      "word": "おろす",
+      "kanji": "降ろす",
+      "romaji": "orosu",
+      "hanViet": "GIÁNG",
+      "meaning": "Cho xuống (xe)"
+    },
+    {
+      "word": "なおる",
+      "kanji": "治る",
+      "romaji": "naoru",
+      "hanViet": "TRỊ",
+      "meaning": "Khỏi bệnh"
+    },
+    {
+      "word": "なおす",
+      "kanji": "治す",
+      "romaji": "naosu",
+      "hanViet": "TRỊ",
+      "meaning": "Chữa bệnh"
+    }
+  ],
+  "13": [
+    {
+      "word": "たしかめる",
+      "kanji": "確かめる",
+      "romaji": "tashikameru",
+      "hanViet": "XÁC",
+      "meaning": "Xác nhận, làm cho rõ ràng"
+    },
+    {
+      "word": "ためす",
+      "kanji": "試す",
+      "romaji": "tamesu",
+      "hanViet": "THÍ",
+      "meaning": "Thử, thử nghiệm"
+    },
+    {
+      "word": "くりかえす",
+      "kanji": "繰り返す",
+      "romaji": "kurikaesu",
+      "hanViet": "SÀO PHẢN",
+      "meaning": "Lặp lại"
+    },
+    {
+      "word": "あやまる",
+      "kanji": "謝る",
+      "romaji": "ayamaru",
+      "hanViet": "TẠ",
+      "meaning": "Xin lỗi"
+    },
+    {
+      "word": "わかれる",
+      "kanji": "別れる",
+      "romaji": "wakareru",
+      "hanViet": "BIỆT",
+      "meaning": "Chia tay"
+    },
+    {
+      "word": "つたえる",
+      "kanji": "伝える",
+      "romaji": "tsutaeru",
+      "hanViet": "TRUYỀN",
+      "meaning": "Truyền đạt, nhắn lại"
+    },
+    {
+      "word": "つうやく",
+      "kanji": "通訳",
+      "romaji": "tsuuyaku",
+      "hanViet": "THÔNG DỊCH",
+      "meaning": "Phiên dịch"
+    },
+    {
+      "word": "ほんやく",
+      "kanji": "翻訳",
+      "romaji": "honyaku",
+      "hanViet": "PHIÊN DỊCH",
+      "meaning": "Biên dịch"
+    },
+    {
+      "word": "つうじる",
+      "kanji": "通じる",
+      "romaji": "tsuujiru",
+      "hanViet": "THÔNG",
+      "meaning": "Hiểu được, thông suốt"
+    },
+    {
+      "word": "かよう",
+      "kanji": "通う",
+      "romaji": "kayou",
+      "hanViet": "THÔNG",
+      "meaning": "Đi đi về về (trường, công ty...)"
+    },
+    {
+      "word": "まにあう",
+      "kanji": "間に合う",
+      "romaji": "maniau",
+      "hanViet": "GIAN HỢP",
+      "meaning": "Kịp, theo kịp"
+    },
+    {
+      "word": "すれちがう",
+      "kanji": "すれ違う",
+      "romaji": "surechigau",
+      "hanViet": "VI",
+      "meaning": "Lướt qua nhau, không hiểu nhau"
+    },
+    {
+      "word": "かかる",
+      "kanji": "",
+      "romaji": "kakaru",
+      "hanViet": "",
+      "meaning": "Mắc, bị (bệnh, bẫy...)"
+    },
+    {
+      "word": "かける",
+      "kanji": "",
+      "romaji": "kakeru",
+      "hanViet": "",
+      "meaning": "Gây ra, làm cho bị"
+    },
+    {
+      "word": "うごく",
+      "kanji": "動く",
+      "romaji": "ugoku",
+      "hanViet": "ĐỘNG",
+      "meaning": "Di chuyển, hoạt động"
+    },
+    {
+      "word": "うごかす",
+      "kanji": "動かす",
+      "romaji": "ugokasu",
+      "hanViet": "ĐỘNG",
+      "meaning": "Làm di chuyển, làm hoạt động"
+    },
+    {
+      "word": "はなれる",
+      "kanji": "離れる",
+      "romaji": "hanareru",
+      "hanViet": "LY",
+      "meaning": "Rời xa"
+    },
+    {
+      "word": "はなす",
+      "kanji": "離す",
+      "romaji": "hanasu",
+      "hanViet": "LY",
+      "meaning": "Tách ra, làm cho rời ra"
+    },
+    {
+      "word": "ぶつかる",
+      "kanji": "",
+      "romaji": "butsukaru",
+      "hanViet": "",
+      "meaning": "Va chạm, xung đột"
+    },
+    {
+      "word": "ぶつける",
+      "kanji": "",
+      "romaji": "butsukeru",
+      "hanViet": "",
+      "meaning": "Đâm vào, va vào"
+    },
+    {
+      "word": "こぼれる",
+      "kanji": "",
+      "romaji": "koboreru",
+      "hanViet": "",
+      "meaning": "Bị trào ra, bị đổ"
+    },
+    {
+      "word": "こぼす",
+      "kanji": "",
+      "romaji": "kobosu",
+      "hanViet": "",
+      "meaning": "Làm trào, làm đổ"
+    },
+    {
+      "word": "こわれる",
+      "kanji": "壊れる",
+      "romaji": "kowareru",
+      "hanViet": "HOẠI",
+      "meaning": "Bị hỏng"
+    },
+    {
+      "word": "こわす",
+      "kanji": "壊す",
+      "romaji": "kowasu",
+      "hanViet": "HOẠI",
+      "meaning": "Làm hỏng"
+    },
+    {
+      "word": "われる",
+      "kanji": "割れる",
+      "romaji": "wareru",
+      "hanViet": "CÁT",
+      "meaning": "Bị vỡ"
+    },
+    {
+      "word": "わる",
+      "kanji": "割る",
+      "romaji": "waru",
+      "hanViet": "CÁT",
+      "meaning": "Làm vỡ"
+    },
+    {
+      "word": "やぶれる",
+      "kanji": "破れる",
+      "romaji": "yabureru",
+      "hanViet": "PHÁ",
+      "meaning": "Bị rách"
+    },
+    {
+      "word": "やぶる",
+      "kanji": "破る",
+      "romaji": "yaburu",
+      "hanViet": "PHÁ",
+      "meaning": "Làm rách"
+    },
+    {
+      "word": "まがる",
+      "kanji": "曲がる",
+      "romaji": "magaru",
+      "hanViet": "KHÚC",
+      "meaning": "Rẽ, cong"
+    },
+    {
+      "word": "まげる",
+      "kanji": "曲げる",
+      "romaji": "mageru",
+      "hanViet": "KHÚC",
+      "meaning": "Bẻ cong, uốn cong"
+    }
+  ],
+  "14": [
+    {
+      "word": "かしこい",
+      "romaji": "kashikoi",
+      "hanViet": "HIỀN MINH",
+      "meaning": "Thông minh"
+    },
+    {
+      "word": "くやしい",
+      "romaji": "kuyashii",
+      "hanViet": "HỐI TIẾC",
+      "meaning": "Cay cú, tiếc nuối"
+    },
+    {
+      "word": "うらやましい",
+      "romaji": "urayamashii",
+      "hanViet": "TIỆN MỘ",
+      "meaning": "Ghen tị"
+    },
+    {
+      "word": "なつかしい",
+      "romaji": "natsukashii",
+      "hanViet": "HOÀI CỔ",
+      "meaning": "Hoài niệm"
+    },
+    {
+      "word": "かわいそう",
+      "romaji": "kawaisou",
+      "hanViet": "KHẢ ÁI",
+      "meaning": "Tội nghiệp"
+    },
+    {
+      "word": "しかたがない",
+      "romaji": "shikataganai",
+      "hanViet": "BẤT KHẢ KHÁNG",
+      "meaning": "Không còn cách nào khác"
+    },
+    {
+      "word": "やむをえない",
+      "romaji": "yamuwonai",
+      "hanViet": "BẤT KHẢ KHÁNG",
+      "meaning": "Không thể tránh được"
+    },
+    {
+      "word": "しつこい",
+      "romaji": "shitsukoi",
+      "hanViet": "LẰNG NHẰNG",
+      "meaning": "Lì lợm, lằng nhằng"
+    },
+    {
+      "word": "くどい",
+      "romaji": "kudoi",
+      "hanViet": "DÀI DÒNG",
+      "meaning": "Dài dòng"
+    },
+    {
+      "word": "けむい",
+      "romaji": "kemui",
+      "hanViet": "KHÓI",
+      "meaning": "Đầy khói"
+    },
+    {
+      "word": "じゃま",
+      "romaji": "jama",
+      "hanViet": "TÀ MA",
+      "meaning": "Cản trở"
+    },
+    {
+      "word": "うるさい",
+      "romaji": "urusai",
+      "hanViet": "ỒN ÀO",
+      "meaning": "Ồn ào, phiền phức"
+    },
+    {
+      "word": "そうぞうしい",
+      "romaji": "souzoushii",
+      "hanViet": "ỒN ÀO",
+      "meaning": "Ồn ào, náo nhiệt"
+    },
+    {
+      "word": "やかましい",
+      "romaji": "yakamashii",
+      "hanViet": "ỒN ÀO",
+      "meaning": "Ầm ĩ, phiền phức"
+    },
+    {
+      "word": "あわただしい",
+      "romaji": "awatadashii",
+      "hanViet": "VỘI VÃ",
+      "meaning": "Bận rộn, vội vàng"
+    },
+    {
+      "word": "そそっかしい",
+      "romaji": "sosokkashii",
+      "hanViet": "HẤP TẤP",
+      "meaning": "Hấp tấp, thiếu suy nghĩ"
+    },
+    {
+      "word": "おもいがけない",
+      "romaji": "omoigakenai",
+      "hanViet": "BẤT NGỜ",
+      "meaning": "Không ngờ tới"
+    },
+    {
+      "word": "しょうがない",
+      "romaji": "shouganai",
+      "hanViet": "KHÔNG CÒN CÁCH NÀO",
+      "meaning": "Đành chịu"
+    },
+    {
+      "word": "くだらない",
+      "romaji": "kudaranai",
+      "hanViet": "VÔ NGHĨA",
+      "meaning": "Vô dụng, chán ngắt"
+    },
+    {
+      "word": "ばかばかしい",
+      "romaji": "bakabakashii",
+      "hanViet": "NGU NGỐC",
+      "meaning": "Vớ vẩn"
+    },
+    {
+      "word": "でたらめ",
+      "romaji": "detarame",
+      "hanViet": "BỪA BÃI",
+      "meaning": "Linh tinh, bừa bãi"
+    },
+    {
+      "word": "ずうずうしい",
+      "romaji": "zuuzuushii",
+      "hanViet": "TRƠ TRẼN",
+      "meaning": "Mặt dày"
+    },
+    {
+      "word": "ずるい",
+      "romaji": "zurui",
+      "hanViet": "GIAN XẢO",
+      "meaning": "Gian lận"
+    },
+    {
+      "word": "にくらしい",
+      "romaji": "nikurashii",
+      "hanViet": "GHÉT",
+      "meaning": "Đáng ghét"
+    },
+    {
+      "word": "にくい",
+      "romaji": "nikui",
+      "hanViet": "GHÉT",
+      "meaning": "Đáng ghét, khó làm"
+    },
+    {
+      "word": "ばからしい",
+      "romaji": "bakarashii",
+      "hanViet": "NGU NGỐC",
+      "meaning": "Vô lý"
+    },
+    {
+      "word": "でたらめな",
+      "romaji": "detaramena",
+      "hanViet": "BỪA BÃI",
+      "meaning": "Linh tinh"
+    },
+    {
+      "word": "やかましい",
+      "romaji": "yakamashii",
+      "hanViet": "ỒN ÀO",
+      "meaning": "Nghiêm khắc, phiền phức"
+    },
+    {
+      "word": "あつかましい",
+      "romaji": "atsukamashii",
+      "hanViet": "MẶT DÀY",
+      "meaning": "Trơ trẽn"
+    },
+    {
+      "word": "ひきょう",
+      "romaji": "hikyou",
+      "hanViet": "HÈN NHÁT",
+      "meaning": "Hèn nhát, chơi bẩn"
+    }
+  ],
+  "15": [
+    {
+      "word": "やり直す",
+      "kanji": "やり直す",
+      "romaji": "yarinaosu",
+      "hanViet": "TRỰC",
+      "meaning": "Làm lại từ đầu"
+    },
+    {
+      "word": "書き直す",
+      "kanji": "書き直す",
+      "romaji": "kakinaosu",
+      "hanViet": "THƯ TRỰC",
+      "meaning": "Viết lại"
+    },
+    {
+      "word": "言い直す",
+      "kanji": "言い直す",
+      "romaji": "iinaosu",
+      "hanViet": "NGÔN TRỰC",
+      "meaning": "Nói lại"
+    },
+    {
+      "word": "見直す",
+      "kanji": "見直す",
+      "romaji": "minaosu",
+      "hanViet": "KIẾN TRỰC",
+      "meaning": "Xem lại, đánh giá lại"
+    },
+    {
+      "word": "聞き直す",
+      "kanji": "聞き直す",
+      "romaji": "kikinaosu",
+      "hanViet": "VĂN TRỰC",
+      "meaning": "Nghe lại"
+    },
+    {
+      "word": "問い直す",
+      "kanji": "問い直す",
+      "romaji": "toinaosu",
+      "hanViet": "VẤN TRỰC",
+      "meaning": "Hỏi lại"
+    },
+    {
+      "word": "読み直す",
+      "kanji": "読み直す",
+      "romaji": "yominaosu",
+      "hanViet": "ĐỘC TRỰC",
+      "meaning": "Đọc lại"
+    },
+    {
+      "word": "作り直す",
+      "kanji": "作り直す",
+      "romaji": "tsukurinaosu",
+      "hanViet": "TÁC TRỰC",
+      "meaning": "Làm lại, chế tạo lại"
+    },
+    {
+      "word": "戻す",
+      "kanji": "戻す",
+      "romaji": "modosu",
+      "hanViet": "LỆ",
+      "meaning": "Trả lại, hoàn lại"
+    },
+    {
+      "word": "返す",
+      "kanji": "返す",
+      "romaji": "kaesu",
+      "hanViet": "PHẢN",
+      "meaning": "Trả lại (đồ vật)"
+    },
+    {
+      "word": "繰り返す",
+      "kanji": "繰り返す",
+      "romaji": "kurikaesu",
+      "hanViet": "SÀO PHẢN",
+      "meaning": "Lặp lại"
+    },
+    {
+      "word": "思い返す",
+      "kanji": "思い返す",
+      "romaji": "omoikaesu",
+      "hanViet": "TƯ PHẢN",
+      "meaning": "Nhớ lại, suy nghĩ lại"
+    },
+    {
+      "word": "振り返る",
+      "kanji": "振り返る",
+      "romaji": "furikaeru",
+      "hanViet": "CHẤN PHẢN",
+      "meaning": "Ngoảnh lại, nhìn lại"
+    },
+    {
+      "word": "手伝い",
+      "kanji": "手伝い",
+      "romaji": "tetsudai",
+      "hanViet": "THỦ TRUYỀN",
+      "meaning": "Sự giúp đỡ"
+    },
+    {
+      "word": "休み",
+      "kanji": "休み",
+      "romaji": "yasumi",
+      "hanViet": "HƯU",
+      "meaning": "Nghỉ"
+    },
+    {
+      "word": "働き",
+      "kanji": "働き",
+      "romaji": "hataraki",
+      "hanViet": "ĐỘNG",
+      "meaning": "Sự làm việc"
+    },
+    {
+      "word": "遊び",
+      "kanji": "遊び",
+      "romaji": "asobi",
+      "hanViet": "DU",
+      "meaning": "Chơi đùa"
+    },
+    {
+      "word": "喜び",
+      "kanji": "喜び",
+      "romaji": "yorokobi",
+      "hanViet": "HỶ",
+      "meaning": "Niềm vui"
+    },
+    {
+      "word": "怒り",
+      "kanji": "怒り",
+      "romaji": "ikari",
+      "hanViet": "NỘ",
+      "meaning": "Sự tức giận"
+    },
+    {
+      "word": "悲しみ",
+      "kanji": "悲しみ",
+      "romaji": "kanashimi",
+      "hanViet": "BI",
+      "meaning": "Nỗi buồn"
+    },
+    {
+      "word": "驚き",
+      "kanji": "驚き",
+      "romaji": "odoroki",
+      "hanViet": "KINH",
+      "meaning": "Ngạc nhiên"
+    },
+    {
+      "word": "笑い",
+      "kanji": "笑い",
+      "romaji": "warai",
+      "hanViet": "TIẾU",
+      "meaning": "Tiếng cười"
+    },
+    {
+      "word": "泣き",
+      "kanji": "泣き",
+      "romaji": "naki",
+      "hanViet": "KHẤP",
+      "meaning": "Sự khóc"
+    },
+    {
+      "word": "怒鳴る",
+      "kanji": "怒鳴る",
+      "romaji": "donaru",
+      "hanViet": "NỘ MINH",
+      "meaning": "Gào lên, quát tháo"
+    },
+    {
+      "word": "笑う",
+      "kanji": "笑う",
+      "romaji": "warau",
+      "hanViet": "TIẾU",
+      "meaning": "Cười"
+    },
+    {
+      "word": "泣く",
+      "kanji": "泣く",
+      "romaji": "naku",
+      "hanViet": "KHẤP",
+      "meaning": "Khóc"
+    },
+    {
+      "word": "喜ぶ",
+      "kanji": "喜ぶ",
+      "romaji": "yorokobu",
+      "hanViet": "HỶ",
+      "meaning": "Vui mừng"
+    },
+    {
+      "word": "怒る",
+      "kanji": "怒る",
+      "romaji": "okoru",
+      "hanViet": "NỘ",
+      "meaning": "Tức giận"
+    },
+    {
+      "word": "悲しむ",
+      "kanji": "悲しむ",
+      "romaji": "kanashimu",
+      "hanViet": "BI",
+      "meaning": "Buồn"
+    },
+    {
+      "word": "驚く",
+      "kanji": "驚く",
+      "romaji": "odoroku",
+      "hanViet": "KINH",
+      "meaning": "Ngạc nhiên"
+    }
+  ],
+  "16": [
+    {
+      "word": "増やす",
+      "kanji": "増やす",
+      "romaji": "fuyasu",
+      "hanViet": "TĂNG",
+      "meaning": "Làm tăng lên"
+    },
+    {
+      "word": "減らす",
+      "kanji": "減らす",
+      "romaji": "herasu",
+      "hanViet": "GIẢM",
+      "meaning": "Làm giảm xuống"
+    },
+    {
+      "word": "変える",
+      "kanji": "変える",
+      "romaji": "kaeru",
+      "hanViet": "BIẾN",
+      "meaning": "Thay đổi (cái gì đó)"
+    },
+    {
+      "word": "変わる",
+      "kanji": "変わる",
+      "romaji": "kawaru",
+      "hanViet": "BIẾN",
+      "meaning": "Thay đổi (tự động từ)"
+    },
+    {
+      "word": "替える",
+      "kanji": "替える",
+      "romaji": "kaeru",
+      "hanViet": "THẾ",
+      "meaning": "Thay thế"
+    },
+    {
+      "word": "代える",
+      "kanji": "代える",
+      "romaji": "kaeru",
+      "hanViet": "ĐẠI",
+      "meaning": "Thay cho, đại diện"
+    },
+    {
+      "word": "換える",
+      "kanji": "換える",
+      "romaji": "kaeru",
+      "hanViet": "HOÁN",
+      "meaning": "Trao đổi"
+    },
+    {
+      "word": "返る",
+      "kanji": "返る",
+      "romaji": "kaeru",
+      "hanViet": "PHẢN",
+      "meaning": "Trở lại (tự động từ)"
+    },
+    {
+      "word": "返す",
+      "kanji": "返す",
+      "romaji": "kaesu",
+      "hanViet": "PHẢN",
+      "meaning": "Trả lại"
+    },
+    {
+      "word": "譲る",
+      "kanji": "譲る",
+      "romaji": "yuzuru",
+      "hanViet": "NHƯỢNG",
+      "meaning": "Nhường, chuyển nhượng"
+    },
+    {
+      "word": "助ける",
+      "kanji": "助ける",
+      "romaji": "tasukeru",
+      "hanViet": "TRỢ",
+      "meaning": "Giúp, cứu"
+    },
+    {
+      "word": "いじめる",
+      "romaji": "ijimeru",
+      "meaning": "Bắt nạt"
+    },
+    {
+      "word": "だます",
+      "romaji": "damasu",
+      "meaning": "Lừa gạt"
+    },
+    {
+      "word": "盗む",
+      "kanji": "盗む",
+      "romaji": "nusumu",
+      "hanViet": "ĐẠO",
+      "meaning": "Trộm, cắp"
+    },
+    {
+      "word": "刺す",
+      "kanji": "刺す",
+      "romaji": "sasu",
+      "hanViet": "THÍCH",
+      "meaning": "Đâm, chích"
+    },
+    {
+      "word": "殺す",
+      "kanji": "殺す",
+      "romaji": "korosu",
+      "hanViet": "SÁT",
+      "meaning": "Giết"
+    },
+    {
+      "word": "隠す",
+      "kanji": "隠す",
+      "romaji": "kakusu",
+      "hanViet": "ẨN",
+      "meaning": "Che giấu"
+    },
+    {
+      "word": "隠れる",
+      "kanji": "隠れる",
+      "romaji": "kakureru",
+      "hanViet": "ẨN",
+      "meaning": "Ẩn nấp"
+    },
+    {
+      "word": "埋める",
+      "kanji": "埋める",
+      "romaji": "umeru",
+      "hanViet": "MAI",
+      "meaning": "Chôn, lấp"
+    },
+    {
+      "word": "囲む",
+      "kanji": "囲む",
+      "romaji": "kakomu",
+      "hanViet": "VI",
+      "meaning": "Bao quanh"
+    },
+    {
+      "word": "詰める",
+      "kanji": "詰める",
+      "romaji": "tsumeru",
+      "hanViet": "CẬT",
+      "meaning": "Lấp, nhét, dồn"
+    },
+    {
+      "word": "開く",
+      "kanji": "開く",
+      "romaji": "hiraku",
+      "hanViet": "KHAI",
+      "meaning": "Mở (hội nghị, lớp học...)"
+    },
+    {
+      "word": "閉じる",
+      "kanji": "閉じる",
+      "romaji": "tojiru",
+      "hanViet": "BẾ",
+      "meaning": "Đóng (mắt, sách...)"
+    },
+    {
+      "word": "飛ぶ",
+      "kanji": "飛ぶ",
+      "romaji": "tobu",
+      "hanViet": "PHI",
+      "meaning": "Bay"
+    },
+    {
+      "word": "飛ばす",
+      "kanji": "飛ばす",
+      "romaji": "tobasu",
+      "hanViet": "PHI",
+      "meaning": "Làm cho bay"
+    },
+    {
+      "word": "振る",
+      "kanji": "振る",
+      "romaji": "furu",
+      "hanViet": "CHẤN",
+      "meaning": "Vẫy, rắc, đá (người yêu)"
+    },
+    {
+      "word": "めくる",
+      "romaji": "mekuru",
+      "meaning": "Lật lên (trang sách...)"
+    },
+    {
+      "word": "見かける",
+      "kanji": "見かける",
+      "romaji": "mikakeru",
+      "hanViet": "KIẾN",
+      "meaning": "Bắt gặp"
+    },
+    {
+      "word": "試す",
+      "kanji": "試す",
+      "romaji": "tamesu",
+      "hanViet": "THÍ",
+      "meaning": "Thử nghiệm"
+    },
+    {
+      "word": "繰り返す",
+      "kanji": "繰り返す",
+      "romaji": "kurikaesu",
+      "hanViet": "SÀO PHẢN",
+      "meaning": "Lặp lại"
+    }
+  ],
+  "17": [
+    {
+      "word": "主張する",
+      "kanji": "主張する",
+      "romaji": "shuchou suru",
+      "hanViet": "CHỦ TRƯƠNG",
+      "meaning": "Chủ trương, khăng khăng"
+    },
+    {
+      "word": "我慢する",
+      "kanji": "我慢する",
+      "romaji": "gaman suru",
+      "hanViet": "NGÃ MẠN",
+      "meaning": "Chịu đựng, kiềm chế"
+    },
+    {
+      "word": "挑戦する",
+      "kanji": "挑戦する",
+      "romaji": "chousen suru",
+      "hanViet": "THIÊU CHIẾN",
+      "meaning": "Thử thách"
+    },
+    {
+      "word": "やり直す",
+      "kanji": "やり直す",
+      "romaji": "yarinaosu",
+      "hanViet": "TRỰC",
+      "meaning": "Làm lại"
+    },
+    {
+      "word": "無視する",
+      "kanji": "無視する",
+      "romaji": "mushi suru",
+      "hanViet": "VÔ THỊ",
+      "meaning": "Phớt lờ, bỏ qua"
+    },
+    {
+      "word": "反省する",
+      "kanji": "反省する",
+      "romaji": "hansei suru",
+      "hanViet": "PHẢN TỈNH",
+      "meaning": "Tự kiểm điểm"
+    },
+    {
+      "word": "発見する",
+      "kanji": "発見する",
+      "romaji": "hakken suru",
+      "hanViet": "PHÁT KIẾN",
+      "meaning": "Phát hiện"
+    },
+    {
+      "word": "発明する",
+      "kanji": "発明する",
+      "romaji": "hatsumei suru",
+      "hanViet": "PHÁT MINH",
+      "meaning": "Phát minh"
+    },
+    {
+      "word": "解決する",
+      "kanji": "解決する",
+      "romaji": "kaiketsu suru",
+      "hanViet": "GIẢI QUYẾT",
+      "meaning": "Giải quyết"
+    },
+    {
+      "word": "混乱する",
+      "kanji": "混乱する",
+      "romaji": "konran suru",
+      "hanViet": "HỖN LOẠN",
+      "meaning": "Hỗn loạn, rối"
+    },
+    {
+      "word": "協力する",
+      "kanji": "協力する",
+      "romaji": "kyouryoku suru",
+      "hanViet": "HIỆP LỰC",
+      "meaning": "Hợp tác"
+    },
+    {
+      "word": "感謝する",
+      "kanji": "感謝する",
+      "romaji": "kansha suru",
+      "hanViet": "CẢM TẠ",
+      "meaning": "Biết ơn, cảm ơn"
+    },
+    {
+      "word": "失礼する",
+      "kanji": "失礼する",
+      "romaji": "shitsurei suru",
+      "hanViet": "THẤT LỄ",
+      "meaning": "Thất lễ, xin phép"
+    },
+    {
+      "word": "遠慮する",
+      "kanji": "遠慮する",
+      "romaji": "enryo suru",
+      "hanViet": "VIỄN LỰ",
+      "meaning": "Ngại ngùng, giữ ý"
+    },
+    {
+      "word": "我慢強い",
+      "kanji": "我慢強い",
+      "romaji": "gaman dzuyoi",
+      "hanViet": "NGÃ MẠN CƯỜNG",
+      "meaning": "Chịu đựng giỏi, nhẫn nại"
+    },
+    {
+      "word": "慎重な",
+      "kanji": "慎重な",
+      "romaji": "shinchou na",
+      "hanViet": "THẬN TRỌNG",
+      "meaning": "Thận trọng"
+    },
+    {
+      "word": "積極的な",
+      "kanji": "積極的な",
+      "romaji": "sekkyokuteki na",
+      "hanViet": "TÍCH CỰC ĐÍCH",
+      "meaning": "Tích cực"
+    },
+    {
+      "word": "消極的な",
+      "kanji": "消極的な",
+      "romaji": "shoukyokuteki na",
+      "hanViet": "TIÊU CỰC ĐÍCH",
+      "meaning": "Tiêu cực"
+    },
+    {
+      "word": "冷静な",
+      "kanji": "冷静な",
+      "romaji": "reisei na",
+      "hanViet": "LÃNH TĨNH",
+      "meaning": "Bình tĩnh"
+    },
+    {
+      "word": "客観的な",
+      "kanji": "客観的な",
+      "romaji": "kyakkanteki na",
+      "hanViet": "KHÁCH QUAN ĐÍCH",
+      "meaning": "Khách quan"
+    },
+    {
+      "word": "主観的な",
+      "kanji": "主観的な",
+      "romaji": "shukanteki na",
+      "hanViet": "CHỦ QUAN ĐÍCH",
+      "meaning": "Chủ quan"
+    },
+    {
+      "word": "意外な",
+      "kanji": "意外な",
+      "romaji": "igai na",
+      "hanViet": "Ý NGOẠI",
+      "meaning": "Bất ngờ, không ngờ"
+    },
+    {
+      "word": "当然な",
+      "kanji": "当然な",
+      "romaji": "touzen na",
+      "hanViet": "ĐƯƠNG NHIÊN",
+      "meaning": "Tất nhiên"
+    },
+    {
+      "word": "偶然な",
+      "kanji": "偶然な",
+      "romaji": "guuzen na",
+      "hanViet": "NGẪU NHIÊN",
+      "meaning": "Ngẫu nhiên, tình cờ"
+    },
+    {
+      "word": "具体的な",
+      "kanji": "具体的な",
+      "romaji": "gutaiteki na",
+      "hanViet": "CỤ THỂ ĐÍCH",
+      "meaning": "Cụ thể"
+    },
+    {
+      "word": "抽象的な",
+      "kanji": "抽象的な",
+      "romaji": "chuushouteki na",
+      "hanViet": "TRỪU TƯỢNG ĐÍCH",
+      "meaning": "Trừu tượng"
+    },
+    {
+      "word": "平等な",
+      "kanji": "平等な",
+      "romaji": "byoudou na",
+      "hanViet": "BÌNH ĐẲNG",
+      "meaning": "Bình đẳng"
+    },
+    {
+      "word": "不平等な",
+      "kanji": "不平等な",
+      "romaji": "fubyoudou na",
+      "hanViet": "BẤT BÌNH ĐẲNG",
+      "meaning": "Không bình đẳng"
+    },
+    {
+      "word": "公平な",
+      "kanji": "公平な",
+      "romaji": "kouhei na",
+      "hanViet": "CÔNG BÌNH",
+      "meaning": "Công bằng"
+    },
+    {
+      "word": "不公平な",
+      "kanji": "不公平な",
+      "romaji": "fukouhei na",
+      "hanViet": "BẤT CÔNG BÌNH",
+      "meaning": "Không công bằng"
+    }
+  ],
+  "18": [
+    {
+      "word": "あいまい",
+      "romaji": "aimai",
+      "hanViet": "ÁI MUỘI",
+      "meaning": "Mơ hồ, không rõ ràng"
+    },
+    {
+      "word": "あたりまえ",
+      "romaji": "atarimae",
+      "hanViet": "ĐƯƠNG TIỀN",
+      "meaning": "Đương nhiên, hiển nhiên"
+    },
+    {
+      "word": "いがい",
+      "romaji": "igai",
+      "hanViet": "DĨ NGOẠI",
+      "meaning": "Ngoài dự kiến, bất ngờ"
+    },
+    {
+      "word": "いじわる",
+      "romaji": "ijiwaru",
+      "hanViet": "Ý ĐỊA ÁC",
+      "meaning": "Xấu tính, hay bắt nạt"
+    },
+    {
+      "word": "いっしゅん",
+      "romaji": "isshun",
+      "hanViet": "NHẤT THUẤN",
+      "meaning": "Khoảnh khắc, chốc lát"
+    },
+    {
+      "word": "いっしょうけんめい",
+      "romaji": "isshoukenmei",
+      "hanViet": "NHẤT SINH HUYỀN MỆNH",
+      "meaning": "Chăm chỉ, cố gắng hết sức"
+    },
+    {
+      "word": "いどう",
+      "kanji": "移動",
+      "romaji": "idou",
+      "hanViet": "DI ĐỘNG",
+      "meaning": "Di chuyển"
+    },
+    {
+      "word": "いはん",
+      "kanji": "違反",
+      "romaji": "ihan",
+      "hanViet": "VI PHẢN",
+      "meaning": "Vi phạm"
+    },
+    {
+      "word": "うちあわせ",
+      "kanji": "打ち合わせ",
+      "romaji": "uchiawase",
+      "hanViet": "ĐẢ HỢP",
+      "meaning": "Cuộc họp, buổi thảo luận"
+    },
+    {
+      "word": "うらやましい",
+      "romaji": "urayamashii",
+      "hanViet": "TIỆN",
+      "meaning": "Ghen tị"
+    },
+    {
+      "word": "えいよう",
+      "kanji": "栄養",
+      "romaji": "eiyou",
+      "hanViet": "VINH DƯỠNG",
+      "meaning": "Dinh dưỡng"
+    },
+    {
+      "word": "えらい",
+      "romaji": "erai",
+      "hanViet": "VĨ ĐẠI",
+      "meaning": "Giỏi, vĩ đại"
+    },
+    {
+      "word": "おおげさ",
+      "romaji": "oogesa",
+      "hanViet": "ĐẠI HẠ",
+      "meaning": "Phóng đại, làm quá"
+    },
+    {
+      "word": "おくれる",
+      "kanji": "遅れる",
+      "romaji": "okureru",
+      "hanViet": "TRÌ",
+      "meaning": "Trễ, muộn"
+    },
+    {
+      "word": "おこる",
+      "kanji": "怒る",
+      "romaji": "okoru",
+      "hanViet": "NỘ",
+      "meaning": "Giận, nổi giận"
+    },
+    {
+      "word": "おちつく",
+      "kanji": "落ち着く",
+      "romaji": "ochitsuku",
+      "hanViet": "LẠC TRƯỚC",
+      "meaning": "Bình tĩnh, ổn định"
+    },
+    {
+      "word": "おとしもの",
+      "kanji": "落とし物",
+      "romaji": "otoshimono",
+      "hanViet": "LẠC VẬT",
+      "meaning": "Đồ đánh rơi"
+    },
+    {
+      "word": "おもいで",
+      "kanji": "思い出",
+      "romaji": "omoide",
+      "hanViet": "TƯ XUẤT",
+      "meaning": "Kỷ niệm, hồi ức"
+    },
+    {
+      "word": "かんしゃ",
+      "kanji": "感謝",
+      "romaji": "kansha",
+      "hanViet": "CẢM TẠ",
+      "meaning": "Cảm ơn, biết ơn"
+    },
+    {
+      "word": "かんけい",
+      "kanji": "関係",
+      "romaji": "kankei",
+      "hanViet": "QUAN HỆ",
+      "meaning": "Quan hệ, liên quan"
+    },
+    {
+      "word": "きそく",
+      "kanji": "規則",
+      "romaji": "kisoku",
+      "hanViet": "QUY TẮC",
+      "meaning": "Quy tắc"
+    },
+    {
+      "word": "きづく",
+      "kanji": "気づく",
+      "romaji": "kizuku",
+      "hanViet": "KHÍ",
+      "meaning": "Nhận ra"
+    },
+    {
+      "word": "きゅうけい",
+      "kanji": "休憩",
+      "romaji": "kyuukei",
+      "hanViet": "HƯU KHẾ",
+      "meaning": "Nghỉ giải lao"
+    },
+    {
+      "word": "きょうちょう",
+      "kanji": "強調",
+      "romaji": "kyouchou",
+      "hanViet": "CƯỜNG ĐIỀU",
+      "meaning": "Nhấn mạnh"
+    },
+    {
+      "word": "くふう",
+      "kanji": "工夫",
+      "romaji": "kufuu",
+      "hanViet": "CÔNG PHU",
+      "meaning": "Công sức, sáng tạo"
+    },
+    {
+      "word": "くやしい",
+      "romaji": "kuyashii",
+      "hanViet": "HỐI TIẾC",
+      "meaning": "Đáng tiếc, cay cú"
+    },
+    {
+      "word": "けいけん",
+      "kanji": "経験",
+      "romaji": "keiken",
+      "hanViet": "KINH NGHIỆM",
+      "meaning": "Kinh nghiệm"
+    },
+    {
+      "word": "けっして",
+      "romaji": "kesshite",
+      "hanViet": "QUYẾT",
+      "meaning": "Không bao giờ (phủ định)"
+    },
+    {
+      "word": "けっか",
+      "kanji": "結果",
+      "romaji": "kekka",
+      "hanViet": "KẾT QUẢ",
+      "meaning": "Kết quả"
+    },
+    {
+      "word": "けんか",
+      "kanji": "喧嘩",
+      "romaji": "kenka",
+      "hanViet": "HUYÊN HOA",
+      "meaning": "Cãi nhau, xung đột"
+    }
+  ],
+  "19": [
+    {
+      "word": "つうやく",
+      "kanji": "通訳",
+      "romaji": "tsuuyaku",
+      "hanViet": "THÔNG DỊCH",
+      "meaning": "Thông dịch viên, phiên dịch"
+    },
+    {
+      "word": "ほけん",
+      "kanji": "保険",
+      "romaji": "hoken",
+      "hanViet": "BẢO HIỂM",
+      "meaning": "Bảo hiểm"
+    },
+    {
+      "word": "ちゅうしゃ",
+      "kanji": "注射",
+      "romaji": "chuusha",
+      "hanViet": "CHÚ XẠ",
+      "meaning": "Tiêm"
+    },
+    {
+      "word": "いじょう",
+      "kanji": "異常",
+      "romaji": "ijou",
+      "hanViet": "DỊ THƯỜNG",
+      "meaning": "Bất thường"
+    },
+    {
+      "word": "けんこう",
+      "kanji": "健康",
+      "romaji": "kenkou",
+      "hanViet": "KIỆN KHANG",
+      "meaning": "Sức khỏe"
+    },
+    {
+      "word": "びょうき",
+      "kanji": "病気",
+      "romaji": "byouki",
+      "hanViet": "BỆNH KHÍ",
+      "meaning": "Bệnh tật"
+    },
+    {
+      "word": "ちりょう",
+      "kanji": "治療",
+      "romaji": "chiryou",
+      "hanViet": "TRỊ LIỆU",
+      "meaning": "Điều trị"
+    },
+    {
+      "word": "よぼう",
+      "kanji": "予防",
+      "romaji": "yobou",
+      "hanViet": "DỰ PHÒNG",
+      "meaning": "Dự phòng"
+    },
+    {
+      "word": "えいよう",
+      "kanji": "栄養",
+      "romaji": "eiyou",
+      "hanViet": "VINH DƯỠNG",
+      "meaning": "Dinh dưỡng"
+    },
+    {
+      "word": "きんし",
+      "kanji": "禁止",
+      "romaji": "kinshi",
+      "hanViet": "CẤM CHỈ",
+      "meaning": "Cấm"
+    },
+    {
+      "word": "ほうたい",
+      "kanji": "包帯",
+      "romaji": "houtai",
+      "hanViet": "BAO ĐỚI",
+      "meaning": "Băng (vết thương)"
+    },
+    {
+      "word": "せき",
+      "kanji": "咳",
+      "romaji": "seki",
+      "hanViet": "KHÁI",
+      "meaning": "Ho"
+    },
+    {
+      "word": "ねつ",
+      "kanji": "熱",
+      "romaji": "netsu",
+      "hanViet": "NHIỆT",
+      "meaning": "Sốt"
+    },
+    {
+      "word": "いたみ",
+      "kanji": "痛み",
+      "romaji": "itami",
+      "hanViet": "THỐNG",
+      "meaning": "Cơn đau"
+    },
+    {
+      "word": "くすり",
+      "kanji": "薬",
+      "romaji": "kusuri",
+      "hanViet": "DƯỢC",
+      "meaning": "Thuốc"
+    },
+    {
+      "word": "しんさつ",
+      "kanji": "診察",
+      "romaji": "shinsatsu",
+      "hanViet": "CHẨN SÁT",
+      "meaning": "Khám bệnh"
+    },
+    {
+      "word": "しゅじゅつ",
+      "kanji": "手術",
+      "romaji": "shujutsu",
+      "hanViet": "THỦ THUẬT",
+      "meaning": "Phẫu thuật"
+    },
+    {
+      "word": "けが",
+      "kanji": "怪我",
+      "romaji": "kega",
+      "hanViet": "QUÁI NGÃ",
+      "meaning": "Vết thương"
+    },
+    {
+      "word": "かんびょう",
+      "kanji": "看病",
+      "romaji": "kanbyou",
+      "hanViet": "KHÁN BỆNH",
+      "meaning": "Chăm sóc người bệnh"
+    },
+    {
+      "word": "ねんざ",
+      "kanji": "捻挫",
+      "romaji": "nenza",
+      "hanViet": "NIỆM TỎA",
+      "meaning": "Bong gân"
+    },
+    {
+      "word": "ひふ",
+      "kanji": "皮膚",
+      "romaji": "hifu",
+      "hanViet": "BÌ PHU",
+      "meaning": "Da"
+    },
+    {
+      "word": "こうけつあつ",
+      "kanji": "高血圧",
+      "romaji": "kouketsuatsu",
+      "hanViet": "CAO HUYẾT ÁP",
+      "meaning": "Cao huyết áp"
+    },
+    {
+      "word": "てあて",
+      "kanji": "手当",
+      "romaji": "teate",
+      "hanViet": "THỦ ĐƯƠNG",
+      "meaning": "Chăm sóc, trợ cấp"
+    },
+    {
+      "word": "しんぞう",
+      "kanji": "心臓",
+      "romaji": "shinzou",
+      "hanViet": "TÂM TẠNG",
+      "meaning": "Tim"
+    },
+    {
+      "word": "こっせつ",
+      "kanji": "骨折",
+      "romaji": "kossetsu",
+      "hanViet": "CỐT CHIẾT",
+      "meaning": "Gãy xương"
+    },
+    {
+      "word": "しっぷ",
+      "kanji": "湿布",
+      "romaji": "shippu",
+      "hanViet": "THẤP BỐ",
+      "meaning": "Miếng dán hạ sốt/đau"
+    },
+    {
+      "word": "しびれ",
+      "kanji": "痺れ",
+      "romaji": "shibire",
+      "hanViet": "TÝ",
+      "meaning": "Tê liệt"
+    },
+    {
+      "word": "めまい",
+      "kanji": "目眩",
+      "romaji": "memai",
+      "hanViet": "MỤC HUYỄN",
+      "meaning": "Chóng mặt"
+    },
+    {
+      "word": "ふつかよい",
+      "kanji": "二日酔い",
+      "romaji": "futsukayoi",
+      "hanViet": "NHỊ NHẬT TÚY",
+      "meaning": "Dư âm rượu (hôm sau)"
+    },
+    {
+      "word": "アレルギー",
+      "romaji": "arerugii",
+      "meaning": "Dị ứng"
+    },
+    {
+      "word": "ガン",
+      "romaji": "gan",
+      "meaning": "Ung thư"
+    }
+  ],
+  "20": [
+    {
+      "word": "防ぐ",
+      "kanji": "ふせぐ",
+      "romaji": "fusegu",
+      "hanViet": "PHÒNG",
+      "meaning": "Phòng tránh, ngăn ngừa"
+    },
+    {
+      "word": "除く",
+      "kanji": "のぞく",
+      "romaji": "nozoku",
+      "hanViet": "TRỪ",
+      "meaning": "Loại trừ, loại bỏ"
+    },
+    {
+      "word": "向く",
+      "kanji": "むく",
+      "romaji": "muku",
+      "hanViet": "HƯỚNG",
+      "meaning": "Hướng về, thích hợp với"
+    },
+    {
+      "word": "向ける",
+      "kanji": "むける",
+      "romaji": "mukeru",
+      "hanViet": "HƯỚNG",
+      "meaning": "Hướng đến, quay về phía"
+    },
+    {
+      "word": "進む",
+      "kanji": "すすむ",
+      "romaji": "susumu",
+      "hanViet": "TIẾN",
+      "meaning": "Tiến lên, tiến triển"
+    },
+    {
+      "word": "進める",
+      "kanji": "すすめる",
+      "romaji": "susumeru",
+      "hanViet": "TIẾN",
+      "meaning": "Thúc đẩy, xúc tiến"
+    },
+    {
+      "word": "通る",
+      "kanji": "とおる",
+      "romaji": "tooru",
+      "hanViet": "THÔNG",
+      "meaning": "Đi qua, thông qua"
+    },
+    {
+      "word": "通す",
+      "kanji": "とおす",
+      "romaji": "toosu",
+      "hanViet": "THÔNG",
+      "meaning": "Xuyên qua, cho qua"
+    },
+    {
+      "word": "越える",
+      "kanji": "こえる",
+      "romaji": "koeru",
+      "hanViet": "VIỆT",
+      "meaning": "Vượt qua"
+    },
+    {
+      "word": "過ぎる",
+      "kanji": "すぎる",
+      "romaji": "sugiru",
+      "hanViet": "QUÁ",
+      "meaning": "Vượt quá, trôi qua"
+    },
+    {
+      "word": "移る",
+      "kanji": "うつる",
+      "romaji": "utsuru",
+      "hanViet": "DI",
+      "meaning": "Di chuyển, lây nhiễm"
+    },
+    {
+      "word": "移す",
+      "kanji": "うつす",
+      "romaji": "utsusu",
+      "hanViet": "DI",
+      "meaning": "Làm di chuyển, lây"
+    },
+    {
+      "word": "連れる",
+      "kanji": "つれる",
+      "romaji": "tsureru",
+      "hanViet": "LIÊN",
+      "meaning": "Dẫn theo"
+    },
+    {
+      "word": "寄る",
+      "kanji": "よる",
+      "romaji": "yoru",
+      "hanViet": "KÝ",
+      "meaning": "Tạt vào, ghé vào"
+    },
+    {
+      "word": "寄せる",
+      "kanji": "よせる",
+      "romaji": "yoseru",
+      "hanViet": "KÝ",
+      "meaning": "Tập trung lại, gửi"
+    },
+    {
+      "word": "与える",
+      "kanji": "あたえる",
+      "romaji": "ataeru",
+      "hanViet": "DỮ",
+      "meaning": "Ban cho, gây ra"
+    },
+    {
+      "word": "得る",
+      "kanji": "える",
+      "romaji": "eru",
+      "hanViet": "ĐẮC",
+      "meaning": "Có được, đạt được"
+    },
+    {
+      "word": "向き合う",
+      "kanji": "むきあう",
+      "romaji": "mukiau",
+      "hanViet": "HƯỚNG HỢP",
+      "meaning": "Đối mặt"
+    },
+    {
+      "word": "通じる",
+      "kanji": "つうじる",
+      "romaji": "tsuujiru",
+      "hanViet": "THÔNG",
+      "meaning": "Hiểu, thông suốt"
+    },
+    {
+      "word": "思いつく",
+      "kanji": "おもいつく",
+      "romaji": "omoitsuku",
+      "hanViet": "TƯ",
+      "meaning": "Nghĩ ra"
+    },
+    {
+      "word": "思いやる",
+      "kanji": "おもいやる",
+      "romaji": "omoiyaru",
+      "hanViet": "TƯ",
+      "meaning": "Thông cảm, quan tâm"
+    },
+    {
+      "word": "熱中する",
+      "kanji": "ねっちゅうする",
+      "romaji": "necchuu suru",
+      "hanViet": "NHIỆT TRUNG",
+      "meaning": "Mải mê, say mê"
+    },
+    {
+      "word": "暮らす",
+      "kanji": "くらす",
+      "romaji": "kurasu",
+      "hanViet": "MỘ",
+      "meaning": "Sinh sống"
+    },
+    {
+      "word": "巻く",
+      "kanji": "まく",
+      "romaji": "maku",
+      "hanViet": "QUYỂN",
+      "meaning": "Cuộn, quấn"
+    },
+    {
+      "word": "結ぶ",
+      "kanji": "むすぶ",
+      "romaji": "musubu",
+      "hanViet": "KẾT",
+      "meaning": "Kết nối, buộc"
+    },
+    {
+      "word": "済む",
+      "kanji": "すむ",
+      "romaji": "sumu",
+      "hanViet": "TẾ",
+      "meaning": "Kết thúc, hoàn tất"
+    },
+    {
+      "word": "済ませる",
+      "kanji": "すませる",
+      "romaji": "sumaseru",
+      "hanViet": "TẾ",
+      "meaning": "Làm xong, kết thúc"
+    },
+    {
+      "word": "出来る",
+      "kanji": "できる",
+      "romaji": "dekiru",
+      "hanViet": "XUẤT LAI",
+      "meaning": "Hoàn thành, có thể làm được"
+    },
+    {
+      "word": "切れる",
+      "kanji": "きれる",
+      "romaji": "kireru",
+      "hanViet": "THIẾT",
+      "meaning": "Bị cắt, hết hạn"
+    },
+    {
+      "word": "切らす",
+      "kanji": "きらす",
+      "romaji": "kirasu",
+      "hanViet": "THIẾT",
+      "meaning": "Dùng hết"
+    }
+  ],
+  "21": [
+    {
+      "word": "おとなしい",
+      "romaji": "otonashii",
+      "hanViet": "ĐẠI NHÂN",
+      "meaning": "Hiền lành, trầm tính"
+    },
+    {
+      "word": "せっきょくてき（な）",
+      "romaji": "sekkyokuteki(na)",
+      "hanViet": "TÍCH CỰC ĐÍCH",
+      "meaning": "Tích cực"
+    },
+    {
+      "word": "しょうきょくてき（な）",
+      "romaji": "shoukyokuteki(na)",
+      "hanViet": "TIÊU CỰC ĐÍCH",
+      "meaning": "Tiêu cực"
+    },
+    {
+      "word": "おこりっぽい",
+      "romaji": "okorippoi",
+      "hanViet": "KHÍ PHÁT",
+      "meaning": "Dễ nổi giận"
+    },
+    {
+      "word": "ねっしん（な）",
+      "romaji": "nesshin(na)",
+      "hanViet": "NHIỆT TÂM",
+      "meaning": "Nhiệt tình"
+    },
+    {
+      "word": "らんぼう（な）",
+      "romaji": "ranbou(na)",
+      "hanViet": "LOẠN BẠO",
+      "meaning": "Bạo lực, thô lỗ"
+    },
+    {
+      "word": "せいじつ（な）",
+      "romaji": "seijitsu(na)",
+      "hanViet": "THÀNH THỰC",
+      "meaning": "Thành thật"
+    },
+    {
+      "word": "しょうじき（な）",
+      "romaji": "shoujiki(na)",
+      "hanViet": "CHÍNH TRỰC",
+      "meaning": "Chính trực, trung thực"
+    },
+    {
+      "word": "すなお（な）",
+      "romaji": "sunao(na)",
+      "hanViet": "TỐ TRỰC",
+      "meaning": "Ngoan ngoãn, dễ bảo"
+    },
+    {
+      "word": "じゅんすい（な）",
+      "romaji": "junsui(na)",
+      "hanViet": "THUẦN TÚY",
+      "meaning": "Trong sáng, thuần khiết"
+    },
+    {
+      "word": "れいぎただしい",
+      "romaji": "reigitadashii",
+      "hanViet": "LỄ NGHI CHÍNH",
+      "meaning": "Lễ phép, đúng mực"
+    },
+    {
+      "word": "けんきょ（な）",
+      "romaji": "kenkyo(na)",
+      "hanViet": "KHIÊM HƯ",
+      "meaning": "Khiêm tốn"
+    },
+    {
+      "word": "おちつく",
+      "romaji": "ochitsuku",
+      "hanViet": "LẠC TRỨ",
+      "meaning": "Bình tĩnh, điềm tĩnh"
+    },
+    {
+      "word": "そっちょく（な）",
+      "romaji": "socchoku(na)",
+      "hanViet": "TRỰC TIẾP",
+      "meaning": "Thẳng thắn"
+    },
+    {
+      "word": "ようき（な）",
+      "romaji": "youki(na)",
+      "hanViet": "DƯƠNG KHÍ",
+      "meaning": "Vui vẻ, rạng rỡ"
+    },
+    {
+      "word": "のんき（な）",
+      "romaji": "nonki(na)",
+      "hanViet": "THẢNH KHÍ",
+      "meaning": "Vô lo, vô nghĩ"
+    },
+    {
+      "word": "いじわる（な）",
+      "romaji": "ijiwaru(na)",
+      "hanViet": "Ý ĐỊA ÁC",
+      "meaning": "Xấu bụng, ác ý"
+    },
+    {
+      "word": "ずうずうしい",
+      "romaji": "zuuzuushii",
+      "hanViet": "ĐỒ ĐỒ CHỈ",
+      "meaning": "Trơ tráo, mặt dày"
+    },
+    {
+      "word": "しつこい",
+      "romaji": "shitsukoi",
+      "hanViet": "TRÌ TRỌC",
+      "meaning": "Dai dẳng, lằng nhằng"
+    },
+    {
+      "word": "けち（な）",
+      "romaji": "kechi(na)",
+      "hanViet": "KIỆT",
+      "meaning": "Keo kiệt"
+    },
+    {
+      "word": "ずるい",
+      "romaji": "zurui",
+      "hanViet": "XẢO",
+      "meaning": "Gian xảo, láu cá"
+    },
+    {
+      "word": "いいかげん（な）",
+      "romaji": "iikagen(na)",
+      "hanViet": "TÙY TIỆN",
+      "meaning": "Qua loa, đại khái"
+    },
+    {
+      "word": "しんけいしつ（な）",
+      "romaji": "shinkeishitsu(na)",
+      "hanViet": "THẦN KINH CHẤT",
+      "meaning": "Nhạy cảm, dễ kích động"
+    },
+    {
+      "word": "きらく（な）",
+      "romaji": "kiraku(na)",
+      "hanViet": "KHÍ LẠC",
+      "meaning": "Dễ chịu, thoải mái"
+    },
+    {
+      "word": "ほんき（な）",
+      "romaji": "honki(na)",
+      "hanViet": "BẢN KHÍ",
+      "meaning": "Nghiêm túc, chân thật"
+    },
+    {
+      "word": "かんじょう",
+      "romaji": "kanjou",
+      "hanViet": "CẢM TÌNH",
+      "meaning": "Cảm xúc, tình cảm"
+    },
+    {
+      "word": "かんかく",
+      "romaji": "kankaku",
+      "hanViet": "CẢM GIÁC",
+      "meaning": "Cảm giác"
+    },
+    {
+      "word": "かんどう",
+      "romaji": "kandou",
+      "hanViet": "CẢM ĐỘNG",
+      "meaning": "Cảm động"
+    },
+    {
+      "word": "かんしゃ",
+      "romaji": "kansha",
+      "hanViet": "CẢM TẠ",
+      "meaning": "Cảm ơn, biết ơn"
+    },
+    {
+      "word": "あきれる",
+      "romaji": "akireru",
+      "hanViet": "KINH NGẠC",
+      "meaning": "Bị sốc, ngạc nhiên"
+    },
+    {
+      "word": "あこがれる",
+      "romaji": "akogareru",
+      "hanViet": "HÂM MỘ",
+      "meaning": "Ngưỡng mộ, ao ước"
+    }
+  ],
+  "22": [
+    {
+      "word": "当てはまる",
+      "kanji": "あてはまる",
+      "romaji": "atehamaru",
+      "hanViet": "ĐƯƠNG",
+      "meaning": "Áp dụng (vào); phù hợp"
+    },
+    {
+      "word": "恐れる",
+      "kanji": "おそれる",
+      "romaji": "osoreru",
+      "hanViet": "KHỦNG",
+      "meaning": "Sợ, lo sợ"
+    },
+    {
+      "word": "崩れる",
+      "kanji": "くずれる",
+      "romaji": "kuzureru",
+      "hanViet": "BĂNG",
+      "meaning": "Sụp đổ, hỏng"
+    },
+    {
+      "word": "整う",
+      "kanji": "ととのう",
+      "romaji": "totonou",
+      "hanViet": "CHỈNH",
+      "meaning": "Được chuẩn bị, được sắp xếp"
+    },
+    {
+      "word": "採る",
+      "kanji": "とる",
+      "romaji": "toru",
+      "hanViet": "THẢI",
+      "meaning": "Tuyển dụng, hái (quả, lá)"
+    },
+    {
+      "word": "捕る",
+      "kanji": "とる",
+      "romaji": "toru",
+      "hanViet": "BỘ",
+      "meaning": "Bắt (cá, động vật)"
+    },
+    {
+      "word": "執る",
+      "kanji": "とる",
+      "romaji": "toru",
+      "hanViet": "CHẤP",
+      "meaning": "Đảm nhiệm, phụ trách"
+    },
+    {
+      "word": "取り上げる",
+      "kanji": "とりあげる",
+      "romaji": "toriageru",
+      "hanViet": "THỦ THƯỢNG",
+      "meaning": "Đề xuất, nêu lên"
+    },
+    {
+      "word": "取り入れる",
+      "kanji": "とりいれる",
+      "romaji": "toriireru",
+      "hanViet": "THỦ NHẬP",
+      "meaning": "Áp dụng, đưa vào"
+    },
+    {
+      "word": "削る",
+      "kanji": "けずる",
+      "romaji": "kezuru",
+      "hanViet": "TƯỚC",
+      "meaning": "Gọt, cắt giảm"
+    },
+    {
+      "word": "縛る",
+      "kanji": "しばる",
+      "romaji": "shibaru",
+      "hanViet": "PHƯỢC",
+      "meaning": "Buộc, ràng buộc"
+    },
+    {
+      "word": "絞る",
+      "kanji": "しぼる",
+      "romaji": "shiboru",
+      "hanViet": "GIẢO",
+      "meaning": "Vắt, bóp"
+    },
+    {
+      "word": "迫る",
+      "kanji": "せまる",
+      "romaji": "semaru",
+      "hanViet": "BÁCH",
+      "meaning": "Tiến sát, cấp bách"
+    },
+    {
+      "word": "注ぐ",
+      "kanji": "そそぐ",
+      "romaji": "sosogu",
+      "hanViet": "CHÚ",
+      "meaning": "Rót, đổ, dồn (tâm huyết)"
+    },
+    {
+      "word": "触れる",
+      "kanji": "ふれる",
+      "romaji": "fureru",
+      "hanViet": "XÚC",
+      "meaning": "Chạm, đề cập đến"
+    },
+    {
+      "word": "抱く",
+      "kanji": "いだく",
+      "romaji": "idaku",
+      "hanViet": "BÃO",
+      "meaning": "Ôm, ấp ủ (hy vọng, giấc mơ)"
+    },
+    {
+      "word": "担ぐ",
+      "kanji": "かつぐ",
+      "romaji": "katsugu",
+      "hanViet": "ĐẢM",
+      "meaning": "Vác, khiêng"
+    },
+    {
+      "word": "目指す",
+      "kanji": "めざす",
+      "romaji": "mezasu",
+      "hanViet": "MỤC CHỈ",
+      "meaning": "Nhắm tới, hướng tới"
+    },
+    {
+      "word": "立ち上がる",
+      "kanji": "たちあがる",
+      "romaji": "tachiagaru",
+      "hanViet": "LẬP THƯỢNG",
+      "meaning": "Đứng dậy, khởi động"
+    },
+    {
+      "word": "飛び上がる",
+      "kanji": "とびあがる",
+      "romaji": "tobiagaru",
+      "hanViet": "PHI THƯỢNG",
+      "meaning": "Nhảy lên"
+    },
+    {
+      "word": "浮かび上がる",
+      "kanji": "うかびあがる",
+      "romaji": "ukabiagaru",
+      "hanViet": "PHÙ THƯỢNG",
+      "meaning": "Nổi lên, hiện lên"
+    },
+    {
+      "word": "舞い上がる",
+      "kanji": "まいあがる",
+      "romaji": "maiagaru",
+      "hanViet": "VŨ THƯỢNG",
+      "meaning": "Bay lên, hưng phấn"
+    },
+    {
+      "word": "燃え上がる",
+      "kanji": "もえあがる",
+      "romaji": "moeagaru",
+      "hanViet": "NHIÊN THƯỢNG",
+      "meaning": "Bốc cháy"
+    },
+    {
+      "word": "盛り上がる",
+      "kanji": "もりあがる",
+      "romaji": "moriagaru",
+      "hanViet": "THỊNH THƯỢNG",
+      "meaning": "Tăng lên, sôi động"
+    },
+    {
+      "word": "湧き上がる",
+      "kanji": "わきあがる",
+      "romaji": "wakiagaru",
+      "hanViet": "DŨNG THƯỢNG",
+      "meaning": "Trào dâng, vang lên"
+    },
+    {
+      "word": "晴れ上がる",
+      "kanji": "はれあがる",
+      "romaji": "hareagaru",
+      "hanViet": "TÌNH THƯỢNG",
+      "meaning": "Trời quang, sạch"
+    },
+    {
+      "word": "震え上がる",
+      "kanji": "ふるえあがる",
+      "romaji": "furueagaru",
+      "hanViet": "CHẤN THƯỢNG",
+      "meaning": "Run lên (vì sợ, lạnh...)"
+    },
+    {
+      "word": "縮み上がる",
+      "kanji": "ちぢみあがる",
+      "romaji": "chijimiagaru",
+      "hanViet": "SÚC THƯỢNG",
+      "meaning": "Co rúm lại"
+    },
+    {
+      "word": "干上がる",
+      "kanji": "ひあがる",
+      "romaji": "hiagaru",
+      "hanViet": "KIỀN THƯỢNG",
+      "meaning": "Khô cạn"
+    },
+    {
+      "word": "持ち上げる",
+      "kanji": "もちあげる",
+      "romaji": "mochiageru",
+      "hanViet": "TRÌ THƯỢNG",
+      "meaning": "Nâng lên, nhấc lên"
+    }
+  ],
+  "23": [
+    {
+      "word": "ぐっすり",
+      "romaji": "gussuri",
+      "meaning": "Ngủ say, ngủ ngon"
+    },
+    {
+      "word": "きちんと",
+      "romaji": "kichinto",
+      "meaning": "Gọn gàng, nghiêm chỉnh"
+    },
+    {
+      "word": "しっかり",
+      "romaji": "shikkari",
+      "meaning": "Chắc chắn, đáng tin cậy"
+    },
+    {
+      "word": "じっと",
+      "romaji": "jitto",
+      "meaning": "Chăm chú, im phăng phắc"
+    },
+    {
+      "word": "そっと",
+      "romaji": "sotto",
+      "meaning": "Nhẹ nhàng, rón rén"
+    },
+    {
+      "word": "別々に",
+      "kanji": "べつべつに",
+      "romaji": "betsu betsu ni",
+      "hanViet": "BIỆT",
+      "meaning": "Riêng biệt"
+    },
+    {
+      "word": "それぞれ",
+      "romaji": "sorezore",
+      "meaning": "Mỗi người, từng cái"
+    },
+    {
+      "word": "互いに",
+      "kanji": "たがいに",
+      "romaji": "tagai ni",
+      "hanViet": "HỖ",
+      "meaning": "Lẫn nhau"
+    },
+    {
+      "word": "直接",
+      "kanji": "ちょくせつ",
+      "romaji": "chokusetsu",
+      "hanViet": "TRỰC TIẾP",
+      "meaning": "Trực tiếp"
+    },
+    {
+      "word": "本当に",
+      "kanji": "ほんとうに",
+      "romaji": "hontou ni",
+      "hanViet": "BỔN ĐƯƠNG",
+      "meaning": "Thật sự"
+    },
+    {
+      "word": "必ず",
+      "kanji": "かならず",
+      "romaji": "kanarazu",
+      "hanViet": "TẤT",
+      "meaning": "Nhất định"
+    },
+    {
+      "word": "絶対に",
+      "kanji": "ぜったいに",
+      "romaji": "zettai ni",
+      "hanViet": "TUYỆT ĐỐI",
+      "meaning": "Tuyệt đối"
+    },
+    {
+      "word": "特に",
+      "kanji": "とくに",
+      "romaji": "tokuni",
+      "hanViet": "ĐẶC",
+      "meaning": "Đặc biệt"
+    },
+    {
+      "word": "ただ",
+      "romaji": "tada",
+      "meaning": "Chỉ, đơn thuần"
+    },
+    {
+      "word": "少なくとも",
+      "kanji": "すくなくとも",
+      "romaji": "sukunakutomo",
+      "hanViet": "THIỂU",
+      "meaning": "Ít nhất"
+    },
+    {
+      "word": "決して",
+      "kanji": "けっして",
+      "romaji": "kesshite",
+      "hanViet": "QUYẾT",
+      "meaning": "Không bao giờ (dùng với phủ định)"
+    },
+    {
+      "word": "全く",
+      "kanji": "まったく",
+      "romaji": "mattaku",
+      "hanViet": "TOÀN",
+      "meaning": "Hoàn toàn"
+    },
+    {
+      "word": "とても",
+      "romaji": "totemo",
+      "meaning": "Rất"
+    },
+    {
+      "word": "そんなに",
+      "romaji": "sonnani",
+      "meaning": "Như thế, đến mức đó"
+    },
+    {
+      "word": "あんなに",
+      "romaji": "annani",
+      "meaning": "Như thế kia"
+    },
+    {
+      "word": "もちろん",
+      "romaji": "mochiron",
+      "meaning": "Tất nhiên"
+    },
+    {
+      "word": "きっと",
+      "romaji": "kitto",
+      "meaning": "Chắc chắn"
+    },
+    {
+      "word": "たいてい",
+      "romaji": "taitei",
+      "meaning": "Thường thường, đại khái"
+    },
+    {
+      "word": "もしかすると",
+      "romaji": "moshikashitara",
+      "meaning": "Có thể là, biết đâu là"
+    },
+    {
+      "word": "なるべく",
+      "romaji": "narubeku",
+      "meaning": "Cố gắng (hết mức có thể)"
+    },
+    {
+      "word": "うっかり",
+      "romaji": "ukkari",
+      "meaning": "Bất cẩn, lơ đễnh"
+    },
+    {
+      "word": "つい",
+      "romaji": "tsui",
+      "meaning": "Lỡ, vô ý"
+    },
+    {
+      "word": "やはり / やっぱり",
+      "romaji": "yahari / yappari",
+      "meaning": "Quả nhiên, đúng như dự đoán"
+    },
+    {
+      "word": "いらいら",
+      "romaji": "iraira",
+      "meaning": "Nóng ruột, sốt ruột"
+    },
+    {
+      "word": "のんびり",
+      "romaji": "nonbiri",
+      "meaning": "Thong thả, thư thái"
+    }
+  ],
+  "24": [
+    {
+      "word": "当てはまる",
+      "kanji": "あてはまる",
+      "romaji": "atehamaru",
+      "hanViet": "ĐƯƠNG",
+      "meaning": "Áp dụng, thích hợp"
+    },
+    {
+      "word": "目立つ",
+      "kanji": "めだつ",
+      "romaji": "medatsu",
+      "hanViet": "MỤC LẬP",
+      "meaning": "Nổi bật"
+    },
+    {
+      "word": "見慣れる",
+      "kanji": "みなれる",
+      "romaji": "minareru",
+      "hanViet": "KIẾN QUÁN",
+      "meaning": "Quen mắt, quen nhìn"
+    },
+    {
+      "word": "もれる",
+      "kanji": "",
+      "romaji": "moreru",
+      "hanViet": "",
+      "meaning": "Rò rỉ, bị rò rỉ"
+    },
+    {
+      "word": "もらす",
+      "kanji": "",
+      "romaji": "morasu",
+      "hanViet": "",
+      "meaning": "Làm rò rỉ"
+    },
+    {
+      "word": "漏れる",
+      "kanji": "もれる",
+      "romaji": "moreru",
+      "hanViet": "LẬU",
+      "meaning": "Rò rỉ, bị lộ"
+    },
+    {
+      "word": "漏らす",
+      "kanji": "もらす",
+      "romaji": "morasu",
+      "hanViet": "LẬU",
+      "meaning": "Làm rò rỉ, tiết lộ"
+    },
+    {
+      "word": "なる",
+      "kanji": "",
+      "romaji": "naru",
+      "hanViet": "",
+      "meaning": "Kêu (chuông), reo"
+    },
+    {
+      "word": "ならす",
+      "kanji": "",
+      "romaji": "narasu",
+      "hanViet": "",
+      "meaning": "Làm kêu, thổi (còi)"
+    },
+    {
+      "word": "役立つ",
+      "kanji": "やくだつ",
+      "romaji": "yakudatsu",
+      "hanViet": "DỊCH LẬP",
+      "meaning": "Có ích, hữu ích"
+    },
+    {
+      "word": "役立てる",
+      "kanji": "やくだてる",
+      "romaji": "yakudateru",
+      "hanViet": "DỊCH LẬP",
+      "meaning": "Ứng dụng, sử dụng vào việc gì"
+    },
+    {
+      "word": "用いる",
+      "kanji": "もちいる",
+      "romaji": "mochiiru",
+      "hanViet": "DỤNG",
+      "meaning": "Sử dụng"
+    },
+    {
+      "word": "収まる",
+      "kanji": "おさまる",
+      "romaji": "osamaru",
+      "hanViet": "THU",
+      "meaning": "Thu, nạp, bình tĩnh"
+    },
+    {
+      "word": "収める",
+      "kanji": "おさめる",
+      "romaji": "osameru",
+      "hanViet": "THU",
+      "meaning": "Thu vào, tiếp thu"
+    },
+    {
+      "word": "治まる",
+      "kanji": "おさまる",
+      "romaji": "osamaru",
+      "hanViet": "TRỊ",
+      "meaning": "Lắng xuống, dịu đi"
+    },
+    {
+      "word": "治める",
+      "kanji": "おさめる",
+      "romaji": "osameru",
+      "hanViet": "TRỊ",
+      "meaning": "Điều hành, trị nước"
+    },
+    {
+      "word": "納まる",
+      "kanji": "おさまる",
+      "romaji": "osamaru",
+      "hanViet": "NẠP",
+      "meaning": "Nạp, thu"
+    },
+    {
+      "word": "納める",
+      "kanji": "おさめる",
+      "romaji": "osameru",
+      "hanViet": "NẠP",
+      "meaning": "Nộp, giao"
+    },
+    {
+      "word": "治る",
+      "kanji": "なおる",
+      "romaji": "naoru",
+      "hanViet": "TRỊ",
+      "meaning": "Khỏi bệnh, được chữa trị"
+    },
+    {
+      "word": "治す",
+      "kanji": "なおす",
+      "romaji": "naosu",
+      "hanViet": "TRỊ",
+      "meaning": "Chữa trị"
+    },
+    {
+      "word": "直る",
+      "kanji": "なおる",
+      "romaji": "naoru",
+      "hanViet": "TRỰC",
+      "meaning": "Được sửa"
+    },
+    {
+      "word": "直す",
+      "kanji": "なおす",
+      "romaji": "naosu",
+      "hanViet": "TRỰC",
+      "meaning": "Sửa chữa"
+    },
+    {
+      "word": "亡くなる",
+      "kanji": "なくなる",
+      "romaji": "nakunaru",
+      "hanViet": "VONG",
+      "meaning": "Chết, mất"
+    },
+    {
+      "word": "亡くす",
+      "kanji": "なくす",
+      "romaji": "nakusu",
+      "hanViet": "VONG",
+      "meaning": "Làm mất (người thân)"
+    },
+    {
+      "word": "生きる",
+      "kanji": "いきる",
+      "romaji": "ikiru",
+      "hanViet": "SINH",
+      "meaning": "Sống"
+    },
+    {
+      "word": "暮らす",
+      "kanji": "くらす",
+      "romaji": "kurasu",
+      "hanViet": "MỘ",
+      "meaning": "Sinh sống"
+    },
+    {
+      "word": "働く",
+      "kanji": "はたらく",
+      "romaji": "hataraku",
+      "hanViet": "ĐỘNG",
+      "meaning": "Làm việc"
+    },
+    {
+      "word": "稼ぐ",
+      "kanji": "かせぐ",
+      "romaji": "kasegu",
+      "hanViet": "GIÁ",
+      "meaning": "Kiếm tiền"
+    },
+    {
+      "word": "もうかる",
+      "kanji": "",
+      "romaji": "moukaru",
+      "hanViet": "",
+      "meaning": "Có lời, có lãi"
+    },
+    {
+      "word": "もうける",
+      "kanji": "",
+      "romaji": "moukeru",
+      "hanViet": "",
+      "meaning": "Kiếm lời, kiếm lãi"
+    }
+  ],
+  "25": [
+    {
+      "word": "漏れる",
+      "kanji": "もれる",
+      "romaji": "moreru",
+      "hanViet": "LẬU",
+      "meaning": "Rò rỉ, thoát ra"
+    },
+    {
+      "word": "漏らす",
+      "kanji": "もらす",
+      "romaji": "morasu",
+      "hanViet": "LẬU",
+      "meaning": "Làm rò rỉ, tiết lộ"
+    },
+    {
+      "word": "慌てる",
+      "kanji": "あわてる",
+      "romaji": "awateru",
+      "hanViet": "HOẢNG",
+      "meaning": "Vội vàng, hoảng loạn"
+    },
+    {
+      "word": "騒ぐ",
+      "kanji": "さわぐ",
+      "romaji": "sawagu",
+      "hanViet": "TAO",
+      "meaning": "Gây ồn ào, làm ầm ĩ"
+    },
+    {
+      "word": "責める",
+      "kanji": "せめる",
+      "romaji": "semeru",
+      "hanViet": "TRÁCH",
+      "meaning": "Kết tội, đổ lỗi"
+    },
+    {
+      "word": "避ける",
+      "kanji": "さける",
+      "romaji": "sakeru",
+      "hanViet": "TỊ",
+      "meaning": "Tránh né"
+    },
+    {
+      "word": "励ます",
+      "kanji": "はげます",
+      "romaji": "hagemasu",
+      "hanViet": "LỆ",
+      "meaning": "Động viên, khích lệ"
+    },
+    {
+      "word": "うなずく",
+      "romaji": "unazuku",
+      "hanViet": "",
+      "meaning": "Gật đầu"
+    },
+    {
+      "word": "張り切る",
+      "kanji": "はりきる",
+      "romaji": "harikiru",
+      "hanViet": "TRƯƠNG THIẾT",
+      "meaning": "Hăng hái, đầy sinh khí"
+    },
+    {
+      "word": "威張る",
+      "kanji": "いばる",
+      "romaji": "ibaru",
+      "hanViet": "UY TRƯƠNG",
+      "meaning": "Kiêu căng, lên mặt"
+    },
+    {
+      "word": "怒鳴る",
+      "kanji": "どなる",
+      "romaji": "donaru",
+      "hanViet": "NỘ MINH",
+      "meaning": "Quát mắng, la hét"
+    },
+    {
+      "word": "暴れる",
+      "kanji": "あばれる",
+      "romaji": "abareru",
+      "hanViet": "BẠO",
+      "meaning": "Nổi giận, làm loạn"
+    },
+    {
+      "word": "しゃがむ",
+      "romaji": "shagamu",
+      "hanViet": "",
+      "meaning": "Ngồi xổm"
+    },
+    {
+      "word": "どく",
+      "romaji": "doku",
+      "hanViet": "",
+      "meaning": "Tránh ra, dẹp sang một bên"
+    },
+    {
+      "word": "どける",
+      "romaji": "dokeru",
+      "hanViet": "",
+      "meaning": "Dẹp qua một bên"
+    },
+    {
+      "word": "かぶる",
+      "romaji": "kaburu",
+      "hanViet": "",
+      "meaning": "Đội (mũ), che (chăn), tưới"
+    },
+    {
+      "word": "かぶせる",
+      "romaji": "kabuseru",
+      "hanViet": "",
+      "meaning": "Che phủ, đổ (trách nhiệm)"
+    },
+    {
+      "word": "かじる",
+      "romaji": "kajiru",
+      "hanViet": "",
+      "meaning": "Cắn, gặm, nhai"
+    },
+    {
+      "word": "撃つ",
+      "kanji": "うつ",
+      "romaji": "utsu",
+      "hanViet": "KÍCH",
+      "meaning": "Bắn"
+    },
+    {
+      "word": "漕ぐ",
+      "kanji": "こぐ",
+      "romaji": "kogu",
+      "hanViet": "TÀO",
+      "meaning": "Đạp (xe), chèo (thuyền)"
+    },
+    {
+      "word": "敷く",
+      "kanji": "しく",
+      "romaji": "shiku",
+      "hanViet": "PHU",
+      "meaning": "Trải (thảm, chăn...)"
+    },
+    {
+      "word": "注ぐ",
+      "kanji": "そそぐ",
+      "romaji": "sosogu",
+      "hanViet": "CHÚ",
+      "meaning": "Rót, đổ"
+    },
+    {
+      "word": "配る",
+      "kanji": "くばる",
+      "romaji": "kubaru",
+      "hanViet": "PHỐI",
+      "meaning": "Phân phát"
+    },
+    {
+      "word": "放る",
+      "kanji": "ほうる",
+      "romaji": "houru",
+      "hanViet": "PHÓNG",
+      "meaning": "Ném, bỏ mặc"
+    },
+    {
+      "word": "掘る",
+      "kanji": "ほる",
+      "romaji": "horu",
+      "hanViet": "QUẬT",
+      "meaning": "Đào, bới"
+    },
+    {
+      "word": "まく",
+      "romaji": "maku",
+      "hanViet": "",
+      "meaning": "Rắc, gieo (hạt), rải"
+    },
+    {
+      "word": "計る",
+      "kanji": "はかる",
+      "romaji": "hakaru",
+      "hanViet": "KẾ",
+      "meaning": "Đo (thời gian, nhiệt độ...)"
+    },
+    {
+      "word": "占う",
+      "kanji": "うらなう",
+      "romaji": "uranau",
+      "hanViet": "CHIÊM",
+      "meaning": "Bói toán, tiên đoán"
+    },
+    {
+      "word": "引っ張る",
+      "kanji": "ひっぱる",
+      "romaji": "hipparu",
+      "hanViet": "DẪN TRƯƠNG",
+      "meaning": "Kéo"
+    },
+    {
+      "word": "突く",
+      "kanji": "つく",
+      "romaji": "tsuku",
+      "hanViet": "ĐỘT",
+      "meaning": "Đâm, chọc"
+    }
+  ],
+  "26": [
+    {
+      "word": "縮む",
+      "kanji": "縮む",
+      "romaji": "chijimu",
+      "hanViet": "SÚC",
+      "meaning": "Co lại, rút ngắn"
+    },
+    {
+      "word": "沈む",
+      "kanji": "沈む",
+      "romaji": "shizumu",
+      "hanViet": "TRẦM",
+      "meaning": "Chìm, lặn"
+    },
+    {
+      "word": "下がる",
+      "kanji": "下がる",
+      "romaji": "sagaru",
+      "hanViet": "HẠ",
+      "meaning": "Giảm, hạ xuống"
+    },
+    {
+      "word": "転がる",
+      "kanji": "転がる",
+      "romaji": "korogaru",
+      "hanViet": "CHUYỂN",
+      "meaning": "Lăn, ngã"
+    },
+    {
+      "word": "傾く",
+      "kanji": "傾く",
+      "romaji": "katamuku",
+      "hanViet": "KHUYNH",
+      "meaning": "Nghiêng"
+    },
+    {
+      "word": "裏返す",
+      "kanji": "裏返す",
+      "romaji": "uragaesu",
+      "hanViet": "LÝ PHẢN",
+      "meaning": "Lật ngược"
+    },
+    {
+      "word": "散る",
+      "kanji": "散る",
+      "romaji": "chiru",
+      "hanViet": "TÁN",
+      "meaning": "Rơi, tàn (hoa)"
+    },
+    {
+      "word": "枯れる",
+      "kanji": "枯れる",
+      "romaji": "kareru",
+      "hanViet": "KHÔ",
+      "meaning": "Héo, khô"
+    },
+    {
+      "word": "凍る",
+      "kanji": "凍る",
+      "romaji": "kooru",
+      "hanViet": "ĐỐNG",
+      "meaning": "Đóng băng"
+    },
+    {
+      "word": "震える",
+      "kanji": "震える",
+      "romaji": "furueru",
+      "hanViet": "CHẤN",
+      "meaning": "Run rẩy"
+    },
+    {
+      "word": "輝く",
+      "kanji": "輝く",
+      "romaji": "kagayaku",
+      "hanViet": "HUY",
+      "meaning": "Tỏa sáng, lấp lánh"
+    },
+    {
+      "word": "あふれる",
+      "romaji": "afureru",
+      "hanViet": "",
+      "meaning": "Ngập, tràn"
+    },
+    {
+      "word": "余る",
+      "kanji": "余る",
+      "romaji": "amaru",
+      "hanViet": "DƯ",
+      "meaning": "Dư thừa"
+    },
+    {
+      "word": "目立つ",
+      "kanji": "目立つ",
+      "romaji": "medatsu",
+      "hanViet": "MỤC LẬP",
+      "meaning": "Nổi bật"
+    },
+    {
+      "word": "見下ろす",
+      "kanji": "見下ろす",
+      "romaji": "miorosu",
+      "hanViet": "KIẾN HẠ",
+      "meaning": "Nhìn xuống"
+    },
+    {
+      "word": "戦う",
+      "kanji": "戦う",
+      "romaji": "tatakau",
+      "hanViet": "CHIẾN",
+      "meaning": "Chiến đấu"
+    },
+    {
+      "word": "逃げる",
+      "kanji": "逃げる",
+      "romaji": "nigeru",
+      "hanViet": "ĐÀO",
+      "meaning": "Chạy trốn"
+    },
+    {
+      "word": "逃がす",
+      "kanji": "逃がす",
+      "romaji": "nigasu",
+      "hanViet": "ĐÀO",
+      "meaning": "Thả ra, để thoát"
+    },
+    {
+      "word": "戻る",
+      "kanji": "戻る",
+      "romaji": "modoru",
+      "hanViet": "LỆ",
+      "meaning": "Quay lại"
+    },
+    {
+      "word": "戻す",
+      "kanji": "戻す",
+      "romaji": "modosu",
+      "hanViet": "LỆ",
+      "meaning": "Trả lại, hoàn lại"
+    },
+    {
+      "word": "はまる",
+      "romaji": "hamaru",
+      "hanViet": "",
+      "meaning": "Vừa khít, khớp"
+    },
+    {
+      "word": "はめる",
+      "romaji": "hameru",
+      "hanViet": "",
+      "meaning": "Lắp vào, gắn vào"
+    },
+    {
+      "word": "扱う",
+      "kanji": "扱う",
+      "romaji": "atsukau",
+      "hanViet": "TRÁP",
+      "meaning": "Xử lý, đối xử"
+    },
+    {
+      "word": "関わる",
+      "kanji": "関わる",
+      "romaji": "kakawaru",
+      "hanViet": "QUAN",
+      "meaning": "Liên quan"
+    },
+    {
+      "word": "目指す",
+      "kanji": "目指す",
+      "romaji": "mezasu",
+      "hanViet": "MỤC CHỈ",
+      "meaning": "Hướng đến, nhắm vào"
+    },
+    {
+      "word": "立つ",
+      "kanji": "立つ",
+      "romaji": "tatsu",
+      "hanViet": "LẬP",
+      "meaning": "Đứng"
+    },
+    {
+      "word": "立てる",
+      "kanji": "立てる",
+      "romaji": "tateru",
+      "hanViet": "LẬP",
+      "meaning": "Làm cho đứng"
+    },
+    {
+      "word": "建つ",
+      "kanji": "建つ",
+      "romaji": "tatsu",
+      "hanViet": "KIẾN",
+      "meaning": "Được xây dựng"
+    },
+    {
+      "word": "建てる",
+      "kanji": "建てる",
+      "romaji": "tateru",
+      "hanViet": "KIẾN",
+      "meaning": "Xây dựng"
+    },
+    {
+      "word": "生える",
+      "kanji": "生える",
+      "romaji": "haeru",
+      "hanViet": "SINH",
+      "meaning": "Mọc (răng, tóc, cỏ)"
+    },
+    {
+      "word": "生やす",
+      "kanji": "生やす",
+      "romaji": "hayasu",
+      "hanViet": "SINH",
+      "meaning": "Nuôi (râu), trồng"
+    }
+  ],
+  "27": [
+    {
+      "word": "非難",
+      "kanji": "ひなん",
+      "romaji": "hinan",
+      "hanViet": "PHI NAN",
+      "meaning": "Chỉ trích, phê phán"
+    },
+    {
+      "word": "批判",
+      "kanji": "ひはん",
+      "romaji": "hihan",
+      "hanViet": "PHÊ PHÁN",
+      "meaning": "Phê phán, phán xét"
+    },
+    {
+      "word": "支持",
+      "kanji": "しじ",
+      "romaji": "shiji",
+      "hanViet": "CHI TRÌ",
+      "meaning": "Ủng hộ, hỗ trợ"
+    },
+    {
+      "word": "無視",
+      "kanji": "むし",
+      "romaji": "mushi",
+      "hanViet": "VÔ THỊ",
+      "meaning": "Phớt lờ, bỏ qua"
+    },
+    {
+      "word": "禁止",
+      "kanji": "きんし",
+      "romaji": "kinshi",
+      "hanViet": "CẤM CHỈ",
+      "meaning": "Cấm, ngăn cấm"
+    },
+    {
+      "word": "挑戦",
+      "kanji": "ちょうせん",
+      "romaji": "chousen",
+      "hanViet": "THIÊU CHIẾN",
+      "meaning": "Thử thách, thách thức"
+    },
+    {
+      "word": "勝敗",
+      "kanji": "しょうはい",
+      "romaji": "shouhai",
+      "hanViet": "THẮNG BẠI",
+      "meaning": "Thắng bại"
+    },
+    {
+      "word": "影響",
+      "kanji": "えいきょう",
+      "romaji": "eikyou",
+      "hanViet": "ẢNH HƯỞNG",
+      "meaning": "Ảnh hưởng, tác động"
+    },
+    {
+      "word": "印象",
+      "kanji": "いんしょう",
+      "romaji": "inshou",
+      "hanViet": "ẤN TƯỢNG",
+      "meaning": "Ấn tượng"
+    },
+    {
+      "word": "効果",
+      "kanji": "こうか",
+      "romaji": "kouka",
+      "hanViet": "HIỆU QUẢ",
+      "meaning": "Hiệu quả"
+    },
+    {
+      "word": "進歩",
+      "kanji": "しんぽ",
+      "romaji": "shinpo",
+      "hanViet": "TIẾN BỘ",
+      "meaning": "Tiến bộ, phát triển"
+    },
+    {
+      "word": "変化",
+      "kanji": "へんか",
+      "romaji": "henka",
+      "hanViet": "BIẾN HÓA",
+      "meaning": "Biến đổi, thay đổi"
+    },
+    {
+      "word": "発展",
+      "kanji": "はってん",
+      "romaji": "hatten",
+      "hanViet": "PHÁT TRIỂN",
+      "meaning": "Phát triển"
+    },
+    {
+      "word": "普及",
+      "kanji": "ふきゅう",
+      "romaji": "fukyuu",
+      "hanViet": "PHỔ CẬP",
+      "meaning": "Phổ biến, lan rộng"
+    },
+    {
+      "word": "実用",
+      "kanji": "じつよう",
+      "romaji": "jitsuyou",
+      "hanViet": "THỰC DỤNG",
+      "meaning": "Ứng dụng thực tế"
+    },
+    {
+      "word": "改正",
+      "kanji": "かいせい",
+      "romaji": "kaisei",
+      "hanViet": "CẢI CHÍNH",
+      "meaning": "Sửa đổi, cải cách"
+    },
+    {
+      "word": "改善",
+      "kanji": "かいぜん",
+      "romaji": "kaizen",
+      "hanViet": "CẢI THIỆN",
+      "meaning": "Cải thiện"
+    },
+    {
+      "word": "改革",
+      "kanji": "かいかく",
+      "romaji": "kaikaku",
+      "hanViet": "CẢI CÁCH",
+      "meaning": "Cải cách"
+    },
+    {
+      "word": "改良",
+      "kanji": "かいりょう",
+      "romaji": "kairyō",
+      "hanViet": "CẢI LƯƠNG",
+      "meaning": "Cải tiến"
+    },
+    {
+      "word": "向上",
+      "kanji": "こうじょう",
+      "romaji": "koujou",
+      "hanViet": "HƯỚNG THƯỢNG",
+      "meaning": "Nâng cao, tiến bộ"
+    },
+    {
+      "word": "経済",
+      "kanji": "けいざい",
+      "romaji": "keizai",
+      "hanViet": "KINH TẾ",
+      "meaning": "Kinh tế"
+    },
+    {
+      "word": "政治",
+      "kanji": "せいじ",
+      "romaji": "seiji",
+      "hanViet": "CHÍNH TRỊ",
+      "meaning": "Chính trị"
+    },
+    {
+      "word": "制度",
+      "kanji": "せいど",
+      "romaji": "seido",
+      "hanViet": "CHẾ ĐỘ",
+      "meaning": "Chế độ, hệ thống"
+    },
+    {
+      "word": "法律",
+      "kanji": "ほうりつ",
+      "romaji": "houritsu",
+      "hanViet": "PHÁP LUẬT",
+      "meaning": "Luật pháp"
+    },
+    {
+      "word": "権利",
+      "kanji": "けんり",
+      "romaji": "kenri",
+      "hanViet": "QUYỀN LỢI",
+      "meaning": "Quyền lợi"
+    },
+    {
+      "word": "義務",
+      "kanji": "ぎむ",
+      "romaji": "gimu",
+      "hanViet": "NGHĨA VỤ",
+      "meaning": "Nghĩa vụ"
+    },
+    {
+      "word": "選挙",
+      "kanji": "せんきょ",
+      "romaji": "senkyo",
+      "hanViet": "TUYỂN CỬ",
+      "meaning": "Bầu cử"
+    },
+    {
+      "word": "世論",
+      "kanji": "よろん",
+      "romaji": "yoron",
+      "hanViet": "THẾ LUẬN",
+      "meaning": "Dư luận"
+    },
+    {
+      "word": "反応",
+      "kanji": "はんのう",
+      "romaji": "hannou",
+      "hanViet": "PHẢN ỨNG",
+      "meaning": "Phản ứng"
+    },
+    {
+      "word": "対応",
+      "kanji": "たいおう",
+      "romaji": "taiou",
+      "hanViet": "ĐỐI ỨNG",
+      "meaning": "Đối ứng, xử lý"
+    },
+    {
+      "word": "適用",
+      "kanji": "てきよう",
+      "romaji": "tekiyou",
+      "hanViet": "THÍCH DỤNG",
+      "meaning": "Áp dụng"
+    }
+  ],
+  "28": [
+    {
+      "word": "描く",
+      "kanji": "えがく",
+      "romaji": "egaku",
+      "hanViet": "MIÊU",
+      "meaning": "Vẽ, mô tả"
+    },
+    {
+      "word": "削る",
+      "kanji": "けずる",
+      "romaji": "kezuru",
+      "hanViet": "TƯỚC",
+      "meaning": "Gọt, cắt giảm"
+    },
+    {
+      "word": "輝く",
+      "kanji": "かがやく",
+      "romaji": "kagayaku",
+      "hanViet": "HUY",
+      "meaning": "Tỏa sáng, lấp lánh"
+    },
+    {
+      "word": "煮る",
+      "kanji": "にる",
+      "romaji": "niru",
+      "hanViet": "CHỬ",
+      "meaning": "Nấu, ninh"
+    },
+    {
+      "word": "炊く",
+      "kanji": "たく",
+      "romaji": "taku",
+      "hanViet": "XUY",
+      "meaning": "Nấu (cơm)"
+    },
+    {
+      "word": "炒める",
+      "kanji": "いためる",
+      "romaji": "itameru",
+      "hanViet": "SAO",
+      "meaning": "Chiên xào"
+    },
+    {
+      "word": "焼ける",
+      "kanji": "やける",
+      "romaji": "yakeru",
+      "hanViet": "THIÊU",
+      "meaning": "Cháy, nướng chín"
+    },
+    {
+      "word": "焼く",
+      "kanji": "やく",
+      "romaji": "yaku",
+      "hanViet": "THIÊU",
+      "meaning": "Nướng, rán"
+    },
+    {
+      "word": "茹でる",
+      "kanji": "ゆでる",
+      "romaji": "yuderu",
+      "hanViet": "NHƯ",
+      "meaning": "Luộc"
+    },
+    {
+      "word": "蒸す",
+      "kanji": "むす",
+      "romaji": "musu",
+      "hanViet": "CHƯNG",
+      "meaning": "Hấp"
+    },
+    {
+      "word": "炊ける",
+      "kanji": "たける",
+      "romaji": "takeru",
+      "hanViet": "XUY",
+      "meaning": "(Cơm) chín"
+    },
+    {
+      "word": "立ち上がる",
+      "kanji": "たちあがる",
+      "romaji": "tachiagaru",
+      "hanViet": "LẬP THƯỢNG",
+      "meaning": "Đứng dậy"
+    },
+    {
+      "word": "飛び上がる",
+      "kanji": "とびあがる",
+      "romaji": "tobiagaru",
+      "hanViet": "PHI THƯỢNG",
+      "meaning": "Nhảy lên, bật lên"
+    },
+    {
+      "word": "浮かび上がる",
+      "kanji": "うかびあがる",
+      "romaji": "ukabiagaru",
+      "hanViet": "PHÙ THƯỢNG",
+      "meaning": "Nổi lên"
+    },
+    {
+      "word": "舞い上がる",
+      "kanji": "まいあがる",
+      "romaji": "maiagaru",
+      "hanViet": "VŨ THƯỢNG",
+      "meaning": "Bay lên, hưng phấn"
+    },
+    {
+      "word": "燃え上がる",
+      "kanji": "もえあがる",
+      "romaji": "moeagaru",
+      "hanViet": "NHIÊN THƯỢNG",
+      "meaning": "Bốc cháy"
+    },
+    {
+      "word": "盛り上がる",
+      "kanji": "もりあがる",
+      "romaji": "moriagaru",
+      "hanViet": "THỊNH THƯỢNG",
+      "meaning": "Hào hứng, dâng lên"
+    },
+    {
+      "word": "湧き上がる",
+      "kanji": "わきあがる",
+      "romaji": "wakiagaru",
+      "hanViet": "DŨNG THƯỢNG",
+      "meaning": "Sôi lên, vang lên"
+    },
+    {
+      "word": "晴れ上がる",
+      "kanji": "はれあがる",
+      "romaji": "hareagaru",
+      "hanViet": "TÌNH THƯỢNG",
+      "meaning": "Nắng lên, quang đãng"
+    },
+    {
+      "word": "震え上がる",
+      "kanji": "ふるえあがる",
+      "romaji": "furueagaru",
+      "hanViet": "CHẤN THƯỢNG",
+      "meaning": "Run bắn lên (vì sợ, lạnh)"
+    },
+    {
+      "word": "干上がる",
+      "kanji": "ひあがる",
+      "romaji": "hiagaru",
+      "hanViet": "KIỀN THƯỢNG",
+      "meaning": "Khô cạn"
+    },
+    {
+      "word": "出来上がる",
+      "kanji": "できあがる",
+      "romaji": "dekiagaru",
+      "hanViet": "XUẤT LAI THƯỢNG",
+      "meaning": "Hoàn thành, làm xong"
+    },
+    {
+      "word": "持ち上げる",
+      "kanji": "もちあげる",
+      "romaji": "mochiageru",
+      "hanViet": "TRÌ THƯỢNG",
+      "meaning": "Nâng lên"
+    },
+    {
+      "word": "見上げる",
+      "kanji": "みあげる",
+      "romaji": "miageru",
+      "hanViet": "KIẾN THƯỢNG",
+      "meaning": "Nhìn lên"
+    },
+    {
+      "word": "積み上げる",
+      "kanji": "つみあげる",
+      "romaji": "tsumiageru",
+      "hanViet": "TÍCH THƯỢNG",
+      "meaning": "Chất lên, tích lũy"
+    },
+    {
+      "word": "打ち上げる",
+      "kanji": "うちあげる",
+      "romaji": "uchiageru",
+      "hanViet": "ĐẢ THƯỢNG",
+      "meaning": "Phóng lên (pháo hoa), hoàn thành"
+    },
+    {
+      "word": "立ち上げる",
+      "kanji": "たちあげる",
+      "romaji": "tachiageru",
+      "hanViet": "LẬP THƯỢNG",
+      "meaning": "Khởi động (máy tính, dự án)"
+    },
+    {
+      "word": "切り上げる",
+      "kanji": "きりあげる",
+      "romaji": "kiriageru",
+      "hanViet": "THIẾT THƯỢNG",
+      "meaning": "Kết thúc, làm tròn số"
+    },
+    {
+      "word": "繰り上げる",
+      "kanji": "くりあげる",
+      "romaji": "kuriageru",
+      "hanViet": "SÀO THƯỢNG",
+      "meaning": "Sớm hơn lịch trình"
+    },
+    {
+      "word": "読み上げる",
+      "kanji": "よみあげる",
+      "romaji": "yomiageru",
+      "hanViet": "ĐỘC THƯỢNG",
+      "meaning": "Đọc to lên"
+    }
+  ],
+  "29": [
+    {
+      "word": "しょうじる",
+      "kanji": "生じる",
+      "romaji": "shoujiru",
+      "hanViet": "SINH",
+      "meaning": "Phát sinh, nảy sinh"
+    },
+    {
+      "word": "たいど",
+      "kanji": "態度",
+      "romaji": "taido",
+      "hanViet": "THÁI ĐỘ",
+      "meaning": "Thái độ"
+    },
+    {
+      "word": "せつやく",
+      "kanji": "節約",
+      "romaji": "setsuyaku",
+      "hanViet": "TIẾT ƯỚC",
+      "meaning": "Tiết kiệm"
+    },
+    {
+      "word": "かんがえ",
+      "kanji": "考え",
+      "romaji": "kangae",
+      "hanViet": "KHẢO",
+      "meaning": "Suy nghĩ, ý tưởng"
+    },
+    {
+      "word": "なやむ",
+      "kanji": "悩む",
+      "romaji": "nayamu",
+      "hanViet": "NÃO",
+      "meaning": "Phiền não, lo lắng"
+    },
+    {
+      "word": "くふう",
+      "kanji": "工夫",
+      "romaji": "kufuu",
+      "hanViet": "CÔNG PHU",
+      "meaning": "Công phu, tìm tòi, sáng tạo"
+    },
+    {
+      "word": "かこ",
+      "kanji": "過去",
+      "romaji": "kako",
+      "hanViet": "QUÁ KHỨ",
+      "meaning": "Quá khứ"
+    },
+    {
+      "word": "みらい",
+      "kanji": "未来",
+      "romaji": "mirai",
+      "hanViet": "VỊ LAI",
+      "meaning": "Tương lai (xa)"
+    },
+    {
+      "word": "しょうらい",
+      "kanji": "将来",
+      "romaji": "shourai",
+      "hanViet": "TƯƠNG LAI",
+      "meaning": "Tương lai (gần, cá nhân)"
+    },
+    {
+      "word": "うたがう",
+      "kanji": "疑う",
+      "romaji": "utagau",
+      "hanViet": "NGHI",
+      "meaning": "Nghi ngờ"
+    },
+    {
+      "word": "まちがう",
+      "kanji": "間違う",
+      "romaji": "machigau",
+      "hanViet": "GIAN VI",
+      "meaning": "Nhầm, sai"
+    },
+    {
+      "word": "いがい",
+      "kanji": "意外",
+      "romaji": "igai",
+      "hanViet": "Ý NGOẠI",
+      "meaning": "Ngoài dự tính, ngạc nhiên"
+    },
+    {
+      "word": "ねがう",
+      "kanji": "願う",
+      "romaji": "negau",
+      "hanViet": "NGUYỆN",
+      "meaning": "Mong muốn, cầu mong"
+    },
+    {
+      "word": "かんしゃ",
+      "kanji": "感謝",
+      "romaji": "kansha",
+      "hanViet": "CẢM TẠ",
+      "meaning": "Cảm ơn, biết ơn"
+    },
+    {
+      "word": "じつげん",
+      "kanji": "実現",
+      "romaji": "jitsugen",
+      "hanViet": "THỰC HIỆN",
+      "meaning": "Thành hiện thực"
+    },
+    {
+      "word": "きぼう",
+      "kanji": "希望",
+      "romaji": "kibou",
+      "hanViet": "HY VỌNG",
+      "meaning": "Hy vọng"
+    },
+    {
+      "word": "しんらい",
+      "kanji": "信頼",
+      "romaji": "shinrai",
+      "hanViet": "TÍN LẠI",
+      "meaning": "Tin cậy, tín nhiệm"
+    },
+    {
+      "word": "へいわ",
+      "kanji": "平和",
+      "romaji": "heiwa",
+      "hanViet": "BÌNH HÒA",
+      "meaning": "Hòa bình"
+    },
+    {
+      "word": "じんけん",
+      "kanji": "人権",
+      "romaji": "jinken",
+      "hanViet": "NHÂN QUYỀN",
+      "meaning": "Quyền con người"
+    },
+    {
+      "word": "じゆう",
+      "kanji": "自由",
+      "romaji": "jiyuu",
+      "hanViet": "TỰ DO",
+      "meaning": "Tự do"
+    },
+    {
+      "word": "けんり",
+      "kanji": "権利",
+      "romaji": "kenri",
+      "hanViet": "QUYỀN LỢI",
+      "meaning": "Quyền lợi"
+    },
+    {
+      "word": "ぎむ",
+      "kanji": "義務",
+      "romaji": "gimu",
+      "hanViet": "NGHĨA VỤ",
+      "meaning": "Nghĩa vụ"
+    },
+    {
+      "word": "せきにん",
+      "kanji": "責任",
+      "romaji": "sekinin",
+      "hanViet": "TRÁCH NHIỆM",
+      "meaning": "Trách nhiệm"
+    },
+    {
+      "word": "ほうりつ",
+      "kanji": "法律",
+      "romaji": "houritsu",
+      "hanViet": "PHÁP LUẬT",
+      "meaning": "Pháp luật"
+    },
+    {
+      "word": "しはい",
+      "kanji": "支配",
+      "romaji": "shihai",
+      "hanViet": "CHI PHỐI",
+      "meaning": "Chi phối, thống trị"
+    },
+    {
+      "word": "せいじ",
+      "kanji": "政治",
+      "romaji": "seiji",
+      "hanViet": "CHÍNH TRỊ",
+      "meaning": "Chính trị"
+    },
+    {
+      "word": "けいざい",
+      "kanji": "経済",
+      "romaji": "keizai",
+      "hanViet": "KINH TẾ",
+      "meaning": "Kinh tế"
+    },
+    {
+      "word": "しゃかい",
+      "kanji": "社会",
+      "romaji": "shakai",
+      "hanViet": "XÃ HỘI",
+      "meaning": "Xã hội"
+    },
+    {
+      "word": "ぶんか",
+      "kanji": "文化",
+      "romaji": "bunka",
+      "hanViet": "VĂN HÓA",
+      "meaning": "Văn hóa"
+    },
+    {
+      "word": "かいはつ",
+      "kanji": "開発",
+      "romaji": "kaihatsu",
+      "hanViet": "KHAI PHÁT",
+      "meaning": "Phát triển, khai thác"
+    }
+  ]
+}

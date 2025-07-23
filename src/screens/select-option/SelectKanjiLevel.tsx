@@ -1,42 +1,43 @@
+import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
+import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'
+import Banner from '../../../assets/images/Banner.png'
 import { LinearGradient } from 'expo-linear-gradient'
 import { useNavigation } from '@react-navigation/native'
-import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'
-import Banner from '../../assets/images/Banner.png'
+import Toast from 'react-native-toast-message'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { RootStackParamList } from 'src/types/navigation'
-import Toast from 'react-native-toast-message'
 
-const SelectGrammarLevel = () => {
+const SelectKanjiLevel = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
-  const grammarLevels = [
+  const features = [
     {
-      name: 'Ngữ pháp N5',
+      name: 'Kanji N5',
       icon: <Ionicons name="sparkles-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarN5CategoryScreen'),
+      onPress: () => navigation.navigate('KanjiN5Screen'),
     },
     {
-      name: 'Ngữ pháp N4',
+      name: 'Kanji N4',
+      icon: <MaterialCommunityIcons name="seed-outline" size={32} color="#88c9bf" />,
+      onPress: () => navigation.navigate('KanjiN4Screen'),
+    },
+    {
+      name: 'Kanji N3',
       icon: <MaterialCommunityIcons name="sprout-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarN4CategoryScreen'),
+      onPress: () => navigation.navigate('KanjiN3Screen'),
     },
     {
-      name: 'Ngữ pháp N3',
-      icon: <MaterialCommunityIcons name="book-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarN3CategoryScreen'),
+      name: 'Kanji N2',
+      icon: <MaterialCommunityIcons name="tree-outline" size={32} color="#88c9bf" />,
+      onPress: () => navigation.navigate('KanjiN2Screen'),
     },
     {
-      name: 'Ngữ pháp N2',
-      icon: <MaterialCommunityIcons name="library-shelves" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarN2CategoryScreen'),
-    },
-    {
-      name: 'Ngữ pháp N1',
+      name: 'Kanji N1',
       icon: <Ionicons name="diamond-outline" size={32} color="#88c9bf" />,
       onPress: () =>
         Toast.show({
           type: 'info',
-          text1: 'Ngữ pháp N1',
+          text1: 'Kanji N1',
           text2: 'Tính năng này đang được phát triển và sẽ sớm ra mắt!',
           position: 'bottom',
         }),
@@ -48,9 +49,9 @@ const SelectGrammarLevel = () => {
         <Ionicons name="arrow-back" size={28} color="#4a4e69" />
       </TouchableOpacity>
       <Image source={Banner} style={styles.banner} resizeMode="cover" />
-      <Text style={styles.text}>Cấp độ ngữ pháp</Text>
+      <Text style={styles.text}>Cấp độ</Text>
       <View style={styles.grid}>
-        {grammarLevels.map((item, index) => (
+        {features.map((item, index) => (
           <TouchableOpacity key={index} style={styles.box} onPress={item.onPress}>
             {item.icon}
             <Text style={styles.label}>{item.name}</Text>
@@ -61,21 +62,10 @@ const SelectGrammarLevel = () => {
   )
 }
 
-export default SelectGrammarLevel
-
+export default SelectKanjiLevel
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fdf6e3',
-  },
-  backButton: {
-    position: 'absolute',
-    top: 40,
-    left: 16,
-    zIndex: 10,
-    backgroundColor: '#ffffffcc',
-    padding: 8,
-    borderRadius: 20,
   },
   banner: {
     width: '100%',
@@ -110,5 +100,14 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '600',
     color: '#4a4e69',
+  },
+  backButton: {
+    position: 'absolute',
+    top: 40,
+    left: 16,
+    zIndex: 10,
+    backgroundColor: '#ffffffcc',
+    padding: 8,
+    borderRadius: 20,
   },
 })

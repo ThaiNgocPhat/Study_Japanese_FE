@@ -11,7 +11,7 @@ import {
   ScrollView,
 } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
-import logo from '../../assets/images/Logo.png'
+import logo from '../../../assets/images/Logo.png'
 import { useNavigation } from '@react-navigation/native'
 import Toast from 'react-native-toast-message'
 import authApi from 'src/api/authApi'
@@ -47,6 +47,16 @@ const LoginScreen = () => {
       })
     }
   }
+  const handleOfflineLogin = async () => {
+    const fakeToken = 'offline-token'
+    await saveToken(fakeToken)
+    await AsyncStorage.setItem('userName', 'Offline User')
+    Toast.show({
+      type: 'success',
+      text1: 'Đăng nhập offline thành công',
+    })
+    navigation.navigate('Home')
+  }
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
@@ -80,6 +90,12 @@ const LoginScreen = () => {
             />
             <TouchableOpacity style={styles.button} onPress={handleLogin}>
               <Text style={styles.buttonText}>Đăng nhập</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.button, { backgroundColor: '#aaa' }]}
+              onPress={handleOfflineLogin}
+            >
+              <Text style={styles.buttonText}>Dùng offline</Text>
             </TouchableOpacity>
             <Text style={styles.note}>
               Chưa có tài khoản?{' '}

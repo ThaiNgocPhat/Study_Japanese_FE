@@ -26,10 +26,6 @@ const StudyScreen = () => {
       onPress: () => navigation.navigate('KanaScreen', { type: 'hiragana' }),
     },
     {
-      name: 'Hội thoại',
-      icon: <Ionicons name="chatbox-ellipses-outline" size={32} color="#88c9bf" />,
-    },
-    {
       name: 'Ngữ pháp',
       icon: <MaterialCommunityIcons name="file-document-edit-outline" size={32} color="#88c9bf" />,
       onPress: () => navigation.navigate('SelectGrammarLevel'),

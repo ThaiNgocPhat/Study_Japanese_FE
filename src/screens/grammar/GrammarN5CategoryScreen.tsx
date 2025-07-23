@@ -66,7 +66,6 @@ export default GrammarN5CategoryScreen
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fdf6e3',
   },
   backButton: {
     position: 'absolute',

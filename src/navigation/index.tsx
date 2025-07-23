@@ -1,17 +1,17 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack'
 import type { RootStackParamList } from 'src/types/navigation'
-import LoginScreen from '@screens/LoginScreen'
-import RegisterScreen from '@screens/RegisterScreen'
-import VerifyScreen from '@screens/VerifyScreen'
-import ForgotPasswordScreen from '@screens/ForgotPasswordScreen'
-import VerifyForgotPasswordScreen from '@screens/VerifyForgotPasswordScreen'
-import ResetPasswordScreen from '@screens/ResetPasswordScreen'
+import LoginScreen from '@screens/auth/LoginScreen'
+import RegisterScreen from '@screens/auth/RegisterScreen'
+import VerifyScreen from '@screens/auth/VerifyScreen'
+import ForgotPasswordScreen from '@screens/auth/ForgotPasswordScreen'
+import VerifyForgotPasswordScreen from '@screens/auth/VerifyForgotPasswordScreen'
+import ResetPasswordScreen from '@screens/auth/ResetPasswordScreen'
 import HomeScreen from '@screens/HomeScreen'
 import KanaScreen from '@screens/KanaScreen'
-import SelectVocabularyLevel from '@screens/SelectVocabularyLevel'
-import SelectGrammarLevel from '@screens/SelectGrammarLevel'
+import SelectVocabularyLevel from '@screens/select-option/SelectVocabularyLevel'
+import SelectGrammarLevel from '@screens/select-option/SelectGrammarLevel'
 import GrammarN5CategoryScreen from '@screens/grammar/GrammarN5CategoryScreen'
 import GrammarVerbN5Screen from '@components/grammar/grammarN5/verb/GrammarVerbN5Screen'
 import GrammarVerbN5TopicListScreen from '@components/grammar/grammarN5/verb/GrammarVerbN5TopicListScreen'
@@ -270,12 +270,17 @@ import GrammarTokoroNiScreen from '@components/grammar/grammarN2/grammar-time/Gr
 import GrammarTatoTanscreen from '@components/grammar/grammarN2/grammar-time/GrammarTatoTanscreen'
 import GrammarKaToOmoutoScreen from '@components/grammar/grammarN2/grammar-time/GrammarKaToOmoutoScreen'
 import GrammarKaNaiKaScreen from '@components/grammar/grammarN2/grammar-time/GrammarKaNaiKaScreen'
-import SelectKanjiLevel from '@screens/SelectKanjiLevel'
+import SelectKanjiLevel from '@screens/select-option/SelectKanjiLevel'
 import KanjiN5Screen from '@screens/kanji/KanjiN5Screen'
 import KanjiN4Screen from '@screens/kanji/KanjiN4Screen'
 import KanjiN3Screen from '@screens/kanji/KanjiN3Screen'
 import KanjiN2Screen from '@screens/kanji/KanjiN2Screen'
-const Stack = createNativeStackNavigator<RootStackParamList>()
+import VocabularyN5LessonListScreen from '@screens/vocabulary/n5/VocabularyN5LessonListScreen'
+import VocabularyN4LessonListScreen from '@screens/vocabulary/n4/VocabularyN4LessonListScreen'
+import VocabularyLessonDetailScreen from '@components/VocabularyLessonDetailScreen'
+import VocabularyN3LessonListScreen from '@screens/vocabulary/n3/VocabularyN3LessonListScreen'
+import VocabularyN2LessonListScreen from '@screens/vocabulary/n2/VocabularyN2LessonListScreen'
+const Stack = createStackNavigator<RootStackParamList>()
 
 interface RoutersProps {
   initialRouteName: keyof RootStackParamList
@@ -558,12 +563,35 @@ const screens: {
   { name: 'KanjiN4Screen', component: KanjiN4Screen },
   { name: 'KanjiN3Screen', component: KanjiN3Screen },
   { name: 'KanjiN2Screen', component: KanjiN2Screen },
+  { name: 'VocabularyN5LessonListScreen', component: VocabularyN5LessonListScreen },
+  { name: 'VocabularyLessonDetailScreen', component: VocabularyLessonDetailScreen },
+  { name: 'VocabularyN4LessonListScreen', component: VocabularyN4LessonListScreen },
+  { name: 'VocabularyN3LessonListScreen', component: VocabularyN3LessonListScreen },
+  { name: 'VocabularyN2LessonListScreen', component: VocabularyN2LessonListScreen },
 ]
 
 export default function Routers({ initialRouteName }: RoutersProps) {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={initialRouteName}>
+      <Stack.Navigator
+        initialRouteName={initialRouteName}
+        screenOptions={{
+          headerShown: false,
+          detachPreviousScreen: false,
+          cardStyleInterpolator: ({ current, layouts }) => ({
+            cardStyle: {
+              transform: [
+                {
+                  translateX: current.progress.interpolate({
+                    inputRange: [0, 0.3, 1],
+                    outputRange: [-layouts.screen.width, -layouts.screen.width * 0.3, 0],
+                  }),
+                },
+              ],
+            },
+          }),
+        }}
+      >
         {screens.map(({ name, component }) => (
           <Stack.Screen
             key={name}

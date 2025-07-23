@@ -1,6 +1,6 @@
 import React from 'react'
 import KanjiListScreen from '@components/KanjiListScreen'
-import kanjiN2 from '../../../assets/data/kanjiN2.json'
+import kanjiN2 from '../../../assets/data/kanji/kanjiN2.json'
 import { KanjiData } from 'src/types/kanji'
 
 const normalizeField = (field: string | string[]): string[] => {
@@ -16,6 +16,6 @@ const normalizedList: KanjiData[] = kanjiN2.map((item: any) => ({
   meaning: item.meaning || '',
   examples: normalizeField(item.examples),
 }))
-const KanjiN2Screen = () => <KanjiListScreen title="Hán tự N3" kanjiList={normalizedList} />
+const KanjiN2Screen = () => <KanjiListScreen title="Hán tự N2" kanjiList={normalizedList} />
 
 export default KanjiN2Screen

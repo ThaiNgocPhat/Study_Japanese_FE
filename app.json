@@ -4,11 +4,11 @@
     "slug": "Study_Japanese_FE",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/Logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/images/Banner.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/images/Logo.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.thaingocphat231.Study_Japanese_FE"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/Logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5727338e-bc35-46e6-ae48-86a302cd7d25"
+      }
     }
   }
 }

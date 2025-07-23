@@ -1,7 +1,7 @@
 import { LinearGradient } from 'expo-linear-gradient'
 import React, { useState } from 'react'
 import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
-import logo from '../../assets/images/Logo.png'
+import logo from '../../../assets/images/Logo.png'
 import Toast from 'react-native-toast-message'
 import authApi from 'src/api/authApi'
 import { useNavigation } from '@react-navigation/native'

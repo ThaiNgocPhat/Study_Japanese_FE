@@ -277,4 +277,12 @@ export type RootStackParamList = {
   KanjiN4Screen: undefined
   KanjiN3Screen: undefined
   KanjiN2Screen: undefined
+  VocabularyN5LessonListScreen: undefined
+  VocabularyN4LessonListScreen: undefined
+  VocabularyLessonDetailScreen: {
+    lessonNumber: number
+    level: 'N5' | 'N4' | 'N3' | 'N2' | 'N1'
+  }
+  VocabularyN3LessonListScreen: undefined
+  VocabularyN2LessonListScreen: undefined
 }
