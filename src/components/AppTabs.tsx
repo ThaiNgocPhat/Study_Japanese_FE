@@ -1,25 +1,21 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { View } from 'react-native'
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'
-import StudyScreen from '@screens/StudyScreen'
-import PracticeScreen from '@screens/PracticeScreen'
-const ExamScreen = () => <View style={{ flex: 1 }} />
-const SettingsScreen = () => <View style={{ flex: 1 }} />
-
+import StudyScreen from '@screens/options/StudyScreen'
+import PracticeScreen from '@screens/options/PracticeScreen'
+import SettingsScreen from '@screens/options/SettingsScreen'
 const Tab = createBottomTabNavigator()
 
-const AppTabs = () => {
+const AppTabs = ({ initialTab }: { initialTab: 'Study' | 'Practice' | 'Exam' | 'Settings' }) => {
   return (
     <Tab.Navigator
+      initialRouteName={initialTab}
       screenOptions={({ route }) => ({
         tabBarIcon: ({ color, size }) => {
           if (route.name === 'Study') {
             return <Ionicons name="book-outline" size={size} color={color} />
           } else if (route.name === 'Practice') {
             return <MaterialCommunityIcons name="pencil-outline" size={size} color={color} />
-          } else if (route.name === 'Exam') {
-            return <Ionicons name="school-outline" size={size} color={color} />
           } else if (route.name === 'Settings') {
             return <Ionicons name="settings-outline" size={size} color={color} />
           }
@@ -37,7 +33,6 @@ const AppTabs = () => {
         component={PracticeScreen}
         options={{ tabBarLabel: 'Luyện tập' }}
       />
-      <Tab.Screen name="Exam" component={ExamScreen} options={{ tabBarLabel: 'Thi' }} />
       <Tab.Screen name="Settings" component={SettingsScreen} options={{ tabBarLabel: 'Cài đặt' }} />
     </Tab.Navigator>
   )

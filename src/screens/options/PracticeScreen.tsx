@@ -1,41 +1,39 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
-import { Ionicons, MaterialCommunityIcons, FontAwesome5 } from '@expo/vector-icons'
-import Banner from '../../assets/images/Banner.png'
+import { MaterialCommunityIcons } from '@expo/vector-icons'
+import Banner from '../../../assets/images/Banner.png'
 import { LinearGradient } from 'expo-linear-gradient'
 import { useNavigation } from '@react-navigation/native'
-import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
-import type { RootStackParamList } from 'src/types/navigation'
-const StudyScreen = () => {
-  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList, 'Home'>>()
-
+import { NativeStackNavigationProp } from '@react-navigation/native-stack'
+import { RootStackParamList } from 'src/types/navigation'
+const PracticeScreen = () => {
+  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
   const features = [
     {
-      name: 'Từ vựng',
-      icon: <Ionicons name="book-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('SelectVocabularyLevel'),
-    },
-    {
-      name: 'Kanji',
-      icon: <MaterialCommunityIcons name="alphabet-latin" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('SelectKanjiLevel'),
-    },
-    {
-      name: 'Chữ cái',
-      icon: <FontAwesome5 name="font" size={28} color="#88c9bf" />,
-      onPress: () => navigation.navigate('KanaScreen', { type: 'hiragana' }),
-    },
-    {
-      name: 'Ngữ pháp',
+      name: 'Test từ vựng',
       icon: <MaterialCommunityIcons name="file-document-edit-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('SelectGrammarLevel'),
+      onPress: () => navigation.navigate('SelectVocabularyTest'),
+    },
+    {
+      name: 'Test Kanji',
+      icon: <MaterialCommunityIcons name="script-text-outline" size={32} color="#88c9bf" />,
+      onPress: () => navigation.navigate('SelectKanjiTest'),
+    },
+    {
+      name: 'Test chữ cái',
+      icon: <MaterialCommunityIcons name="format-letter-case" size={32} color="#88c9bf" />,
+      onPress: () => navigation.navigate('SelectKanaTest'),
+    },
+    {
+      name: 'Test ngữ pháp',
+      icon: <MaterialCommunityIcons name="book-outline" size={32} color="#88c9bf" />,
+      onPress: () => navigation.navigate('SelectGrammarTest'),
     },
   ]
-
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
       <Image source={Banner} style={styles.banner} resizeMode="cover" />
-      <Text style={styles.text}>Học tiếng Nhật</Text>
+      <Text style={styles.text}>Luyện tập tiếng Nhật</Text>
       <View style={styles.grid}>
         {features.map((item, index) => (
           <TouchableOpacity key={index} style={styles.box} onPress={item.onPress}>
@@ -48,12 +46,11 @@ const StudyScreen = () => {
   )
 }
 
-export default StudyScreen
+export default PracticeScreen
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fdf6e3',
   },
   banner: {
     width: '100%',

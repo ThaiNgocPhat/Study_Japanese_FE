@@ -5,11 +5,13 @@ import { useNavigation } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
+import Toast from 'react-native-toast-message'
 
 export type TopicItem = {
   title: string
   screen: keyof RootStackParamList
   onPress?: () => void
+  locked?: boolean
 }
 
 type Props = {
@@ -42,7 +44,11 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics }) => {
               }
             }}
           >
-            <Ionicons name="document-text-outline" size={24} color="#fff" />
+            <Ionicons
+              name={topic.locked ? 'lock-closed' : 'document-text-outline'}
+              size={24}
+              color="#fff"
+            />
             <Text style={styles.text}>{topic.title}</Text>
           </TouchableOpacity>
         ))}

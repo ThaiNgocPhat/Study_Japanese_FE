@@ -5,7 +5,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 export function generateLessons(
   from: number,
   to: number,
-  navigation: NativeStackNavigationProp<RootStackParamList>,
+  navigation: NativeStackNavigationProp<RootStackParamList, 'VocabularyLessonDetailScreen'>,
   level: 'N5' | 'N4' | 'N3' | 'N2' | 'N1',
 ): TopicItem[] {
   return Array.from({ length: to - from + 1 }, (_, i) => {

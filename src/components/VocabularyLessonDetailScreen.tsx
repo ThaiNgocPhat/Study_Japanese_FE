@@ -66,7 +66,9 @@ export default VocabularyLessonDetailScreen
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 16,
+    paddingHorizontal: 16,
+    paddingBottom: 16,
+    marginBottom: 32,
   },
   title: {
     fontSize: 22,

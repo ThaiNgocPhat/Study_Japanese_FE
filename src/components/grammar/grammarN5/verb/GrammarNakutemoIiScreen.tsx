@@ -1,38 +1,17 @@
+import React from 'react'
+import { Text } from 'react-native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
+import grammarN5 from '@assets/data/grammar/grammarN5'
 
 const GrammarNakutemoIiScreen = () => {
-  const grammarSections = [
-    {
-      title: '1. Mẫu câu này dùng để làm gì?',
-      explanation:
-        'Mẫu câu 「～なくてもいい」dùng để **nói rằng không cần làm một việc gì đó cũng được**, không có vấn đề gì cả. Rất tiện cho lúc muốn "lười chính đáng" 😆',
-    },
-    {
-      title: '2. Cấu trúc',
-      explanation:
-        '🔹 Động từ thể ない → bỏ ない, thêm **なくてもいい（です）**\n\nVí dụ:\n・たべない → たべなくてもいい\n・いかない → いかなくてもいい\n・しない → しなくてもいい',
-    },
-    {
-      title: '3. Câu ví dụ thường gặp',
-      explanation:
-        '✅ **きょうは 学校に いかなくてもいいです。**\n→ Hôm nay không cần đến trường đâu.\n\n' +
-        '✅ **この漢字は おぼえなくてもいいです。**\n→ Không cần nhớ chữ kanji này.\n\n' +
-        '✅ **すきじゃないものは たべなくてもいいですよ。**\n→ Không thích thì không cần ăn đâu nè.',
-    },
-    {
-      title: '4. Mẫu hội thoại đời thường',
-      explanation:
-        '👩‍🎓: このしゅくだい、ださなくてもいいですか？\n👨‍🏫: はい、ださなくてもいいですよ。\n→ Em không cần nộp bài tập này đâu.\n\n' +
-        '☕: コーヒーにミルクいれる？\n😊: いれなくてもいいよ。ブラックがすきだから。\n→ Không cần cho sữa đâu, mình thích cà phê đen.',
-    },
-    {
-      title: '5. Ghi nhớ nhanh!',
-      explanation:
-        '🧠 Mẫu câu này cực kỳ hữu ích khi bạn muốn nói **“Không cần thiết đâu”** theo cách nhẹ nhàng và lịch sự.\n\n📌 Hãy dùng khi muốn từ chối một cách tinh tế hoặc khi khuyên ai đó không cần quá lo lắng hay gắng sức.',
-    },
-  ]
+  const grammarData = grammarN5.find((item) => item.id === 'nakutemo_ii')
+  if (!grammarData) {
+    return <Text style={{ padding: 20 }}>Không tìm thấy dữ liệu ngữ pháp ～なくてもいい</Text>
+  }
 
-  return <GrammarTemplateScreen screenTitle="～なくてもいい" grammarSections={grammarSections} />
+  return (
+    <GrammarTemplateScreen screenTitle={grammarData.title} grammarSections={grammarData.sections} />
+  )
 }
 
 export default GrammarNakutemoIiScreen

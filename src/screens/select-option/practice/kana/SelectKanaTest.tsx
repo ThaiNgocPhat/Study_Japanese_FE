@@ -1,55 +1,54 @@
-import React from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
-import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'
-import Banner from '../../../assets/images/Banner.png'
 import { LinearGradient } from 'expo-linear-gradient'
+import React from 'react'
+import { View, Image, Text, TouchableOpacity, StyleSheet } from 'react-native'
+import Banner from '../../../../../assets/images/Banner.png'
+import { Ionicons } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
-import Toast from 'react-native-toast-message'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { RootStackParamList } from 'src/types/navigation'
+import { generateKanaQuestions } from 'src/utils/generateKanaQuestions'
+import hiraganaGrid from 'assets/data/alphabet/hiragana.json'
+import katakanaGrid from 'assets/data/alphabet/katakana.json'
 
-const SelectKanjiLevel = () => {
+import { hiraganaRomajiMap } from 'assets/data/alphabet/hiraganaRomajiMap'
+import { katakanaRomajiMap } from 'assets/data/alphabet/katakanaRomajiMap'
+
+const SelectKanaTest = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
   const features = [
     {
-      name: 'Kanji N5',
-      icon: <Ionicons name="sparkles-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('KanjiN5Screen'),
+      name: 'Hiragana',
+      icon: <Ionicons name="language" size={48} color="#4a4e69" />,
+      onPress: () => {
+        const questions = generateKanaQuestions(hiraganaGrid, hiraganaRomajiMap, 10)
+        navigation.navigate('KanaTestScreen', { questions, type: 'hiragana' })
+      },
     },
     {
-      name: 'Kanji N4',
-      icon: <MaterialCommunityIcons name="seed-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('KanjiN4Screen'),
-    },
-    {
-      name: 'Kanji N3',
-      icon: <MaterialCommunityIcons name="sprout-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('KanjiN3Screen'),
-    },
-    {
-      name: 'Kanji N2',
-      icon: <MaterialCommunityIcons name="tree-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('KanjiN2Screen'),
-    },
-    {
-      name: 'Kanji N1',
-      icon: <Ionicons name="diamond-outline" size={32} color="#88c9bf" />,
-      onPress: () =>
-        Toast.show({
-          type: 'info',
-          text1: 'Kanji N1',
-          text2: 'Tính năng này đang được phát triển và sẽ sớm ra mắt!',
-          position: 'bottom',
-        }),
+      name: 'Katakana',
+      icon: <Ionicons name="school-outline" size={48} color="#4a4e69" />,
+      onPress: () => {
+        const questions = generateKanaQuestions(katakanaGrid, katakanaRomajiMap, 10)
+        navigation.navigate('KanaTestScreen', { questions, type: 'katakana' })
+      },
     },
   ]
+
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+      <TouchableOpacity
+        style={styles.backButton}
+        onPress={() => {
+          navigation.reset({
+            index: 0,
+            routes: [{ name: 'Home', params: { screen: 'Practice' } }],
+          })
+        }}
+      >
         <Ionicons name="arrow-back" size={28} color="#4a4e69" />
       </TouchableOpacity>
       <Image source={Banner} style={styles.banner} resizeMode="cover" />
-      <Text style={styles.text}>Cấp độ</Text>
+      <Text style={styles.text}>Chọn bảng chữ cái</Text>
       <View style={styles.grid}>
         {features.map((item, index) => (
           <TouchableOpacity key={index} style={styles.box} onPress={item.onPress}>
@@ -61,8 +60,7 @@ const SelectKanjiLevel = () => {
     </LinearGradient>
   )
 }
-
-export default SelectKanjiLevel
+export default SelectKanaTest
 const styles = StyleSheet.create({
   container: {
     flex: 1,

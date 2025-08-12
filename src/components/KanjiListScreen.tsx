@@ -27,11 +27,19 @@ const KanjiListScreen = ({ title, kanjiList }: Props) => {
 
   return (
     <View style={styles.container}>
-      {selectedLessonIndex === null && (
-        <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-          <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-        </TouchableOpacity>
-      )}
+      <TouchableOpacity
+        style={styles.backButton}
+        onPress={() => {
+          if (selectedLessonIndex !== null) {
+            setSelectedLessonIndex(null)
+          } else {
+            navigation.goBack()
+          }
+        }}
+      >
+        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
+      </TouchableOpacity>
+
       <Text style={styles.title}>
         {selectedLessonIndex === null ? title : `Bài ${selectedLessonIndex + 1}`}
       </Text>
@@ -66,14 +74,6 @@ const KanjiListScreen = ({ title, kanjiList }: Props) => {
             renderItem={({ item }) => (
               <KanjiCard data={item} onPress={() => setSelectedKanji(item)} />
             )}
-            ListFooterComponent={
-              <TouchableOpacity
-                style={styles.backLessonButton}
-                onPress={() => setSelectedLessonIndex(null)}
-              >
-                <Text style={styles.backLessonText}>← Quay lại danh sách bài</Text>
-              </TouchableOpacity>
-            }
           />
         </Animatable.View>
       )}

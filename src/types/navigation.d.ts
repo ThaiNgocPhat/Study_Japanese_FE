@@ -285,4 +285,57 @@ export type RootStackParamList = {
   }
   VocabularyN3LessonListScreen: undefined
   VocabularyN2LessonListScreen: undefined
+  SelectVocabularyTest: undefined
+  ChooseWordCountVocabularyScreen: { level: string }
+  VocabularyPracticeScreen: { level: string; count: number; words: VocabularyItem[] }
+  SettingsScreen: undefined
+  VocabularyResultScreen: {
+    level: string
+    words: VocabularyItem[]
+    answers: {
+      selected: string | null
+      correct: string
+      options: string[]
+    }[]
+  }
+  PracticeScreen: undefined
+  SelectGrammarTest: undefined
+  SelectKanaTest: undefined
+  KanaTestScreen: {
+    questions: {
+      kana: string
+      correct: string
+      options: string[]
+    }[]
+    type: 'hiragana' | 'katakana'
+  }
+
+  KanaResultScreen: {
+    questions: {
+      kana: string
+      correct: string
+      options: string[]
+    }[]
+    answers: {
+      selected: string | null
+      correct: string
+    }[]
+    type: 'hiragana' | 'katakana'
+  }
+  SelectKanjiTest: undefined
+  KanjiPracticeScreen: {
+    level: string
+    count: number
+    words: KanjiItem[]
+  }
+  KanjiResultScreen: {
+    level: string
+    words: KanjiItem[]
+    answers: {
+      selected: string | null
+      correct: string
+      options: string[]
+    }[]
+  }
+  ChooseWordCountKanjiScreen: { level: string }
 }

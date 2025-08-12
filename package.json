@@ -28,10 +28,12 @@
     "react-native-animatable": "^1.4.0",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-reanimated": "~3.17.4",
-    "react-native-safe-area-context": "5.4.0",
+    "react-native-safe-area-context": "^5.4.0",
     "react-native-screens": "~4.11.1",
+    "react-native-swipe-gestures": "^1.0.5",
     "react-native-toast-message": "^2.3.0",
     "react-native-vector-icons": "^10.2.0",
+    "wanakana": "^5.3.1",
     "yup": "^1.6.1"
   },
   "devDependencies": {

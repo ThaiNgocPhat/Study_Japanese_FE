@@ -4,8 +4,8 @@ import { LinearGradient } from 'expo-linear-gradient'
 import { Ionicons } from '@expo/vector-icons'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
-import hiraganaData from 'assets/data/hiragana.json'
-import katakanaData from 'assets/data/katakana.json'
+import hiraganaData from 'assets/data/alphabet/hiragana.json'
+import katakanaData from 'assets/data/alphabet/katakana.json'
 
 type KanaType = 'hiragana' | 'katakana'
 

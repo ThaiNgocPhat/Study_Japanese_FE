@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
-import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack'
+import { createStackNavigator } from '@react-navigation/stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import LoginScreen from '@screens/auth/LoginScreen'
 import RegisterScreen from '@screens/auth/RegisterScreen'
@@ -8,12 +8,11 @@ import VerifyScreen from '@screens/auth/VerifyScreen'
 import ForgotPasswordScreen from '@screens/auth/ForgotPasswordScreen'
 import VerifyForgotPasswordScreen from '@screens/auth/VerifyForgotPasswordScreen'
 import ResetPasswordScreen from '@screens/auth/ResetPasswordScreen'
-import HomeScreen from '@screens/HomeScreen'
+import HomeScreen from '@screens/home/HomeScreen'
 import KanaScreen from '@screens/KanaScreen'
-import SelectVocabularyLevel from '@screens/select-option/SelectVocabularyLevel'
-import SelectGrammarLevel from '@screens/select-option/SelectGrammarLevel'
+import SelectVocabularyLevel from '@screens/select-option/study/SelectVocabularyLevel'
+import SelectGrammarLevel from '@screens/select-option/study/SelectGrammarLevel'
 import GrammarN5CategoryScreen from '@screens/grammar/GrammarN5CategoryScreen'
-import GrammarVerbN5Screen from '@components/grammar/grammarN5/verb/GrammarVerbN5Screen'
 import GrammarVerbN5TopicListScreen from '@components/grammar/grammarN5/verb/GrammarVerbN5TopicListScreen'
 import GrammarVerbMasuScreen from '@components/grammar/grammarN5/verb/GrammarVerbMasuScreen'
 import GrammarVerbTaFormScreen from '@components/grammar/grammarN5/verb/GrammarVerbTaFormScreen'
@@ -270,7 +269,7 @@ import GrammarTokoroNiScreen from '@components/grammar/grammarN2/grammar-time/Gr
 import GrammarTatoTanscreen from '@components/grammar/grammarN2/grammar-time/GrammarTatoTanscreen'
 import GrammarKaToOmoutoScreen from '@components/grammar/grammarN2/grammar-time/GrammarKaToOmoutoScreen'
 import GrammarKaNaiKaScreen from '@components/grammar/grammarN2/grammar-time/GrammarKaNaiKaScreen'
-import SelectKanjiLevel from '@screens/select-option/SelectKanjiLevel'
+import SelectKanjiLevel from '@screens/select-option/study/SelectKanjiLevel'
 import KanjiN5Screen from '@screens/kanji/KanjiN5Screen'
 import KanjiN4Screen from '@screens/kanji/KanjiN4Screen'
 import KanjiN3Screen from '@screens/kanji/KanjiN3Screen'
@@ -280,6 +279,21 @@ import VocabularyN4LessonListScreen from '@screens/vocabulary/n4/VocabularyN4Les
 import VocabularyLessonDetailScreen from '@components/VocabularyLessonDetailScreen'
 import VocabularyN3LessonListScreen from '@screens/vocabulary/n3/VocabularyN3LessonListScreen'
 import VocabularyN2LessonListScreen from '@screens/vocabulary/n2/VocabularyN2LessonListScreen'
+import SelectVocabularyTest from '@screens/select-option/practice/vocabulary/SelectVocabularyTest'
+import SettingsScreen from '@screens/options/SettingsScreen'
+import VocabularyResultScreen from '@screens/select-option/practice/vocabulary/VocabularyResultScreen'
+import VocabularyPracticeScreen from '@screens/select-option/practice/vocabulary/VocabularyPracticeScreen'
+import PracticeScreen from '@screens/options/PracticeScreen'
+import SelectGrammarTest from '@screens/select-option/practice/grammar/SelectGrammarTest'
+import SelectKanaTest from '@screens/select-option/practice/kana/SelectKanaTest'
+import KanaResultScreen from '@screens/select-option/practice/kana/KanaResultScreen'
+import KanaTestScreen from '@screens/select-option/practice/kana/KanaTestScreen'
+import SelectKanjiTest from '@screens/select-option/practice/kanji/SelectKanjiTest'
+import KanjiPracticeScreen from '@screens/select-option/practice/kanji/KanjiPracticeScreen'
+import KanjiResultScreen from '@screens/select-option/practice/kanji/KanjiResultScreen'
+import ChooseWordCountVocabularyScreen from '@screens/select-option/practice/vocabulary/ChooseWordCountVocabularyScreen'
+import ChooseWordCountKanjiScreen from '@screens/select-option/practice/kanji/ChooseWordCountKanjiScreen'
+import GrammarVerbN5Screen from '@components/grammar/grammarN5/verb/GrammarVerbN5Screen'
 const Stack = createStackNavigator<RootStackParamList>()
 
 interface RoutersProps {
@@ -568,6 +582,20 @@ const screens: {
   { name: 'VocabularyN4LessonListScreen', component: VocabularyN4LessonListScreen },
   { name: 'VocabularyN3LessonListScreen', component: VocabularyN3LessonListScreen },
   { name: 'VocabularyN2LessonListScreen', component: VocabularyN2LessonListScreen },
+  { name: 'SelectVocabularyTest', component: SelectVocabularyTest },
+  { name: 'ChooseWordCountVocabularyScreen', component: ChooseWordCountVocabularyScreen },
+  { name: 'SettingsScreen', component: SettingsScreen },
+  { name: 'VocabularyPracticeScreen', component: VocabularyPracticeScreen },
+  { name: 'VocabularyResultScreen', component: VocabularyResultScreen },
+  { name: 'PracticeScreen', component: PracticeScreen },
+  { name: 'SelectGrammarTest', component: SelectGrammarTest },
+  { name: 'SelectKanaTest', component: SelectKanaTest },
+  { name: 'KanaTestScreen', component: KanaTestScreen },
+  { name: 'KanaResultScreen', component: KanaResultScreen },
+  { name: 'SelectKanjiTest', component: SelectKanjiTest },
+  { name: 'KanjiPracticeScreen', component: KanjiPracticeScreen },
+  { name: 'KanjiResultScreen', component: KanjiResultScreen },
+  { name: 'ChooseWordCountKanjiScreen', component: ChooseWordCountKanjiScreen },
 ]
 
 export default function Routers({ initialRouteName }: RoutersProps) {
@@ -577,7 +605,7 @@ export default function Routers({ initialRouteName }: RoutersProps) {
         initialRouteName={initialRouteName}
         screenOptions={{
           headerShown: false,
-          detachPreviousScreen: false,
+          detachPreviousScreen: true,
           cardStyleInterpolator: ({ current, layouts }) => ({
             cardStyle: {
               transform: [

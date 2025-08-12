@@ -1,7 +1,11 @@
-export type KanjiData = {
+export type KanjiItem = {
   kanji: string
-  onYomi: string[]
-  kunYomi: string[]
+  onYomi: string[] | string
+  kunYomi: string[] | string
   meaning: string
-  examples: string[]
+  examples: string[] | string
+}
+
+export type KanjiData = {
+  [lessonId: string]: KanjiItem[]
 }
