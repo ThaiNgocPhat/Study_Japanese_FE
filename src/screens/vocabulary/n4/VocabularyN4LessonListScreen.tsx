@@ -8,7 +8,7 @@ import { generateLessons } from 'src/utils/lessonUtils'
 const VocabularyN4LessonListScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
 
-  const topics = generateLessons(26, 50, navigation, 'N4')
+  const topics = generateLessons(26, 50, navigation as any, 'N4')
 
   return <TopicListScreen screenTitle="Từ vựng N4" topics={topics} />
 }

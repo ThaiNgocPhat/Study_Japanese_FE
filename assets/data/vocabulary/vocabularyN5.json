@@ -31,13 +31,6 @@
       "meaning": "Nhân viên công ty"
     },
     {
-      "word": "ぎんこういん",
-      "kanji": "銀行員",
-      "romaji": "ginkouin",
-      "hanViet": "NGÂN HÀNH VIÊN",
-      "meaning": "Nhân viên ngân hàng"
-    },
-    {
       "word": "いしゃ",
       "kanji": "医者",
       "romaji": "isha",
@@ -168,13 +161,6 @@
       "meaning": "Từ điển"
     },
     {
-      "word": "ざっし",
-      "kanji": "雑誌",
-      "romaji": "zasshi",
-      "hanViet": "TẠP CHÍ",
-      "meaning": "Tạp chí"
-    },
-    {
       "word": "しんぶん",
       "kanji": "新聞",
       "romaji": "shinbun",
@@ -219,49 +205,73 @@
       "meaning": "Ô tô"
     },
     {
-      "word": "つくる",
-      "kanji": "作る",
-      "romaji": "tsukuru",
+      "word": "つくります",
+      "kanji": "作ります",
+      "romaji": "tsukurimasu",
       "hanViet": "TÁC",
       "meaning": "Làm, chế tạo"
     },
-    { "word": "あげる", "romaji": "ageru", "meaning": "Cho, tặng" },
-    { "word": "もらう", "romaji": "morau", "meaning": "Nhận" },
-    { "word": "かう", "kanji": "買う", "romaji": "kau", "hanViet": "MÃI", "meaning": "Mua" },
-    { "word": "はなす", "kanji": "話す", "romaji": "hanasu", "hanViet": "THOẠI", "meaning": "Nói" },
-    { "word": "きく", "kanji": "聞く", "romaji": "kiku", "hanViet": "VĂN", "meaning": "Nghe, hỏi" },
-    { "word": "よむ", "kanji": "読む", "romaji": "yomu", "hanViet": "ĐỘC", "meaning": "Đọc" },
+    { "word": "あげます", "romaji": "agemasu", "meaning": "Cho, tặng" },
+    { "word": "もらいます", "romaji": "moraimasu", "meaning": "Nhận" },
     {
-      "word": "みる",
-      "kanji": "見る",
-      "romaji": "miru",
+      "word": "かいます",
+      "kanji": "買います",
+      "romaji": "kaimasu",
+      "hanViet": "MUA",
+      "meaning": "Mua"
+    },
+    {
+      "word": "はなします",
+      "kanji": "話します",
+      "romaji": "hanashimasu",
+      "hanViet": "THOẠI",
+      "meaning": "Nói"
+    },
+    {
+      "word": "ききます",
+      "kanji": "聞きます",
+      "romaji": "kikimasu",
+      "hanViet": "NGHE",
+      "meaning": "Hỏi"
+    },
+    {
+      "word": "よみます",
+      "kanji": "読みます",
+      "romaji": "yomimasu",
+      "hanViet": "ĐỌC",
+      "meaning": "Đọc"
+    },
+    {
+      "word": "みます",
+      "kanji": "見ます",
+      "romaji": "mimasu",
       "hanViet": "KIẾN",
       "meaning": "Nhìn, xem"
     },
     {
-      "word": "おきる",
-      "kanji": "起きる",
-      "romaji": "okiru",
+      "word": "おきます",
+      "kanji": "起きます",
+      "romaji": "okimasu",
       "hanViet": "KHỞI",
       "meaning": "Thức dậy"
     },
-    { "word": "ねる", "kanji": "寝る", "romaji": "neru", "hanViet": "TẨM", "meaning": "Ngủ" },
+    { "word": "ねます", "kanji": "寝ます", "romaji": "nemasu", "hanViet": "TẨM", "meaning": "Ngủ" },
     {
-      "word": "はたらく",
-      "kanji": "働く",
-      "romaji": "hataraku",
+      "word": "はたらきます",
+      "kanji": "働きます",
+      "romaji": "hatarakimasu",
       "hanViet": "ĐỘNG",
       "meaning": "Làm việc"
     },
     {
-      "word": "べんきょうする",
-      "kanji": "勉強する",
-      "romaji": "benkyou suru",
+      "word": "べんきょうします",
+      "kanji": "勉強します",
+      "romaji": "benkyou shimasu",
       "hanViet": "MIỄN CƯỜNG",
       "meaning": "Học"
     },
-    { "word": "かいものする", "romaji": "kaimono suru", "meaning": "Mua sắm" },
-    { "word": "しょくじする", "romaji": "shokuji suru", "meaning": "Ăn cơm, dùng bữa" }
+    { "word": "かいもの", "romaji": "kaimono", "meaning": "Mua sắm" },
+    { "word": "しょくじします", "romaji": "shokuji shimasu", "meaning": "Ăn cơm, dùng bữa" }
   ],
   "3": [
     { "word": "いぬ", "kanji": "犬", "romaji": "inu", "hanViet": "KHUYỂN", "meaning": "Con chó" },
@@ -351,13 +361,6 @@
     { "word": "みせ", "kanji": "店", "romaji": "mise", "hanViet": "ĐIẾM", "meaning": "Cửa hàng" },
     { "word": "レストラン", "romaji": "resutoran", "meaning": "Nhà hàng" },
     { "word": "ホテル", "romaji": "hoteru", "meaning": "Khách sạn" },
-    {
-      "word": "ぎんこう",
-      "kanji": "銀行",
-      "romaji": "ginkou",
-      "hanViet": "NGÂN HÀNH",
-      "meaning": "Ngân hàng"
-    },
     {
       "word": "びょういん",
       "kanji": "病院",
@@ -741,13 +744,6 @@
       "meaning": "Hút (thuốc lá, v.v.)"
     },
     {
-      "word": "みます",
-      "kanji": "見ます",
-      "romaji": "mimasu",
-      "hanViet": "KIẾN",
-      "meaning": "Nhìn, xem"
-    },
-    {
       "word": "ききます",
       "kanji": "聞きます",
       "romaji": "kikimasu",
@@ -755,25 +751,11 @@
       "meaning": "Nghe, hỏi"
     },
     {
-      "word": "よみます",
-      "kanji": "読みます",
-      "romaji": "yomimasu",
-      "hanViet": "ĐỘC",
-      "meaning": "Đọc"
-    },
-    {
       "word": "かきます",
       "kanji": "書きます",
       "romaji": "kakimasu",
       "hanViet": "THƯ",
       "meaning": "Viết"
-    },
-    {
-      "word": "かいます",
-      "kanji": "買います",
-      "romaji": "kaimasu",
-      "hanViet": "MÃI",
-      "meaning": "Mua"
     },
     {
       "word": "とります",

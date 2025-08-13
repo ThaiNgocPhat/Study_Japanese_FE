@@ -1,6 +1,6 @@
 import { LinearGradient } from 'expo-linear-gradient'
-import React from 'react'
-import { View, Image, Text, TouchableOpacity, StyleSheet } from 'react-native'
+import React, { useEffect, useState } from 'react'
+import { View, Image, Text, TouchableOpacity, StyleSheet, ToastAndroid } from 'react-native'
 import Banner from '../../../../../assets/images/Banner.png'
 import { Ionicons } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
@@ -9,28 +9,58 @@ import { RootStackParamList } from 'src/types/navigation'
 import { generateKanaQuestions } from 'src/utils/generateKanaQuestions'
 import hiraganaGrid from 'assets/data/alphabet/hiragana.json'
 import katakanaGrid from 'assets/data/alphabet/katakana.json'
-
+import AsyncStorage from '@react-native-async-storage/async-storage'
 import { hiraganaRomajiMap } from 'assets/data/alphabet/hiraganaRomajiMap'
 import { katakanaRomajiMap } from 'assets/data/alphabet/katakanaRomajiMap'
+import Toast from 'react-native-toast-message'
+
+type KanaType = 'hiragana' | 'katakana'
 
 const SelectKanaTest = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
+  const [learnedKana, setLearnedKana] = useState<{ hiragana?: boolean; katakana?: boolean }>({})
+
+  useEffect(() => {
+    const fetchLearned = async () => {
+      try {
+        const storedStr = await AsyncStorage.getItem('learnedKana')
+        const stored = storedStr ? JSON.parse(storedStr) : {}
+        setLearnedKana(stored)
+      } catch (e) {
+        console.error('Failed to load learned kana from storage', e)
+      }
+    }
+    fetchLearned()
+  }, [])
+
+  const handleTestPress = (type: KanaType) => {
+    if (!learnedKana[type]) {
+      Toast.show({
+        type: 'error',
+        text1: `Bạn chưa học bảng ${type === 'hiragana' ? 'Hiragana' : 'Katakana'}`,
+        text2: 'Vui lòng học trước khi làm bài tập',
+      })
+      return
+    }
+
+    const questions =
+      type === 'hiragana'
+        ? generateKanaQuestions(hiraganaGrid, hiraganaRomajiMap, 10)
+        : generateKanaQuestions(katakanaGrid, katakanaRomajiMap, 10)
+
+    navigation.navigate('KanaTestScreen', { questions, type })
+  }
+
   const features = [
     {
       name: 'Hiragana',
       icon: <Ionicons name="language" size={48} color="#4a4e69" />,
-      onPress: () => {
-        const questions = generateKanaQuestions(hiraganaGrid, hiraganaRomajiMap, 10)
-        navigation.navigate('KanaTestScreen', { questions, type: 'hiragana' })
-      },
+      onPress: () => handleTestPress('hiragana'),
     },
     {
       name: 'Katakana',
       icon: <Ionicons name="school-outline" size={48} color="#4a4e69" />,
-      onPress: () => {
-        const questions = generateKanaQuestions(katakanaGrid, katakanaRomajiMap, 10)
-        navigation.navigate('KanaTestScreen', { questions, type: 'katakana' })
-      },
+      onPress: () => handleTestPress('katakana'),
     },
   ]
 

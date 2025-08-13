@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import { Ionicons } from '@expo/vector-icons'
@@ -6,6 +6,7 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import hiraganaData from 'assets/data/alphabet/hiragana.json'
 import katakanaData from 'assets/data/alphabet/katakana.json'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 type KanaType = 'hiragana' | 'katakana'
 
@@ -13,14 +14,35 @@ type KanaScreenProps = {
   route: { params: { type?: KanaType } }
   navigation: NativeStackNavigationProp<RootStackParamList>
 }
+type LearnedKanaStatus = {
+  hiragana?: boolean
+  katakana?: boolean
+}
+const saveLearnedKana = async (type: KanaType) => {
+  try {
+    const storedStr = await AsyncStorage.getItem('learnedKana')
+    let stored: LearnedKanaStatus = storedStr ? JSON.parse(storedStr) : {}
 
+    stored[type] = true
+
+    await AsyncStorage.setItem('learnedKana', JSON.stringify(stored))
+  } catch (e) {
+    console.error('Save learned kana failed', e)
+  }
+}
 const KanaScreen = ({ route, navigation }: KanaScreenProps) => {
   const initialType: KanaType = route.params?.type ?? 'hiragana'
 
   const [kanaType, setKanaType] = useState<KanaType>(initialType)
-
+  useEffect(() => {
+    saveLearnedKana(initialType)
+  }, [initialType])
   const kanaData = kanaType === 'hiragana' ? hiraganaData : katakanaData
   const title = kanaType === 'hiragana' ? 'Bảng chữ cái Hiragana' : 'Bảng chữ cái Katakana'
+  const handleKanaTypeChange = (type: KanaType) => {
+    setKanaType(type)
+    saveLearnedKana(type)
+  }
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
@@ -30,7 +52,7 @@ const KanaScreen = ({ route, navigation }: KanaScreenProps) => {
       <View style={styles.tabContainer}>
         <TouchableOpacity
           style={[styles.tabButton, kanaType === 'hiragana' && styles.tabButtonActive]}
-          onPress={() => setKanaType('hiragana')}
+          onPress={() => handleKanaTypeChange('hiragana')}
         >
           <Text style={[styles.tabText, kanaType === 'hiragana' && styles.tabTextActive]}>
             Hiragana
@@ -39,7 +61,7 @@ const KanaScreen = ({ route, navigation }: KanaScreenProps) => {
 
         <TouchableOpacity
           style={[styles.tabButton, kanaType === 'katakana' && styles.tabButtonActive]}
-          onPress={() => setKanaType('katakana')}
+          onPress={() => handleKanaTypeChange('katakana')}
         >
           <Text style={[styles.tabText, kanaType === 'katakana' && styles.tabTextActive]}>
             Katakana
