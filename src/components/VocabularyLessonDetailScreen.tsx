@@ -9,6 +9,7 @@ import vocabularyN5 from 'assets/data/vocabulary/vocabularyN5.json'
 import vocabularyN4 from 'assets/data/vocabulary/vocabularyN4.json'
 import vocabularyN3 from 'assets/data/vocabulary/vocabularyN3.json'
 import vocabularyN2 from 'assets/data/vocabulary/vocabularyN2.json'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'VocabularyLessonDetailScreen'>
 
@@ -26,7 +27,10 @@ const VocabularyLessonDetailScreen: React.FC<Props> = ({ route, navigation }) =>
   const handleSpeak = (text: string) => {
     Speech.speak(text, { language: 'ja-JP' })
   }
-
+  const handleLessonComplete = async () => {
+    await AsyncStorage.setItem(`lastCompletedLesson_${level}`, String(lessonNumber))
+    navigation.goBack()
+  }
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
@@ -58,6 +62,9 @@ const VocabularyLessonDetailScreen: React.FC<Props> = ({ route, navigation }) =>
           </View>
         )}
       />
+      <TouchableOpacity style={styles.completeButton} onPress={handleLessonComplete}>
+        <Text style={styles.completeText}>Hoàn thành bài học</Text>
+      </TouchableOpacity>
     </View>
   )
 }
@@ -127,4 +134,12 @@ const styles = StyleSheet.create({
     padding: 8,
     borderRadius: 20,
   },
+  completeButton: {
+    backgroundColor: '#4a4e69',
+    padding: 15,
+    margin: 20,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  completeText: { color: '#fff', fontSize: 16, fontWeight: 'bold' },
 })

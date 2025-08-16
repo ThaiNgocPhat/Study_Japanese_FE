@@ -5,9 +5,8 @@ import { useNavigation } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
-import Toast from 'react-native-toast-message'
-
 export type TopicItem = {
+  id?: number
   title: string
   screen: keyof RootStackParamList
   onPress?: () => void
@@ -17,9 +16,10 @@ export type TopicItem = {
 type Props = {
   screenTitle: string
   topics: TopicItem[]
+  onLockedPress?: () => void
 }
 
-const TopicListScreen: React.FC<Props> = ({ screenTitle, topics }) => {
+const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress }) => {
   const navigation =
     useNavigation<NativeStackNavigationProp<RootStackParamList, keyof RootStackParamList>>()
 
@@ -34,9 +34,15 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics }) => {
       <ScrollView contentContainerStyle={styles.content}>
         {topics.map((topic, index) => (
           <TouchableOpacity
-            key={index}
-            style={styles.item}
+            key={topic.id}
+            style={[styles.item, topic.locked && { opacity: 0.5 }]}
             onPress={() => {
+              if (topic.locked) {
+                if (onLockedPress) {
+                  onLockedPress()
+                }
+                return
+              }
               if (topic.onPress) {
                 topic.onPress()
               } else if (topic.screen) {

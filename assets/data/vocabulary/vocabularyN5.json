@@ -284,13 +284,6 @@
     { "word": "もり", "kanji": "森", "romaji": "mori", "hanViet": "SÂM", "meaning": "Rừng" },
     { "word": "うみ", "kanji": "海", "romaji": "umi", "hanViet": "HẢI", "meaning": "Biển" },
     { "word": "そら", "kanji": "空", "romaji": "sora", "hanViet": "KHÔNG", "meaning": "Bầu trời" },
-    {
-      "word": "くうこう",
-      "kanji": "空港",
-      "romaji": "kuukou",
-      "hanViet": "KHÔNG CẢNG",
-      "meaning": "Sân bay"
-    },
     { "word": "えき", "kanji": "駅", "romaji": "eki", "hanViet": "DỊCH", "meaning": "Nhà ga" },
     {
       "word": "でんしゃ",
@@ -1478,7 +1471,6 @@
     },
     { "word": "いぬ", "kanji": "犬", "romaji": "inu", "hanViet": "KHUYỂN", "meaning": "Chó" },
     { "word": "ねこ", "kanji": "猫", "romaji": "neko", "hanViet": "MIÊU", "meaning": "Mèo" },
-    { "word": "き", "kanji": "木", "romaji": "ki", "hanViet": "MỘC", "meaning": "Cây" },
     { "word": "もの", "kanji": "物", "romaji": "mono", "hanViet": "VẬT", "meaning": "Đồ vật" },
     { "word": "フィルム", "romaji": "firumu", "meaning": "Cuộn phim" },
     {

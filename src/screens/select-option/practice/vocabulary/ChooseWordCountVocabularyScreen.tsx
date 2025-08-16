@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Text, TouchableOpacity, StyleSheet, StatusBar, Animated, Easing } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { useNavigation, useRoute } from '@react-navigation/native'
@@ -13,6 +13,14 @@ import type { VocabularyData, VocabularyItem } from 'src/types/vocabulary'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { RootStackParamList } from 'src/types/navigation'
 import { KanjiItem } from 'src/types/kanji'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+
+const STORAGE_KEY_MAP: Record<string, string> = {
+  N5: 'unlockedLessons_N5',
+  N4: 'unlockedLessons_N4',
+  N3: 'unlockedLessons_N3',
+  N2: 'unlockedLessons_N2',
+}
 
 const ChooseWordCountVocabularyScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
@@ -23,7 +31,20 @@ const ChooseWordCountVocabularyScreen = () => {
   }
 
   const [currentLevel, setCurrentLevel] = useState<string>(level)
-  const scaleAnim = React.useRef(new Animated.Value(0.9)).current
+  const [unlockedLessons, setUnlockedLessons] = useState<number[]>([])
+  const scaleAnim = useRef(new Animated.Value(0.9)).current
+
+  useEffect(() => {
+    ;(async () => {
+      const key = STORAGE_KEY_MAP[level]
+      if (key) {
+        const saved = await AsyncStorage.getItem(key)
+        if (saved) {
+          setUnlockedLessons(JSON.parse(saved))
+        }
+      }
+    })()
+  }, [level])
 
   useEffect(() => {
     setCurrentLevel(level)
@@ -48,11 +69,14 @@ const ChooseWordCountVocabularyScreen = () => {
       N2: rawVocabularyN2,
     }
 
-    const lessons =
-      currentLevel === 'N4' ? ['26', '27', '28', '29', '30'] : ['1', '2', '3', '4', '5']
-
     const data = vocabDataMap[currentLevel] || rawVocabularyN5
-    allWords = lessons.flatMap((lessonId) => data[lessonId] || [])
+    const lessonsToUse =
+      unlockedLessons.length > 0
+        ? unlockedLessons.map((num) => String(num))
+        : currentLevel === 'N4'
+        ? ['26', '27', '28', '29', '30']
+        : ['1', '2', '3', '4', '5']
+    allWords = lessonsToUse.flatMap((lessonId) => data[lessonId] || [])
 
     const shuffled = [...allWords].sort(() => Math.random() - 0.5)
     return shuffled.slice(0, count)
@@ -61,22 +85,36 @@ const ChooseWordCountVocabularyScreen = () => {
   const options = [10, 20, 30, 40, 50]
 
   return (
-    <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
+    <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={{ flex: 1 }}>
       <StatusBar barStyle="dark-content" backgroundColor="#fdf6e3" />
 
       <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
         <Ionicons name="arrow-back" size={28} color="#4a4e69" />
       </TouchableOpacity>
 
-      <Animated.View style={[styles.innerContent, { transform: [{ scale: scaleAnim }] }]}>
-        <Text style={styles.title}>
+      <Animated.View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          transform: [{ scale: scaleAnim }],
+        }}
+      >
+        <Text style={{ fontSize: 20, fontWeight: 'bold', marginBottom: 20 }}>
           Chọn số {type === 'kanji' ? 'chữ Hán' : 'từ vựng'} bạn muốn làm {currentLevel}?
         </Text>
 
         {options.map((count) => (
           <TouchableOpacity
             key={count}
-            style={styles.option}
+            style={{
+              backgroundColor: '#f4a261',
+              padding: 15,
+              borderRadius: 10,
+              marginVertical: 5,
+              minWidth: 120,
+              alignItems: 'center',
+            }}
             onPress={() => {
               const selectedWords = getWords(count)
               if (type === 'kanji') {
@@ -94,7 +132,7 @@ const ChooseWordCountVocabularyScreen = () => {
               }
             }}
           >
-            <Text style={styles.optionText}>{count} từ</Text>
+            <Text style={{ color: '#fff', fontSize: 16 }}>{count} từ</Text>
           </TouchableOpacity>
         ))}
       </Animated.View>
