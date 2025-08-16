@@ -35,6 +35,15 @@ const VocabularyN5LessonListScreen = () => {
           setUnlockedLessons(updated)
           await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(updated))
         }
+        if (idNum === 25) {
+          const unlockedN4 = await AsyncStorage.getItem('unlockedLessons_N4')
+          const parsedN4 = unlockedN4 ? JSON.parse(unlockedN4) : []
+          if (!parsedN4.includes(26)) {
+            const updatedN4 = [...parsedN4, 26]
+            await AsyncStorage.setItem('unlockedLessons_N4', JSON.stringify(updatedN4))
+          }
+        }
+
         await AsyncStorage.removeItem('lastCompletedLesson_N5')
       }
     })
