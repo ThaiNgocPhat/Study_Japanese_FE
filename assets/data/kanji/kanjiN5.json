@@ -294,7 +294,7 @@
     "examples": ["一時（いちじ）", "時々（ときどき）"]
   },
   {
-    "kanji": "分る",
+    "kanji": "分",
     "onYomi": "ふん, ぶん",
     "kunYomi": "わかる",
     "meaning": "phút, chia",
@@ -413,126 +413,126 @@
     "examples": "日曜日（にちようび）、日本（にほん）"
   },
   {
-    "kanji": "語る",
+    "kanji": "語",
     "onYomi": "ご",
     "kunYomi": "かたる",
     "meaning": "ngôn ngữ, kể",
     "examples": "日本語（にほんご）、語る（かたる）"
   },
   {
-    "kanji": "話す",
+    "kanji": "話",
     "onYomi": "わ",
     "kunYomi": "はなす",
     "meaning": "nói chuyện",
     "examples": "話す（はなす）、電話（でんわ）"
   },
   {
-    "kanji": "読む",
+    "kanji": "読",
     "onYomi": "どく",
     "kunYomi": "よむ",
     "meaning": "đọc",
     "examples": "読む（よむ）、読書（どくしょ）"
   },
   {
-    "kanji": "書く",
+    "kanji": "書",
     "onYomi": "しょ",
     "kunYomi": "かく",
     "meaning": "viết",
     "examples": "書く（かく）、図書館（としょかん）"
   },
   {
-    "kanji": "聞く",
+    "kanji": "聞",
     "onYomi": "ぶん, もん",
     "kunYomi": "きく",
     "meaning": "nghe, hỏi",
     "examples": "聞く（きく）、新聞（しんぶん）"
   },
   {
-    "kanji": "見る",
+    "kanji": "見",
     "onYomi": "けん",
     "kunYomi": "みる",
     "meaning": "nhìn, xem",
     "examples": "見る（みる）、見物（けんぶつ）"
   },
   {
-    "kanji": "行く",
+    "kanji": "行",
     "onYomi": "こう, ぎょう",
     "kunYomi": "いく, おこなう",
     "meaning": "đi, thực hiện",
     "examples": "行く（いく）、旅行（りょこう）"
   },
   {
-    "kanji": "来る",
+    "kanji": "来",
     "onYomi": "らい",
     "kunYomi": "くる",
     "meaning": "đến",
     "examples": "来る（くる）、来年（らいねん）"
   },
   {
-    "kanji": "帰る",
+    "kanji": "帰",
     "onYomi": "き",
     "kunYomi": "かえる",
     "meaning": "trở về",
     "examples": "帰る（かえる）、帰国（きこく）"
   },
   {
-    "kanji": "食る",
+    "kanji": "食",
     "onYomi": "しょく",
     "kunYomi": "たべる",
     "meaning": "ăn",
     "examples": "食べる（たべる）、食事（しょくじ）"
   },
   {
-    "kanji": "飲む",
+    "kanji": "飲",
     "onYomi": "いん",
     "kunYomi": "のむ",
     "meaning": "uống",
     "examples": "飲む（のむ）、飲食（いんしょく）"
   },
   {
-    "kanji": "買う",
+    "kanji": "買",
     "onYomi": "ばい",
     "kunYomi": "かう",
     "meaning": "mua",
     "examples": "買う（かう）、買い物（かいもの）"
   },
   {
-    "kanji": "売る",
-    "onYomi": "バイ",
+    "kanji": "売",
+    "onYomi": "ばい",
     "kunYomi": "うる",
     "meaning": "bán",
     "examples": "売る（うる）、売店（ばいてん）"
   },
   {
-    "kanji": "立つ",
+    "kanji": "立",
     "onYomi": "りつ",
     "kunYomi": "たつ",
     "meaning": "đứng",
     "examples": "立つ（たつ）、国立（こくりつ）"
   },
   {
-    "kanji": "休む",
+    "kanji": "休",
     "onYomi": "きゅう",
     "kunYomi": "やすむ",
     "meaning": "nghỉ",
     "examples": "休む（やすむ）、休日（きゅうじつ）"
   },
   {
-    "kanji": "入る",
+    "kanji": "入",
     "onYomi": "にゅう",
     "kunYomi": "いる, はいる",
     "meaning": "vào",
     "examples": "入る（はいる）、入学（にゅうがく）"
   },
   {
-    "kanji": "出る",
+    "kanji": "出",
     "onYomi": "しゅつ",
     "kunYomi": "でる, だす",
     "meaning": "ra",
     "examples": "出る（でる）、出発（しゅっぱつ）"
   },
   {
-    "kanji": "会う",
+    "kanji": "会",
     "onYomi": "かい",
     "kunYomi": "あう",
     "meaning": "gặp gỡ",
@@ -567,98 +567,98 @@
     "examples": "電話（でんわ）、電車（でんしゃ）"
   },
   {
-    "kanji": "白い",
+    "kanji": "白",
     "onYomi": "はく",
     "kunYomi": "しろい",
     "meaning": "màu trắng",
     "examples": "白い（しろい）、白紙（はくし）"
   },
   {
-    "kanji": "黒い",
+    "kanji": "黒",
     "onYomi": "こく",
     "kunYomi": "くろい",
     "meaning": "màu đen",
     "examples": "黒い（くろい）、黒板（こくばん）"
   },
   {
-    "kanji": "赤い",
+    "kanji": "赤",
     "onYomi": "せき",
     "kunYomi": "あかい",
     "meaning": "màu đỏ",
     "examples": "赤い（あかい）、赤ちゃん（あかちゃん）"
   },
   {
-    "kanji": "青い",
+    "kanji": "青",
     "onYomi": "せい",
     "kunYomi": "あおい",
     "meaning": "màu xanh",
     "examples": "青い（あおい）、青春（せいしゅん）"
   },
   {
-    "kanji": "新しい",
+    "kanji": "新",
     "onYomi": "しん",
     "kunYomi": "あたらしい",
     "meaning": "mới",
     "examples": "新しい（あたらしい）、新聞（しんぶん）"
   },
   {
-    "kanji": "古い",
+    "kanji": "古",
     "onYomi": "こ",
     "kunYomi": "ふるい",
     "meaning": "cũ",
     "examples": "古い（ふるい）、古本（ふるほん）"
   },
   {
-    "kanji": "長い",
+    "kanji": "長",
     "onYomi": "ちょう",
     "kunYomi": "ながい",
     "meaning": "dài, trưởng",
     "examples": "長い（ながい）、社長（しゃちょう）"
   },
   {
-    "kanji": "高い",
+    "kanji": "高",
     "onYomi": "こう",
     "kunYomi": "たかい",
     "meaning": "cao, đắt",
     "examples": "高い（たかい）、高校（こうこう）"
   },
   {
-    "kanji": "安い",
+    "kanji": "安",
     "onYomi": "あん",
     "kunYomi": "やすい",
     "meaning": "rẻ, an toàn",
     "examples": "安い（やすい）、安心（あんしん）"
   },
   {
-    "kanji": "小さい",
+    "kanji": "小",
     "onYomi": "しょう",
     "kunYomi": "ちいさい",
     "meaning": "nhỏ",
     "examples": "小さい（ちいさい）、小学生（しょうがくせい）"
   },
   {
-    "kanji": "大きい",
+    "kanji": "大",
     "onYomi": "だい, たい",
     "kunYomi": "おおきい",
     "meaning": "lớn",
     "examples": "大きい（おおきい）、大学（だいがく）"
   },
   {
-    "kanji": "多い",
+    "kanji": "多",
     "onYomi": "た",
     "kunYomi": "おおい",
     "meaning": "nhiều",
     "examples": "多い（おおい）、多数（たすう）"
   },
   {
-    "kanji": "少ない",
+    "kanji": "少",
     "onYomi": "しょう",
     "kunYomi": "すくない, すこし",
     "meaning": "ít",
     "examples": "少ない（すくない）、少し（すこし）"
   },
   {
-    "kanji": "早い",
+    "kanji": "早",
     "onYomi": "そう",
     "kunYomi": "はやい",
     "meaning": "sớm",

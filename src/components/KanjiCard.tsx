@@ -1,9 +1,9 @@
 import React from 'react'
 import { Text, StyleSheet, TouchableOpacity } from 'react-native'
-import { KanjiData } from 'src/types/kanji'
+import { KanjiItem } from 'src/types/kanji'
 
 type Props = {
-  data: KanjiData
+  data: KanjiItem
   onPress: () => void
 }
 

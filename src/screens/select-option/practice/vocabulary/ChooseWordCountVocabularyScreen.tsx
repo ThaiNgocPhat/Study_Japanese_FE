@@ -3,12 +3,11 @@ import { Text, TouchableOpacity, StyleSheet, StatusBar, Animated, Easing } from 
 import { Ionicons } from '@expo/vector-icons'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
-
+import Toast from 'react-native-toast-message'
 import rawVocabularyN5 from 'assets/data/vocabulary/vocabularyN5.json'
 import rawVocabularyN4 from 'assets/data/vocabulary/vocabularyN4.json'
 import rawVocabularyN3 from 'assets/data/vocabulary/vocabularyN3.json'
 import rawVocabularyN2 from 'assets/data/vocabulary/vocabularyN2.json'
-
 import type { VocabularyData, VocabularyItem } from 'src/types/vocabulary'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { RootStackParamList } from 'src/types/navigation'
@@ -116,6 +115,17 @@ const ChooseWordCountVocabularyScreen = () => {
               alignItems: 'center',
             }}
             onPress={() => {
+              if (unlockedLessons.length === 0) {
+                Toast.show({
+                  type: 'info',
+                  text1: 'Chưa mở cấp độ',
+                  text2: `Bạn chưa mở cấp độ ${currentLevel}. Vui lòng học các bài ở cấp độ trước.`,
+                  position: 'top',
+                  visibilityTime: 3000,
+                })
+                return
+              }
+
               const selectedWords = getWords(count)
               if (type === 'kanji') {
                 navigation.navigate('KanjiPracticeScreen', {

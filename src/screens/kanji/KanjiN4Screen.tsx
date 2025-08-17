@@ -1,7 +1,7 @@
 import React from 'react'
 import KanjiListScreen from '@components/KanjiListScreen'
 import kanjiN4 from '../../../assets/data/kanji/kanjiN4.json'
-import { KanjiData } from 'src/types/kanji'
+import { KanjiItem } from 'src/types/kanji'
 
 const normalizeField = (field: string | string[]): string[] => {
   if (Array.isArray(field)) return field
@@ -9,7 +9,7 @@ const normalizeField = (field: string | string[]): string[] => {
   return []
 }
 
-const normalizedList: KanjiData[] = kanjiN4.map((item: any) => ({
+const normalizedList: KanjiItem[] = kanjiN4.map((item: any) => ({
   kanji: item.kanji,
   onYomi: normalizeField(item.onYomi),
   kunYomi: normalizeField(item.kunYomi),
