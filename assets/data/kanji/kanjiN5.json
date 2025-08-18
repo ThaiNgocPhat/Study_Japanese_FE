@@ -141,8 +141,8 @@
   },
   {
     "kanji": "気",
-    "onYomi": ["き", "け"],
-    "kunYomi": [],
+    "onYomi": "",
+    "kunYomi": "き",
     "meaning": "khí, tinh thần",
     "examples": ["元気（げんき）", "空気（くうき）"]
   },
@@ -273,7 +273,7 @@
     "examples": ["先週（せんしゅう）", "先に行く（さきにいく）"]
   },
   {
-    "kanji": "生る",
+    "kanji": "生",
     "onYomi": ["せい", "しょう"],
     "kunYomi": ["いきる", "うまれる"],
     "meaning": "sinh, sống",

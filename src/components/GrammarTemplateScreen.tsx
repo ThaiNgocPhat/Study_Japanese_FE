@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
+import BackButton from '@components/BackButton'
 
 type GrammarSection = {
   title: string
@@ -21,10 +22,7 @@ const GrammarTemplateScreen: React.FC<Props> = ({ screenTitle, grammarSections }
 
   return (
     <LinearGradient colors={['#fff8f0', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
-
+      <BackButton />
       <ScrollView contentContainerStyle={styles.content}>
         <Text style={styles.title}>{screenTitle}</Text>
 

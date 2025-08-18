@@ -6,6 +6,7 @@ import { LinearGradient } from 'expo-linear-gradient'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import Banner from 'assets/images/Banner.png'
+import BackButton from '@components/BackButton'
 
 const GrammarN5CategoryScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
@@ -40,10 +41,7 @@ const GrammarN5CategoryScreen = () => {
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
-
+      <BackButton />
       <Image source={Banner} style={styles.banner} resizeMode="cover" />
       <View style={styles.content}>
         <Text style={styles.title}>Ngữ pháp N5</Text>

@@ -5,6 +5,7 @@ import { Ionicons } from '@expo/vector-icons'
 import { StackNavigationProp } from '@react-navigation/stack'
 import { RootStackParamList } from 'src/types/navigation'
 import { RouteProp } from '@react-navigation/native'
+import BackButton from '@components/BackButton'
 type ScreenNavigationProp = StackNavigationProp<RootStackParamList, 'KanaTestScreen'>
 type ScreenRouteProp = RouteProp<RootStackParamList, 'KanaTestScreen'>
 type Props = {
@@ -77,10 +78,7 @@ const KanaTestScreen = ({ navigation, route }: Props) => {
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
-
+      <BackButton />
       <Text style={styles.header}>
         {type === 'katakana' ? 'Bài kiểm tra Katakana' : 'Bài kiểm tra Hiragana'}
       </Text>

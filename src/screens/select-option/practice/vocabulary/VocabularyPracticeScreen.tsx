@@ -14,6 +14,7 @@ import { LinearGradient } from 'expo-linear-gradient'
 import { VocabularyItem } from 'src/types/vocabulary'
 import { StackNavigationProp } from '@react-navigation/stack'
 import { RootStackParamList } from 'src/types/navigation'
+import BackButton from '@components/BackButton'
 
 type RouteParams = {
   level: string
@@ -136,9 +137,7 @@ const VocabularyPracticeScreen = () => {
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
+      <BackButton />
 
       <Text style={styles.header}>
         Câu {currentIndex + 1} / {words.length}

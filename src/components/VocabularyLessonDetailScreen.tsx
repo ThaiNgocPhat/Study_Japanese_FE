@@ -10,6 +10,7 @@ import vocabularyN4 from 'assets/data/vocabulary/vocabularyN4.json'
 import vocabularyN3 from 'assets/data/vocabulary/vocabularyN3.json'
 import vocabularyN2 from 'assets/data/vocabulary/vocabularyN2.json'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import BackButton from '@components/BackButton'
 
 type Props = NativeStackScreenProps<RootStackParamList, 'VocabularyLessonDetailScreen'>
 
@@ -60,9 +61,7 @@ const VocabularyLessonDetailScreen: React.FC<Props> = ({ route, navigation }) =>
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
+      <BackButton />
       <Text style={styles.title}>{`Từ vựng ${level} - Bài ${lessonNumber}`}</Text>
       <FlatList
         data={vocabularyList}

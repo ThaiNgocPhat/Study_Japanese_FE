@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     width: '48%',
     backgroundColor: '#fefae0',
     borderRadius: 12,
-    paddingVertical: 24,
+    padding: 20,
     alignItems: 'center',
     justifyContent: 'center',
     shadowColor: '#000',
@@ -31,13 +31,14 @@ const styles = StyleSheet.create({
   },
 
   kanji: {
-    fontSize: 48,
+    fontSize: 45,
     fontWeight: 'bold',
     color: '#6c584c',
   },
+
   meaning: {
     fontSize: 16,
     color: '#2d3142',
-    marginTop: 8,
+    marginTop: 6,
   },
 })

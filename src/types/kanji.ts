@@ -4,6 +4,7 @@ export type KanjiItem = {
   kunYomi: string[] | string
   meaning: string
   examples: string[] | string
+  lessonId?: number
 }
 
 export type KanjiData = {

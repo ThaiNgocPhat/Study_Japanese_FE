@@ -13,6 +13,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import { hiraganaRomajiMap } from 'assets/data/alphabet/hiraganaRomajiMap'
 import { katakanaRomajiMap } from 'assets/data/alphabet/katakanaRomajiMap'
 import Toast from 'react-native-toast-message'
+import BackButton from '@components/BackButton'
 
 type KanaType = 'hiragana' | 'katakana'
 
@@ -66,17 +67,14 @@ const SelectKanaTest = () => {
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity
-        style={styles.backButton}
+      <BackButton
         onPress={() => {
           navigation.reset({
             index: 0,
             routes: [{ name: 'Home', params: { screen: 'Practice' } }],
           })
         }}
-      >
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
+      />
       <Image source={Banner} style={styles.banner} resizeMode="cover" />
       <Text style={styles.text}>Chọn bảng chữ cái</Text>
       <View style={styles.grid}>

@@ -18,6 +18,7 @@ import { StackNavigationProp } from '@react-navigation/stack'
 import { RootStackParamList } from 'src/types/navigation'
 import { KanjiItem } from 'src/types/kanji'
 import { toHiragana } from 'wanakana'
+import BackButton from '@components/BackButton'
 type RouteParams = {
   level: string
   count: number
@@ -170,10 +171,7 @@ const KanjiPracticeScreen = () => {
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
-
+      <BackButton />
       <Text style={styles.header}>
         Câu {currentIndex + 1} / {words.length}
       </Text>

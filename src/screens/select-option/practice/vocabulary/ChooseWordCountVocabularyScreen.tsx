@@ -13,6 +13,7 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { RootStackParamList } from 'src/types/navigation'
 import { KanjiItem } from 'src/types/kanji'
 import AsyncStorage from '@react-native-async-storage/async-storage'
+import BackButton from '@components/BackButton'
 
 const STORAGE_KEY_MAP: Record<string, string> = {
   N5: 'unlockedLessons_N5',
@@ -86,10 +87,7 @@ const ChooseWordCountVocabularyScreen = () => {
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={{ flex: 1 }}>
       <StatusBar barStyle="dark-content" backgroundColor="#fdf6e3" />
-
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
+      <BackButton />
 
       <Animated.View
         style={{

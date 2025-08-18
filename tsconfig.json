@@ -22,6 +22,6 @@
       "@assets/*": ["assets/*"]
     }
   },
-  "include": ["src", "App.tsx", "**/*.d.ts", "src/screens/select-option/practice/kana/.tsx"],
+  "include": ["src", "App.tsx", "**/*.d.ts"],
   "exclude": ["node_modules"]
 }

@@ -7,6 +7,7 @@ import { View, TouchableOpacity, Image, Text, StyleSheet } from 'react-native'
 import Toast from 'react-native-toast-message'
 import { RootStackParamList } from 'src/types/navigation'
 import Banner from '../../../../../assets/images/Banner.png'
+import BackButton from '@components/BackButton'
 
 const SelectGrammarTest = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
@@ -54,17 +55,14 @@ const SelectGrammarTest = () => {
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity
-        style={styles.backButton}
+      <BackButton
         onPress={() => {
           navigation.reset({
             index: 0,
             routes: [{ name: 'Home', params: { screen: 'Practice' } }],
           })
         }}
-      >
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
+      />
       <Image source={Banner} style={styles.banner} resizeMode="cover" />
       <Text style={styles.text}>Cấp độ</Text>
       <View style={styles.grid}>
