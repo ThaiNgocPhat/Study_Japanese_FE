@@ -7,37 +7,87 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import Banner from 'assets/images/Banner.png'
 import BackButton from '@components/BackButton'
+import Toast from 'react-native-toast-message'
 
 const GrammarN5CategoryScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
+
+  // const categories = [
+  //   {
+  //     name: 'Động từ',
+  //     icon: <Ionicons name="walk-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('GrammarVerbN5TopicListScreen'),
+  //     locked: false,
+  //   },
+  //   {
+  //     name: 'Tính từ',
+  //     icon: <Ionicons name="sunny-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('GrammarAdjectiveN5TopicListScreen'),
+  //     locked: true,
+  //   },
+  //   {
+  //     name: 'Danh từ',
+  //     icon: <Ionicons name="book-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('GrammarNounN5TopicListScreen'),
+  //     locked: true,
+  //   },
+  //   {
+  //     name: 'Trợ từ',
+  //     icon: <Ionicons name="ellipsis-horizontal-circle-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('GrammarParticleN5TopicListScreen'),
+  //     locked: true,
+  //   },
+  //   {
+  //     name: 'Các mẫu câu khác',
+  //     icon: <Ionicons name="chatbubbles-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('OtherSentencePatternsScreen'),
+  //     locked: true,
+  //   },
+  // ]
 
   const categories = [
     {
       name: 'Động từ',
       icon: <Ionicons name="walk-outline" size={32} color="#88c9bf" />,
       onPress: () => navigation.navigate('GrammarVerbN5TopicListScreen'),
+      locked: false,
     },
     {
       name: 'Tính từ',
       icon: <Ionicons name="sunny-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarAdjectiveN5TopicListScreen'),
+      onPress: () => {},
+      locked: true,
     },
     {
       name: 'Danh từ',
       icon: <Ionicons name="book-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarNounN5TopicListScreen'),
+      onPress: () => {},
+      locked: true,
     },
     {
       name: 'Trợ từ',
       icon: <Ionicons name="ellipsis-horizontal-circle-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarParticleN5TopicListScreen'),
+      onPress: () => {},
+      locked: true,
     },
     {
       name: 'Các mẫu câu khác',
       icon: <Ionicons name="chatbubbles-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('OtherSentencePatternsScreen'),
+      onPress: () => {},
+      locked: true,
     },
   ]
+  const handlePress = (item: (typeof categories)[0]) => {
+    if (item.locked) {
+      Toast.show({
+        type: 'info',
+        text1: 'Chưa mở khóa',
+        text2: 'Bạn chưa hoàn thành bài trước, vui lòng học xong để mở tiếp theo.',
+      })
+    } else {
+      item.onPress()
+    }
+  }
 
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
@@ -48,9 +98,14 @@ const GrammarN5CategoryScreen = () => {
 
         <View style={styles.grid}>
           {categories.map((item, index) => (
-            <TouchableOpacity key={index} style={styles.box} onPress={item.onPress}>
+            <TouchableOpacity
+              key={index}
+              style={[styles.box, item.locked && { opacity: 0.5 }]}
+              onPress={() => handlePress(item)}
+            >
               {item.icon}
               <Text style={styles.label}>{item.name}</Text>
+              {item.locked && <Ionicons name="lock-closed-outline" size={24} color="#4a4e69" />}
             </TouchableOpacity>
           ))}
         </View>

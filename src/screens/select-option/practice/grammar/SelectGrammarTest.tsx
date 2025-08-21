@@ -16,28 +16,28 @@ const SelectGrammarTest = () => {
       name: 'Ngữ pháp N5',
       icon: <MaterialCommunityIcons name="alpha-a-box-outline" size={32} color="#88c9bf" />,
       onPress: () => {
-        navigation.navigate('ChooseWordCountScreen', { level: 'N5' })
+        navigation.navigate('ChooseGrammarCountScreen', { level: 'N5' })
       },
     },
     {
       name: 'Ngữ pháp N4',
       icon: <MaterialCommunityIcons name="alpha-b-box-outline" size={32} color="#88c9bf" />,
       onPress: () => {
-        navigation.navigate('ChooseWordCountScreen', { level: 'N4' })
+        navigation.navigate('ChooseGrammarCountScreen', { level: 'N4' })
       },
     },
     {
       name: 'Ngữ pháp N3',
       icon: <MaterialCommunityIcons name="alpha-c-box-outline" size={32} color="#88c9bf" />,
       onPress: () => {
-        navigation.navigate('ChooseWordCountScreen', { level: 'N3' })
+        navigation.navigate('ChooseGrammarCountScreen', { level: 'N3' })
       },
     },
     {
       name: 'Ngữ pháp N2',
       icon: <MaterialCommunityIcons name="alpha-d-box-outline" size={32} color="#88c9bf" />,
       onPress: () => {
-        navigation.navigate('ChooseWordCountScreen', { level: 'N2' })
+        navigation.navigate('ChooseGrammarCountScreen', { level: 'N2' })
       },
     },
     {

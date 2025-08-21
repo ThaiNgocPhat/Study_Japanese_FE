@@ -1,4 +1,6 @@
 import TopicListScreen, { TopicItem } from '@components/TopicListScreen'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+import { useEffect, useState } from 'react'
 
 const topics: TopicItem[] = [
   {
@@ -22,8 +24,45 @@ const topics: TopicItem[] = [
   { title: '～なくてもいい', screen: 'GrammarNakutemoIiScreen' },
 ]
 
+const STORAGE_KEY = 'grammarN5Progress'
+
 const GrammarVerbN5TopicListScreen = () => {
-  return <TopicListScreen screenTitle="Chủ đề động từ N5" topics={topics} />
+  const [unlocked, setUnlocked] = useState(0)
+
+  useEffect(() => {
+    const initProgress = async () => {
+      const value = await AsyncStorage.getItem(STORAGE_KEY)
+      if (value === null) {
+        await AsyncStorage.setItem(STORAGE_KEY, '0')
+        setUnlocked(0)
+      } else {
+        const parsed = Number(value)
+        if (isNaN(parsed) || parsed >= topics.length) {
+          await AsyncStorage.setItem(STORAGE_KEY, '0')
+          setUnlocked(0)
+        } else {
+          setUnlocked(parsed)
+        }
+      }
+    }
+    initProgress()
+  }, [])
+
+  const handleComplete = async (index: number) => {
+    const nextIndex = index + 1
+    if (nextIndex > unlocked && nextIndex < topics.length) {
+      setUnlocked(nextIndex)
+      await AsyncStorage.setItem(STORAGE_KEY, String(nextIndex))
+    }
+  }
+
+  const topicsWithLock = topics.map((topic, index) => ({
+    ...topic,
+    locked: index > unlocked,
+    onComplete: () => handleComplete(index),
+  }))
+
+  return <TopicListScreen screenTitle="Chủ đề động từ N5" topics={topicsWithLock} />
 }
 
 export default GrammarVerbN5TopicListScreen

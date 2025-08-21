@@ -7,11 +7,12 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import BackButton from '@components/BackButton'
 export type TopicItem = {
-  id?: number
+  id?: string
   title: string
   screen: keyof RootStackParamList
   onPress?: () => void
   locked?: boolean
+  onComplete?: () => void
 }
 
 type Props = {
@@ -33,7 +34,7 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress }
       <ScrollView contentContainerStyle={styles.content}>
         {topics.map((topic, index) => (
           <TouchableOpacity
-            key={topic.id}
+            key={topic.id ?? topic.screen ?? `topic-${index}`}
             style={[styles.item, topic.locked && { opacity: 0.5 }]}
             onPress={() => {
               if (topic.locked) {
@@ -45,7 +46,10 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress }
               if (topic.onPress) {
                 topic.onPress()
               } else if (topic.screen) {
-                navigation.navigate(topic.screen as any)
+                navigation.navigate(topic.screen as any, {
+                  topicIndex: index,
+                  onComplete: topic.onComplete,
+                })
               }
             }}
           >

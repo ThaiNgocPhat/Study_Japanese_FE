@@ -23,7 +23,7 @@
   {
     "kanji": "四",
     "onYomi": "し",
-    "kunYomi": ["よん", "よ", "よっ"],
+    "kunYomi": "よん",
     "meaning": "bốn",
     "examples": ["四つ（よっつ）", "四人（よにん）"]
   },
@@ -58,14 +58,14 @@
   {
     "kanji": "九",
     "onYomi": "ここの",
-    "kunYomi": ["きゅう", "く"],
+    "kunYomi": ["きゅう"],
     "meaning": "chín",
     "examples": ["九つ（ここのつ）", "九月（くがつ）"]
   },
   {
     "kanji": "十",
     "onYomi": ["とお", "と"],
-    "kunYomi": ["じゅう", "じっ"],
+    "kunYomi": "じゅう",
     "meaning": "mười",
     "examples": ["十日（とおか）", "十月（じゅうがつ）"]
   },

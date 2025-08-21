@@ -338,4 +338,5 @@ export type RootStackParamList = {
     }[]
   }
   ChooseWordCountKanjiScreen: { level: string }
+  ChooseGrammarCountScreen: { level: string }
 }

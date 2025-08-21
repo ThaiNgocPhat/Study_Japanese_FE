@@ -14,16 +14,14 @@ const normalizeField = (field: string | string[]): string[] => {
 }
 
 const KanjiN5Screen = () => {
-  const [unlockedKanjiLessons, setUnlockedKanjiLessons] = useState<number[]>([1])
+  const [unlockedLessons, setUnlockedLessons] = useState<number[]>([1])
   const [kanjiList, setKanjiList] = useState<KanjiItem[]>([])
-
-  // Load unlocked lessons
   useEffect(() => {
     ;(async () => {
       const saved = await AsyncStorage.getItem(STORAGE_KEY)
       if (saved) {
         const parsed = JSON.parse(saved) as number[]
-        setUnlockedKanjiLessons(parsed.includes(1) ? parsed : [1])
+        setUnlockedLessons(parsed.includes(1) ? parsed : [1])
       }
     })()
   }, [])
@@ -40,7 +38,6 @@ const KanjiN5Screen = () => {
     setKanjiList(normalized)
   }, [])
 
-  // Unlock next lesson after completion
   useEffect(() => {
     const unlockNextLesson = async () => {
       const lastCompleted = await AsyncStorage.getItem('lastCompletedKanjiLesson_N5')
@@ -51,17 +48,19 @@ const KanjiN5Screen = () => {
 
       const totalLessons = Math.ceil(kanjiList.length / 10)
 
-      if (!unlockedKanjiLessons.includes(nextLesson) && nextLesson <= totalLessons) {
-        const updated = [...unlockedKanjiLessons, nextLesson]
-        setUnlockedKanjiLessons(updated)
+      if (!unlockedLessons.includes(nextLesson) && nextLesson <= totalLessons) {
+        const updated = [...unlockedLessons, nextLesson]
+        setUnlockedLessons(updated)
         await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(updated))
       }
-
+      if (completedId === totalLessons) {
+        await AsyncStorage.setItem('kanjiN4Unlocked', 'true')
+      }
       await AsyncStorage.removeItem('lastCompletedKanjiLesson_N5')
     }
 
     unlockNextLesson()
-  }, [kanjiList, unlockedKanjiLessons])
+  }, [kanjiList, unlockedLessons])
 
   const handleLockedPress = () => {
     Toast.show({
@@ -76,9 +75,9 @@ const KanjiN5Screen = () => {
     <KanjiListScreen
       title="Hán tự N5"
       kanjiList={kanjiList}
-      unlockedLessons={unlockedKanjiLessons}
+      unlockedLessons={unlockedLessons}
       onLockedPress={handleLockedPress}
-      onUpdateUnlockedLessons={(updated) => setUnlockedKanjiLessons(updated)}
+      onUpdateUnlockedLessons={(updated) => setUnlockedLessons(updated)}
     />
   )
 }

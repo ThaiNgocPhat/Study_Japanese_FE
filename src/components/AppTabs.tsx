@@ -3,10 +3,10 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons'
 import StudyScreen from '@screens/options/StudyScreen'
 import PracticeScreen from '@screens/options/PracticeScreen'
-import SettingsScreen from '@screens/options/SettingsScreen'
+// import SettingsScreen from '@screens/options/SettingsScreen'
 const Tab = createBottomTabNavigator()
 
-const AppTabs = ({ initialTab }: { initialTab: 'Study' | 'Practice' | 'Exam' | 'Settings' }) => {
+const AppTabs = ({ initialTab }: { initialTab: 'Study' | 'Practice' | 'Settings' }) => {
   return (
     <Tab.Navigator
       initialRouteName={initialTab}
@@ -33,7 +33,7 @@ const AppTabs = ({ initialTab }: { initialTab: 'Study' | 'Practice' | 'Exam' | '
         component={PracticeScreen}
         options={{ tabBarLabel: 'Luyện tập' }}
       />
-      <Tab.Screen name="Settings" component={SettingsScreen} options={{ tabBarLabel: 'Cài đặt' }} />
+      {/* <Tab.Screen name="Settings" component={SettingsScreen} options={{ tabBarLabel: 'Cài đặt' }} /> */}
     </Tab.Navigator>
   )
 }

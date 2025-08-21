@@ -1,11 +1,11 @@
 import React from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native'
-import { Ionicons } from '@expo/vector-icons'
-import { useNavigation } from '@react-navigation/native'
+import { View, Text, StyleSheet, ScrollView } from 'react-native'
+import { useNavigation, useRoute } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import BackButton from '@components/BackButton'
+import GrammarCompleteButton from '@components/GrammarCompleteButton'
 
 type GrammarSection = {
   title: string
@@ -15,10 +15,18 @@ type GrammarSection = {
 type Props = {
   screenTitle: string
   grammarSections: GrammarSection[]
+  onComplete?: () => void
 }
 
-const GrammarTemplateScreen: React.FC<Props> = ({ screenTitle, grammarSections }) => {
+const GrammarTemplateScreen: React.FC<Props> = ({ screenTitle, grammarSections, onComplete }) => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
+
+  const handleComplete = () => {
+    if (onComplete) {
+      onComplete()
+    }
+    navigation.goBack()
+  }
 
   return (
     <LinearGradient colors={['#fff8f0', '#fcefe3']} style={styles.container}>
@@ -32,6 +40,7 @@ const GrammarTemplateScreen: React.FC<Props> = ({ screenTitle, grammarSections }
             <Text style={styles.text}>{section.explanation}</Text>
           </View>
         ))}
+        <GrammarCompleteButton onComplete={handleComplete} />
       </ScrollView>
     </LinearGradient>
   )

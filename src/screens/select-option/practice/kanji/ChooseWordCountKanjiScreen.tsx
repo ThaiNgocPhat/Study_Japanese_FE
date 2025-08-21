@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { Text, TouchableOpacity, StyleSheet, StatusBar, Animated, Easing } from 'react-native'
-import { Ionicons } from '@expo/vector-icons'
+import { Text, TouchableOpacity, StatusBar, Animated, Easing } from 'react-native'
 import { useNavigation, useRoute } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
 import Toast from 'react-native-toast-message'
@@ -11,9 +10,10 @@ import rawKanjiN4 from 'assets/data/kanji/kanjiN4.json'
 import rawKanjiN3 from 'assets/data/kanji/kanjiN3.json'
 import rawKanjiN2 from 'assets/data/kanji/kanjiN2.json'
 
-import { NativeStackNavigationProp } from '@react-navigation/native-stack'
-import { RootStackParamList } from 'src/types/navigation'
-import { KanjiItem } from 'src/types/kanji'
+import type { KanjiItem } from 'src/types/kanji'
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
+import type { RootStackParamList } from 'src/types/navigation'
+
 import BackButton from '@components/BackButton'
 
 const STORAGE_KEY_MAP: Record<string, string> = {
@@ -58,16 +58,16 @@ const ChooseWordCountKanjiScreen = () => {
   }, [])
 
   const getKanji = (count: number): KanjiItem[] => {
-    const kanjiDataMap: Record<string, any[]> = {
+    const kanjiDataMap: Record<string, KanjiItem[]> = {
       N5: rawKanjiN5,
       N4: rawKanjiN4,
       N3: rawKanjiN3,
       N2: rawKanjiN2,
     }
     const data = kanjiDataMap[currentLevel] || rawKanjiN5
+    const lessonsToUse =
+      unlockedLessons.length > 0 ? unlockedLessons : currentLevel === 'N4' ? [1, 2, 3, 4, 5] : [1]
 
-    // lọc theo lesson đã unlock
-    const lessonsToUse = unlockedLessons.length > 0 ? unlockedLessons : [1] // mặc định bài 1 nếu rỗng
     const allKanji: KanjiItem[] = lessonsToUse.flatMap((lessonId) =>
       data.filter((_, idx) => Math.floor(idx / 10) + 1 === lessonId),
     )
@@ -82,6 +82,7 @@ const ChooseWordCountKanjiScreen = () => {
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={{ flex: 1 }}>
       <StatusBar barStyle="dark-content" backgroundColor="#fdf6e3" />
       <BackButton />
+
       <Animated.View
         style={{
           flex: 1,
@@ -132,56 +133,5 @@ const ChooseWordCountKanjiScreen = () => {
     </LinearGradient>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  innerContent: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 16,
-  },
-  title: {
-    fontSize: 20,
-    marginBottom: 24,
-    color: '#4a4e69',
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-  option: {
-    paddingVertical: 14,
-    paddingHorizontal: 24,
-    backgroundColor: '#88c9bf',
-    borderRadius: 16,
-    marginVertical: 10,
-    width: 220,
-    alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.06,
-    shadowRadius: 3,
-    elevation: 3,
-    borderWidth: 1,
-    borderColor: '#d3e0dc',
-  },
-  optionText: {
-    color: '#ffffff',
-    fontSize: 16,
-    fontWeight: '600',
-  },
-  backButton: {
-    position: 'absolute',
-    top: 40,
-    left: 16,
-    zIndex: 10,
-    backgroundColor: '#ffffffcc',
-    padding: 8,
-    borderRadius: 20,
-    borderWidth: 1,
-    borderColor: '#d3e0dc',
-  },
-})
 
 export default ChooseWordCountKanjiScreen

@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import { View, Text, FlatList, Modal, StyleSheet, ScrollView, TouchableOpacity } from 'react-native'
 import KanjiCard from './KanjiCard'
 import { KanjiItem } from 'src/types/kanji'
-import { Ionicons } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
 import * as Animatable from 'react-native-animatable'
 import { LinearGradient } from 'expo-linear-gradient'
 import Toast from 'react-native-toast-message'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import BackButton from '@components/BackButton'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 type Props = {
   title: string
@@ -52,123 +52,129 @@ const KanjiListScreen = ({
 
   return (
     <LinearGradient colors={['#fff8f0', '#fcefe3']} style={{ flex: 1 }}>
-      <View style={{ flex: 1 }}>
-        <BackButton
-          onPress={() => {
-            if (selectedLessonIndex !== null) setSelectedLessonIndex(null)
-            else navigation.goBack()
-          }}
-        />
+      <SafeAreaView style={{ flex: 1 }} edges={['bottom']}>
+        <View style={{ flex: 1 }}>
+          <BackButton
+            onPress={() => {
+              if (selectedLessonIndex !== null) setSelectedLessonIndex(null)
+              else navigation.goBack()
+            }}
+          />
 
-        <Text style={styles.title}>
-          {selectedLessonIndex === null ? title : `Bài ${selectedLessonIndex + 1}`}
-        </Text>
+          <Text style={styles.title}>
+            {selectedLessonIndex === null ? title : `Bài ${selectedLessonIndex + 1}`}
+          </Text>
 
-        {selectedLessonIndex === null ? (
-          <Animatable.View animation="fadeInRight" duration={400} style={{ flex: 1 }}>
-            <FlatList
-              data={lessons}
-              keyExtractor={(_, i) => `lesson-${i}`}
-              renderItem={({ index }) => {
-                const isLocked = unlockedLessons && !unlockedLessons.includes(index + 1)
-                return (
-                  <TouchableOpacity
-                    style={[styles.lessonButton, isLocked && { backgroundColor: '#ccc' }]}
-                    onPress={() => handleLessonPress(index)}
-                  >
-                    <Text style={styles.lessonText}>
-                      Bài {index + 1} {isLocked ? '🔒' : ''}
-                    </Text>
-                  </TouchableOpacity>
-                )
-              }}
-            />
-          </Animatable.View>
-        ) : (
-          <Animatable.View animation="fadeInLeft" duration={400} style={{ flex: 1 }}>
-            <FlatList
-              key={`kanji-list-${selectedLessonIndex}`}
-              data={lessons[selectedLessonIndex]}
-              keyExtractor={(item, i) => item.kanji + i}
-              numColumns={2}
-              columnWrapperStyle={{ justifyContent: 'space-between', marginBottom: 25 }}
-              renderItem={({ item }) => (
-                <KanjiCard data={item} onPress={() => setSelectedKanji(item)} />
-              )}
-              ListFooterComponent={() => (
-                <TouchableOpacity
-                  style={styles.completeButton}
-                  onPress={async () => {
-                    if (selectedLessonIndex !== null) {
-                      const lessonId = selectedLessonIndex + 1
-                      await AsyncStorage.setItem('lastCompletedKanjiLesson_N5', lessonId.toString())
-                      const nextLesson = lessonId + 1
-                      const totalLessons = Math.ceil(kanjiList.length / 10)
-                      if (nextLesson <= totalLessons && unlockedLessons) {
-                        const updated = [...unlockedLessons, nextLesson]
-                        onUpdateUnlockedLessons?.(updated)
-                        await AsyncStorage.setItem('unlockedKanji_N5', JSON.stringify(updated))
-                      }
+          {selectedLessonIndex === null ? (
+            <Animatable.View animation="fadeInRight" duration={400} style={{ flex: 1 }}>
+              <FlatList
+                data={lessons}
+                keyExtractor={(_, i) => `lesson-${i}`}
+                renderItem={({ index }) => {
+                  const isLocked = unlockedLessons && !unlockedLessons.includes(index + 1)
 
-                      // 3. Quay về màn hình danh sách
-                      setSelectedLessonIndex(null)
-
-                      Toast.show({
-                        type: 'success',
-                        text1: `Hoàn thành Bài ${lessonId}`,
-                        text2: 'Bài học tiếp theo đã được mở khoá!',
-                        position: 'bottom',
-                      })
-                    }
-                  }}
-                >
-                  <Text style={styles.completeText}>Hoàn thành bài học</Text>
-                </TouchableOpacity>
-              )}
-            />
-          </Animatable.View>
-        )}
-
-        <Modal visible={!!selectedKanji} transparent animationType="slide">
-          <View style={styles.modalBackground}>
-            <View style={styles.modalContent}>
-              <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
-                <Text style={styles.modalKanji}>{selectedKanji?.kanji}</Text>
-
-                <Text style={styles.label}>Âm On:</Text>
-                <Text style={styles.text}>
-                  {Array.isArray(selectedKanji?.onYomi)
-                    ? selectedKanji?.onYomi.join('、')
-                    : selectedKanji?.onYomi}
-                </Text>
-
-                <Text style={styles.label}>Âm Kun:</Text>
-                <Text style={styles.text}>
-                  {Array.isArray(selectedKanji?.kunYomi)
-                    ? selectedKanji?.kunYomi.join('、')
-                    : selectedKanji?.kunYomi}
-                </Text>
-
-                <Text style={styles.label}>Ý nghĩa:</Text>
-                <Text style={styles.text}>{selectedKanji?.meaning}</Text>
-
-                <Text style={styles.label}>Ví dụ:</Text>
-                {Array.isArray(selectedKanji?.examples)
-                  ? selectedKanji?.examples.map((ex, i) => (
-                      <Text key={i} style={styles.text}>
-                        • {ex}
+                  return (
+                    <TouchableOpacity
+                      style={[styles.lessonButton, isLocked && { backgroundColor: '#ccc' }]}
+                      onPress={() => handleLessonPress(index)}
+                    >
+                      <Text style={styles.lessonText}>
+                        Bài {index + 1} {isLocked ? '🔒' : ''}
                       </Text>
-                    ))
-                  : selectedKanji?.examples}
+                    </TouchableOpacity>
+                  )
+                }}
+                showsVerticalScrollIndicator={false}
+                contentContainerStyle={{ paddingBottom: 50 }}
+              />
+            </Animatable.View>
+          ) : (
+            <Animatable.View animation="fadeInLeft" duration={400} style={{ flex: 1 }}>
+              <FlatList
+                key={`kanji-list-${selectedLessonIndex}`}
+                data={lessons[selectedLessonIndex]}
+                keyExtractor={(item, i) => item.kanji + i}
+                numColumns={2}
+                columnWrapperStyle={{ justifyContent: 'space-between', marginBottom: 25 }}
+                renderItem={({ item }) => (
+                  <KanjiCard data={item} onPress={() => setSelectedKanji(item)} />
+                )}
+                ListFooterComponent={() => (
+                  <TouchableOpacity
+                    style={styles.completeButton}
+                    onPress={async () => {
+                      if (selectedLessonIndex !== null) {
+                        const lessonId = selectedLessonIndex + 1
+                        await AsyncStorage.setItem(
+                          'lastCompletedKanjiLesson_N5',
+                          lessonId.toString(),
+                        )
+                        const nextLesson = lessonId + 1
+                        const totalLessons = Math.ceil(kanjiList.length / 10)
+                        if (nextLesson <= totalLessons && unlockedLessons) {
+                          const updated = [...unlockedLessons, nextLesson]
+                          onUpdateUnlockedLessons?.(updated)
+                          await AsyncStorage.setItem('unlockedKanji_N5', JSON.stringify(updated))
+                        }
+                        setSelectedLessonIndex(null)
 
-                <TouchableOpacity onPress={() => setSelectedKanji(null)}>
-                  <Text style={styles.closeText}>Đóng</Text>
-                </TouchableOpacity>
-              </ScrollView>
+                        Toast.show({
+                          type: 'success',
+                          text1: `Hoàn thành Bài ${lessonId}`,
+                          text2: 'Bài học tiếp theo đã được mở khoá!',
+                          position: 'bottom',
+                        })
+                      }
+                    }}
+                  >
+                    <Text style={styles.completeText}>Hoàn thành bài học</Text>
+                  </TouchableOpacity>
+                )}
+              />
+            </Animatable.View>
+          )}
+
+          <Modal visible={!!selectedKanji} transparent animationType="slide">
+            <View style={styles.modalBackground}>
+              <View style={styles.modalContent}>
+                <ScrollView contentContainerStyle={{ flexGrow: 1 }}>
+                  <Text style={styles.modalKanji}>{selectedKanji?.kanji}</Text>
+
+                  <Text style={styles.label}>Âm On:</Text>
+                  <Text style={styles.text}>
+                    {Array.isArray(selectedKanji?.onYomi)
+                      ? selectedKanji?.onYomi.join('、')
+                      : selectedKanji?.onYomi}
+                  </Text>
+
+                  <Text style={styles.label}>Âm Kun:</Text>
+                  <Text style={styles.text}>
+                    {Array.isArray(selectedKanji?.kunYomi)
+                      ? selectedKanji?.kunYomi.join('、')
+                      : selectedKanji?.kunYomi}
+                  </Text>
+
+                  <Text style={styles.label}>Ý nghĩa:</Text>
+                  <Text style={styles.text}>{selectedKanji?.meaning}</Text>
+
+                  <Text style={styles.label}>Ví dụ:</Text>
+                  {Array.isArray(selectedKanji?.examples)
+                    ? selectedKanji?.examples.map((ex, i) => (
+                        <Text key={i} style={styles.text}>
+                          • {ex}
+                        </Text>
+                      ))
+                    : selectedKanji?.examples}
+
+                  <TouchableOpacity onPress={() => setSelectedKanji(null)}>
+                    <Text style={styles.closeText}>Đóng</Text>
+                  </TouchableOpacity>
+                </ScrollView>
+              </View>
             </View>
-          </View>
-        </Modal>
-      </View>
+          </Modal>
+        </View>
+      </SafeAreaView>
     </LinearGradient>
   )
 }
