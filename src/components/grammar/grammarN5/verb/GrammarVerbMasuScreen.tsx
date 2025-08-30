@@ -14,11 +14,7 @@ const GrammarVerbMasuScreen = () => {
   }
 
   return (
-    <GrammarTemplateScreen
-      screenTitle={grammarData.title}
-      grammarSections={grammarData.sections}
-      onComplete={onComplete}
-    />
+    <GrammarTemplateScreen screenTitle={grammarData.title} grammarSections={grammarData.sections} />
   )
 }
 

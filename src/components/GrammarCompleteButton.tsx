@@ -6,8 +6,6 @@ type Props = {
 }
 
 const GrammarCompleteButton: React.FC<Props> = ({ onComplete }) => {
-  if (!onComplete) return null
-
   return (
     <TouchableOpacity style={styles.button} onPress={onComplete}>
       <Text style={styles.text}>Hoàn thành bài học</Text>
@@ -22,8 +20,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
     borderRadius: 12,
     alignItems: 'center',
-    marginTop: 20,
-    marginBottom: 50,
+    marginTop: 30,
   },
   text: {
     color: '#fff',

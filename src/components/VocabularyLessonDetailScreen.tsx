@@ -26,7 +26,6 @@ const VocabularyLessonDetailScreen: React.FC<Props> = ({ route, navigation }) =>
   else if (level === 'N3') vocabularyList = (vocabularyN3 as VocabularyData)[key] || []
   else if (level === 'N2') vocabularyList = (vocabularyN2 as VocabularyData)[key] || []
 
-  // ✅ Kiểm tra xem bài này đã hoàn thành chưa
   useEffect(() => {
     ;(async () => {
       const completed = await AsyncStorage.getItem(`completedLessons_${level}`)
@@ -44,10 +43,7 @@ const VocabularyLessonDetailScreen: React.FC<Props> = ({ route, navigation }) =>
   }
 
   const handleLessonComplete = async () => {
-    // lưu lastCompleted để mở bài tiếp theo
     await AsyncStorage.setItem(`lastCompletedLesson_${level}`, String(lessonNumber))
-
-    // lưu vào danh sách các bài đã hoàn thành
     const completed = await AsyncStorage.getItem(`completedLessons_${level}`)
     const completedList = completed ? (JSON.parse(completed) as number[]) : []
     if (!completedList.includes(lessonNumber)) {
@@ -87,6 +83,7 @@ const VocabularyLessonDetailScreen: React.FC<Props> = ({ route, navigation }) =>
             </View>
           </View>
         )}
+        contentContainerStyle={{ paddingBottom: isCompleted ? 30 : 0 }}
       />
       {!isCompleted && (
         <TouchableOpacity style={styles.completeButton} onPress={handleLessonComplete}>

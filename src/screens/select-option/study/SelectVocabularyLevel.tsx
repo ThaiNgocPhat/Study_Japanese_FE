@@ -7,6 +7,7 @@ import { useNavigation } from '@react-navigation/native'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { RootStackParamList } from 'src/types/navigation'
 import Toast from 'react-native-toast-message'
+import BackButtonHome from '@components/vocabulary/BackButtonHome'
 
 const SelectVocabularyLevel = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
@@ -53,9 +54,7 @@ const SelectVocabularyLevel = () => {
   ]
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
+      <BackButtonHome />
       <Image source={Banner} style={styles.banner} resizeMode="cover" />
       <Text style={styles.text}>Cấp độ</Text>
       <View style={styles.grid}>

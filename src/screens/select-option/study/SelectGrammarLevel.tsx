@@ -44,7 +44,7 @@ const SelectGrammarLevel = () => {
   ]
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+      <TouchableOpacity style={styles.backButton} onPress={() => navigation.navigate('Home')}>
         <Ionicons name="arrow-back" size={28} color="#4a4e69" />
       </TouchableOpacity>
       <Image source={Banner} style={styles.banner} resizeMode="cover" />

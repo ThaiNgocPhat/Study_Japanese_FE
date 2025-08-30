@@ -6,6 +6,9 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import { generateLessons } from 'src/utils/lessonUtils'
 import Toast from 'react-native-toast-message'
+import { Ionicons } from '@expo/vector-icons'
+import { View } from 'react-native'
+import BackButtonSelect from '@components/vocabulary/BackButtonSelect'
 
 const STORAGE_KEY = 'unlockedLessons_N5'
 
@@ -62,7 +65,10 @@ const VocabularyN5LessonListScreen = () => {
   }
 
   return (
-    <TopicListScreen screenTitle="Từ vựng N5" topics={topics} onLockedPress={handleLockedPress} />
+    <View style={{ flex: 1 }}>
+      <BackButtonSelect />
+      <TopicListScreen screenTitle="Từ vựng N5" topics={topics} onLockedPress={handleLockedPress} />
+    </View>
   )
 }
 

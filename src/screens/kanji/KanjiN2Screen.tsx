@@ -19,7 +19,7 @@ const normalizedList: KanjiItem[] = kanjiN2.map((item: any, index: number) => ({
   kunYomi: normalizeField(item.kunYomi),
   meaning: item.meaning || '',
   examples: normalizeField(item.examples),
-  lessonId: Math.floor(index / 10) + 1, // 👈 giống các màn khác
+  lessonId: Math.floor(index / 10) + 1,
 }))
 
 const KanjiN2Screen = () => {

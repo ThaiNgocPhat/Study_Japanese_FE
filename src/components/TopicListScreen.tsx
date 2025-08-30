@@ -1,18 +1,21 @@
 import React from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native'
+import { Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native'
 import { Ionicons } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import BackButton from '@components/BackButton'
-export type TopicItem = {
-  id?: string
+
+export type TopicItem<K extends keyof RootStackParamList = keyof RootStackParamList> = {
+  id?: string | number
   title: string
-  screen: keyof RootStackParamList
+  screen: K
+  params?: RootStackParamList[K]
   onPress?: () => void
   locked?: boolean
   onComplete?: () => void
+  completed?: boolean
 }
 
 type Props = {
@@ -27,8 +30,6 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress }
 
   return (
     <LinearGradient colors={['#fff8f0', '#fcefe3']} style={styles.container}>
-      <BackButton />
-
       <Text style={styles.title}>{screenTitle}</Text>
 
       <ScrollView contentContainerStyle={styles.content}>
@@ -38,17 +39,16 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress }
             style={[styles.item, topic.locked && { opacity: 0.5 }]}
             onPress={() => {
               if (topic.locked) {
-                if (onLockedPress) {
-                  onLockedPress()
-                }
+                if (onLockedPress) onLockedPress()
                 return
               }
-              if (topic.onPress) {
-                topic.onPress()
-              } else if (topic.screen) {
+              if (topic.params) {
+                navigation.navigate(topic.screen as any, topic.params)
+              } else {
                 navigation.navigate(topic.screen as any, {
                   topicIndex: index,
-                  onComplete: topic.onComplete,
+                  totalTopics: topics.length,
+                  storageKey: 'grammarN5Progress',
                 })
               }
             }}
@@ -73,15 +73,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 60,
     paddingHorizontal: 16,
-  },
-  backButton: {
-    position: 'absolute',
-    top: 40,
-    left: 16,
-    zIndex: 10,
-    backgroundColor: '#ffffffcc',
-    padding: 8,
-    borderRadius: 20,
+    paddingBottom: 30,
   },
   title: {
     fontSize: 24,

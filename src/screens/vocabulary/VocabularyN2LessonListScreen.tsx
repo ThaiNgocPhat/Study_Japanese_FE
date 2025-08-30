@@ -6,6 +6,8 @@ import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
 import { generateLessons } from 'src/utils/lessonUtils'
 import Toast from 'react-native-toast-message'
+import BackButtonSelect from '@components/vocabulary/BackButtonSelect'
+import { View } from 'react-native'
 
 const STORAGE_KEY = 'unlockedLessons_N2'
 
@@ -60,7 +62,10 @@ const VocabularyN2LessonListScreen = () => {
   }
 
   return (
-    <TopicListScreen screenTitle="Từ vựng N2" topics={topics} onLockedPress={handleLockedPress} />
+    <View style={{ flex: 1 }}>
+      <BackButtonSelect />
+      <TopicListScreen screenTitle="Từ vựng N2" topics={topics} onLockedPress={handleLockedPress} />
+    </View>
   )
 }
 

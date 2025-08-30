@@ -295,6 +295,7 @@ import ChooseWordCountVocabularyScreen from '@screens/select-option/practice/voc
 import ChooseWordCountKanjiScreen from '@screens/select-option/practice/kanji/ChooseWordCountKanjiScreen'
 import GrammarVerbN5Screen from '@components/grammar/grammarN5/verb/GrammarVerbN5Screen'
 import ChooseGrammarCountScreen from '@screens/select-option/practice/grammar/ChooseGrammarCountScreen'
+import StudyScreen from '@screens/options/StudyScreen'
 const Stack = createStackNavigator<RootStackParamList>()
 
 interface RoutersProps {

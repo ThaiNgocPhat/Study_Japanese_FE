@@ -11,9 +11,8 @@ export type RootStackParamList = {
   KanaScreen: { type: 'hiragana' | 'katakana' }
   SelectGrammarLevel: undefined
   GrammarN5CategoryScreen: undefined
-  GrammarVerbN5TopicListScreen: undefined
-  GrammarVerbN5Screen: undefined
-  GrammarVerbN5TopicListScreen: undefined
+  GrammarVerbN5TopicListScreen: { refresh?: number } | undefined
+  GrammarVerbN5Screen: { topicIndex: number; totalTopics: number; storageKey?: string }
   GrammarVerbN5Screen: undefined
   GrammarVerbMasuScreen: undefined
   GrammarVerbTaFormScreen: undefined

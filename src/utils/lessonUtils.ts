@@ -12,15 +12,14 @@ export function generateLessons(
   return Array.from({ length: to - from + 1 }, (_, i) => {
     const lessonNumber = from + i
     return {
-      id: lessonNumber,
+      id: String(lessonNumber),
       title: `Bài ${lessonNumber}`,
       screen: 'VocabularyLessonDetailScreen',
+      params: {
+        lessonNumber,
+        level,
+      },
       locked: !(unlockedLessons ?? []).includes(lessonNumber),
-      onPress: () =>
-        navigation.navigate('VocabularyLessonDetailScreen', {
-          lessonNumber,
-          level,
-        }),
     }
   })
 }

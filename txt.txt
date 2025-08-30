@@ -61,3 +61,37 @@ const GrammarN5CategoryScreen = () => {
 
 export default GrammarN5CategoryScreen
 giừo tôi có cái này nhưng mà hiện tại là tất cả các bài ngữ pháp trong N5 đã được mở, ai cũng có thể học, nhưng mà tôi không muốn, tôi muốn người dùng học từng bài chứ không phải muốn học bài nào thì học, bây giờ nhé đầu tiên ta sẽ mở thằng động từ trước và mở bài đầu tiên cảu nó còn mấy bài kia khoá lại(ví dụ trong N5 có 10 ngữ pháp thì ngữ pháp đầu tiên sẽ được mở, cong mấy bài sau sẽ khoá, sau khi bấm vào ngữ pháp nào thì ở dưới cùng sẽ có nút hoàn thanhg bài học, sau khi bấm vào hoàn thành bài học thì bài tiếp theo sẽ được mở), làm trước thằng N5 này tôi xem thử 
+
+
+  // const categories = [
+  //   {
+  //     name: 'Động từ',
+  //     icon: <Ionicons name="walk-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('GrammarVerbN5TopicListScreen'),
+  //     locked: false,
+  //   },
+  //   {
+  //     name: 'Tính từ',
+  //     icon: <Ionicons name="sunny-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('GrammarAdjectiveN5TopicListScreen'),
+  //     locked: true,
+  //   },
+  //   {
+  //     name: 'Danh từ',
+  //     icon: <Ionicons name="book-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('GrammarNounN5TopicListScreen'),
+  //     locked: true,
+  //   },
+  //   {
+  //     name: 'Trợ từ',
+  //     icon: <Ionicons name="ellipsis-horizontal-circle-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('GrammarParticleN5TopicListScreen'),
+  //     locked: true,
+  //   },
+  //   {
+  //     name: 'Các mẫu câu khác',
+  //     icon: <Ionicons name="chatbubbles-outline" size={32} color="#88c9bf" />,
+  //     onPress: () => navigation.navigate('OtherSentencePatternsScreen'),
+  //     locked: true,
+  //   },
+  // ]
