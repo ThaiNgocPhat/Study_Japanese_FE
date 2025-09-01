@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { View, Text, ScrollView } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import BackButton from '@components/BackButton'
@@ -13,38 +13,43 @@ type GrammarSection = { title: string; explanation: string; examples?: string[] 
 type Props = {
   screenTitle: string
   grammarSections: GrammarSection[]
-  id?: string
   storageKey?: string
-  topicIndex?: number
-  totalTopics?: number
 }
-const STORAGE_KEY = 'unlockedGrammarVerbN5'
 
-const GrammarTemplateScreen: React.FC<Props> = ({
-  totalTopics,
-  screenTitle,
-  grammarSections,
-  topicIndex,
-}) => {
+const GrammarTemplateScreen: React.FC<Props> = ({ screenTitle, grammarSections }) => {
   const [complete, setComplete] = useState(false)
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
   const route = useRoute<any>()
+  const topicIndex = route.params?.topicIndex
+  const totalTopics = route.params?.totalTopics
+  const storageKey = route.params?.storageKey || 'unlockedGrammarVerbN5'
 
+  useEffect(() => {
+    ;(async () => {
+      if (typeof topicIndex === 'number') {
+        const lastCompleted = await AsyncStorage.getItem('lastCompletedGrammarVerbN5')
+        if (lastCompleted && Number(lastCompleted) >= topicIndex) {
+          setComplete(true)
+        }
+      }
+    })()
+  }, [topicIndex])
   const handleComplete = async () => {
+    if (route.params?.onComplete) {
+      route.params.onComplete()
+    }
     if (typeof topicIndex === 'number') {
       await AsyncStorage.setItem('lastCompletedGrammarVerbN5', String(topicIndex))
-      const saved = await AsyncStorage.getItem(STORAGE_KEY)
+      const saved = await AsyncStorage.getItem(storageKey)
       const unlocked: number[] = saved ? JSON.parse(saved) : [0]
       const next = topicIndex + 1
-
       if (!unlocked.includes(next) && next < (totalTopics ?? 999)) {
         const updated = [...unlocked, next]
-        await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(updated))
+        await AsyncStorage.setItem(storageKey, JSON.stringify(updated))
       }
     }
-
     setComplete(true)
-    navigation.goBack()
+    navigation.navigate('GrammarVerbN5TopicListScreen', { refresh: Date.now() })
   }
 
   return (
@@ -63,7 +68,8 @@ const GrammarTemplateScreen: React.FC<Props> = ({
             <Text>{section.explanation}</Text>
           </View>
         ))}
-        <View>{!complete && <GrammarCompleteButton onComplete={handleComplete} />}</View>
+
+        {!complete && <GrammarCompleteButton onComplete={handleComplete} />}
       </ScrollView>
     </LinearGradient>
   )

@@ -21,9 +21,11 @@ type Props = {
   screenTitle: string
   topics: TopicItem[]
   onLockedPress?: () => void
+  onComplete?: (index: number) => void
 }
+const STORAGE_KEY = 'unlockedGrammarVerbN5'
 
-const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress }) => {
+const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress, onComplete }) => {
   const navigation =
     useNavigation<NativeStackNavigationProp<RootStackParamList, keyof RootStackParamList>>()
 
@@ -47,7 +49,8 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress }
                 navigation.navigate(topic.screen as any, {
                   topicIndex: index,
                   totalTopics: topics.length,
-                  storageKey: 'grammarN5Progress',
+                  storageKey: STORAGE_KEY,
+                  onComplete: () => onComplete?.(index),
                 })
               }
             }}

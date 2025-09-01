@@ -26,7 +26,7 @@ export type RootStackParamList = {
   GrammarNakerebaNaranaiScreen: undefined
   GrammarNakerebaIkenaiScreen: undefined
   GrammarNakutemoIiScreen: undefined
-  GrammarAdjectiveN5TopicListScreen: undefined
+  GrammarAdjectiveN5TopicListScreen: { refresh?: number } | undefined
   GrammarAdjectiveBasicScreen: undefined
   GrammarAdjectiveWithNounVerbScreen: undefined
   GrammarAdjectiveNaruScreen: undefined

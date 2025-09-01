@@ -12,6 +12,7 @@ const GrammarParticleN5TopicListScreen = () => {
   const topics: TopicItem[] = particleCategory.map((item) => ({
     title: item.title,
     screen: particleIdToScreen[item.id] as keyof RootStackParamList,
+    locked: true,
   }))
   return (
     <LinearGradient colors={['#fff8f0', '#fcefe3']} style={{ flex: 1 }}>

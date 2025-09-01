@@ -13,6 +13,7 @@ const OtherSentencePatternsScreen = () => {
   const topics: TopicItem[] = otherCategory.map((item) => ({
     title: item.title,
     screen: otherIdToScreen[item.id] as keyof RootStackParamList,
+    locked: true,
   }))
   return (
     <LinearGradient colors={['#fff8f0', '#fcefe3']} style={{ flex: 1 }}>

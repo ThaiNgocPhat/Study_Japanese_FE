@@ -14,6 +14,7 @@ const GrammarNounN5TopicListScreen = () => {
   const topics: TopicItem[] = nounCategory.map((item) => ({
     title: item.title,
     screen: nounIdToScreen[item.id] as keyof RootStackParamList,
+    locked: true,
   }))
 
   return (
