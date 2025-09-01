@@ -8,101 +8,52 @@ import type { RootStackParamList } from 'src/types/navigation'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import Banner from 'assets/images/Banner.png'
 import Toast from 'react-native-toast-message'
-
-const STORAGE_KEY = 'grammarN5Progress'
-
-type GrammarProgress = {
-  verb: { unlocked: number; completed: number[] }
-  adjective: { unlocked: number; completed: number[] }
-  unlockedCategories: string[]
-}
+import BackButtonSelect from '@components/grammar/BackButtonSelect'
 
 const GrammarN5CategoryScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
-  const [unlockedCategories, setUnlockedCategories] = useState<string[]>(['verb']) // mặc định chỉ có Verb
-
-  useEffect(() => {
-    const loadProgress = async () => {
-      const value = await AsyncStorage.getItem(STORAGE_KEY)
-      if (value) {
-        const parsed: GrammarProgress = JSON.parse(value)
-        setUnlockedCategories(parsed.unlockedCategories || ['verb'])
-      }
-    }
-    const unsubscribe = navigation.addListener('focus', loadProgress)
-    loadProgress()
-    return unsubscribe
-  }, [navigation])
 
   const categories = [
     {
       name: 'Động từ',
-      key: 'verb',
       icon: <Ionicons name="walk-outline" size={32} color="#88c9bf" />,
       onPress: () => navigation.navigate('GrammarVerbN5TopicListScreen'),
     },
     {
       name: 'Tính từ',
-      key: 'adjective',
       icon: <Ionicons name="sunny-outline" size={32} color="#88c9bf" />,
       onPress: () => navigation.navigate('GrammarAdjectiveN5TopicListScreen'),
     },
     {
       name: 'Danh từ',
-      key: 'noun',
       icon: <Ionicons name="book-outline" size={32} color="#88c9bf" />,
-      onPress: () => {},
+      onPress: () => navigation.navigate('GrammarNounN5TopicListScreen'),
     },
     {
       name: 'Trợ từ',
-      key: 'particle',
       icon: <Ionicons name="ellipsis-horizontal-circle-outline" size={32} color="#88c9bf" />,
-      onPress: () => {},
+      onPress: () => navigation.navigate('GrammarParticleN5TopicListScreen'),
     },
     {
       name: 'Các mẫu câu khác',
-      key: 'others',
       icon: <Ionicons name="chatbubbles-outline" size={32} color="#88c9bf" />,
-      onPress: () => {},
+      onPress: () => navigation.navigate('OtherSentencePatternsScreen'),
     },
   ]
 
-  const handlePress = (item: (typeof categories)[0]) => {
-    if (!unlockedCategories.includes(item.key)) {
-      Toast.show({
-        type: 'info',
-        text1: 'Chưa mở khóa',
-        text2: 'Bạn chưa hoàn thành bài trước, vui lòng học xong để mở tiếp theo.',
-      })
-    } else {
-      item.onPress()
-    }
-  }
-
   return (
     <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <TouchableOpacity
-        style={styles.backButton}
-        onPress={() => navigation.navigate('SelectGrammarLevel')}
-      >
-        <Ionicons name="arrow-back" size={28} color="#4a4e69" />
-      </TouchableOpacity>
+      <BackButtonSelect />
       <Image source={Banner} style={styles.banner} resizeMode="cover" />
       <View style={styles.content}>
         <Text style={styles.title}>Ngữ pháp N5</Text>
 
         <View style={styles.grid}>
           {categories.map((item, index) => {
-            const locked = !unlockedCategories.includes(item.key)
             return (
-              <TouchableOpacity
-                key={index}
-                style={[styles.box, locked && { opacity: 0.5 }]}
-                onPress={() => handlePress(item)}
-              >
+              <TouchableOpacity key={index} style={styles.box} onPress={item.onPress}>
                 {item.icon}
                 <Text style={styles.label}>{item.name}</Text>
-                {locked && <Ionicons name="lock-closed-outline" size={24} color="#4a4e69" />}
               </TouchableOpacity>
             )
           })}
