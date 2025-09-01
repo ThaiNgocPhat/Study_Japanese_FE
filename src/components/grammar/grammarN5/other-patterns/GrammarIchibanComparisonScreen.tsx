@@ -1,10 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import grammarN5 from '@assets/data/grammar/grammarN5'
+import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
 
 const GrammarIchibanComparisonScreen = () => {
-  const grammarData = grammarN5.find((item) => item.id === 'ichiban_comparison')
+  const grammarData = grammarN5
+    .find((item) => item.otherPatterns?.some((v) => v.id === '3'))
+    ?.otherPatterns?.find((v) => v.id === '3')
   if (!grammarData) {
     return (
       <Text style={{ padding: 20 }}>

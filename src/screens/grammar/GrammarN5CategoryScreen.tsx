@@ -5,9 +5,7 @@ import { Ionicons } from '@expo/vector-icons'
 import { LinearGradient } from 'expo-linear-gradient'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
-import AsyncStorage from '@react-native-async-storage/async-storage'
 import Banner from 'assets/images/Banner.png'
-import Toast from 'react-native-toast-message'
 import BackButtonSelect from '@components/grammar/BackButtonSelect'
 
 const GrammarN5CategoryScreen = () => {

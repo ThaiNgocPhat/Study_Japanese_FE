@@ -11,7 +11,7 @@ const BackButtonSelect: React.FC<Props> = ({ onPress }) => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
   const handlePress = () => {
     if (onPress) onPress()
-    else navigation.navigate('GrammarN5CategoryScreen')
+    else navigation.navigate('SelectGrammarLevel')
   }
   return (
     <TouchableOpacity style={styles.backButton} onPress={handlePress}>

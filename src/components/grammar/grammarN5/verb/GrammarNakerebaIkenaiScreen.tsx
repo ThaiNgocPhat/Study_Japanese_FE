@@ -1,10 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import grammarN5 from '@assets/data/grammar/grammarN5'
+import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
 
 const GrammarNakerebaIkenaiScreen = () => {
-  const grammarData = grammarN5.find((item) => item.id === 'nakereba_ikenai')
+  const grammarData = grammarN5
+    .find((item) => item.verb?.some((v) => v.id === '12'))
+    ?.verb?.find((v) => v.id === '12')
   if (!grammarData) {
     return (
       <Text style={{ padding: 20 }}>

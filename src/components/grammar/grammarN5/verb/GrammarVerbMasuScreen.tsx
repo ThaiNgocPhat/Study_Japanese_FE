@@ -2,12 +2,12 @@ import React from 'react'
 import { Text } from 'react-native'
 import { useRoute } from '@react-navigation/native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import grammarN5 from '@assets/data/grammar/grammarN5'
+import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
 
 const GrammarVerbMasuScreen = () => {
-  const grammarData = grammarN5.find((item) => item.id === 'verb_masu')
-  const route = useRoute<any>()
-  const onComplete = route.params?.onComplete
+  const grammarData = grammarN5
+    .find((item) => item.verb?.some((v) => v.id === '2'))
+    ?.verb?.find((v) => v.id === '2')
 
   if (!grammarData) {
     return <Text style={{ padding: 20 }}>Không tìm thấy dữ liệu ngữ pháp Động từ thể ます</Text>

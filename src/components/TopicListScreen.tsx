@@ -5,7 +5,6 @@ import { useNavigation } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import type { RootStackParamList } from 'src/types/navigation'
-import BackButton from '@components/BackButton'
 
 export type TopicItem<K extends keyof RootStackParamList = keyof RootStackParamList> = {
   id?: string | number

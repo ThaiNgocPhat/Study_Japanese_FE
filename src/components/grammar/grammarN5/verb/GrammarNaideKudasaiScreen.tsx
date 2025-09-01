@@ -1,10 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import grammarN5 from '@assets/data/grammar/grammarN5'
+import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
 
 const GrammarNaideKudasaiScreen = () => {
-  const grammarData = grammarN5.find((item) => item.id === 'naide_kudasai')
+  const grammarData = grammarN5
+    .find((item) => item.verb?.some((v) => v.id === '10'))
+    ?.verb?.find((v) => v.id === '10')
   if (!grammarData) {
     return <Text style={{ padding: 20 }}>Không tìm thấy dữ liệu ngữ pháp ～ないでください</Text>
   }

@@ -1,10 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import grammarN5 from '@assets/data/grammar/grammarN5'
+import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
 
 const GrammarTeFormScreen = () => {
-  const grammarData = grammarN5.find((item) => item.id === 'te_form')
+  const grammarData = grammarN5
+    .find((item) => item.verb?.some((v) => v.id === '4'))
+    ?.verb?.find((v) => v.id === '4')
   if (!grammarData) {
     return (
       <Text style={{ padding: 20 }}>
