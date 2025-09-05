@@ -1,5 +1,5 @@
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import grammarN4 from 'assets/data/grammar/grammarN4'
+import { grammarN4 } from 'assets/data/grammar/n4/grammarN4'
 import { Text } from 'react-native'
 
 const GrammarNiSuruScreen = () => {

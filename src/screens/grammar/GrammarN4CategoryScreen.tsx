@@ -1,63 +1,52 @@
-import TopicListScreen, { TopicItem } from '@components/TopicListScreen'
+import { useCallback, useState } from 'react'
+import { Button, View } from 'react-native'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+import { useFocusEffect, useRoute } from '@react-navigation/native'
 
-const topics: TopicItem[] = [
-  { title: '～んです', screen: 'GrammarNdesuScreen' },
-  { title: '～ほうがいいです：Nên/không nên', screen: 'GrammarHougaiiScreen' },
-  { title: '～のに: Mặc dù', screen: 'GrammarNoniScreen' },
-  { title: '～ながら', screen: 'GrammarNagaraScreen' },
-  { title: '～のが、～のは、～のに', screen: 'GrammarNoGaNoHaNoNiScreen' },
-  { title: 'Động từ thể khả năng (可能形)', screen: 'GrammarKanoukeiScreen' },
-  { title: '～ことができる', screen: 'GrammarKotoGaDekiruScreen' },
-  { title: '～かた: Cách (làm gì)', screen: 'GrammarKataScreen' },
-  { title: '～とおりに', screen: 'GrammarTooriniScreen' },
-  { title: 'Động từ thể ý chí (意思形)', screen: 'GrammarIshikeiScreen' },
-  { title: '～ようと思います/～ようと思っています', screen: 'GrammarYouToOmoimasuScreen' },
-  { title: '～ようになる/ ～なくなる', screen: 'GrammarYouninaruScreen' },
-  { title: '～ようにする', screen: 'GrammarYouniSuruScreen' },
-  { title: '～つもりです', screen: 'GrammarTsumoriScreen' },
-  { title: '～予定です', screen: 'GrammarYoteiScreen' },
-  { title: 'Các mẫu câu sử dụng trợ từ と', screen: 'GrammarToUsageScreen' },
-  { title: 'Tự động từ và tha động từ', screen: 'GrammarJidouTadoushiScreen' },
-  { title: 'Câu điều kiện ～ば', screen: 'GrammarBaScreen' },
-  { title: 'Câu điều kiện ～たら', screen: 'GrammarTaraScreen' },
-  { title: 'Câu điều kiện ～と', screen: 'GrammarToScreen' },
-  { title: 'Câu điều kiện ～なら', screen: 'GrammarNaraScreen' },
-  { title: '～場合は', screen: 'GrammarBaaiScreen' },
-  { title: '～とき', screen: 'GrammarTokiScreen' },
-  { title: '～よう、～みたい', screen: 'GrammarYouMitaiScreen' },
-  { title: '～そうです', screen: 'GrammarSouDesuScreen' },
-  { title: '～らしいです', screen: 'GrammarRashiiScreen' },
-  {
-    title: 'Phân biệt ～よう/ みたい、～そうです và らしいです',
-    screen: 'GrammarComparisonScreen',
-  },
-  { title: '～には', screen: 'GrammarNiWaScreen' },
-  { title: '～にする (quyết định/chọn)', screen: 'GrammarNiSuruScreen' },
-  { title: 'Tính từ + する: Làm cho …', screen: 'GrammarAdjectiveSuruScreen' },
-  { title: 'Phân biệt 「もう」 và「 まだ」', screen: 'GrammarMouMadaScreen' },
-  { title: '～ために、～ように', screen: 'GrammarTameniYouniScreen' },
-  { title: 'Động từ ghép (複合動詞)', screen: 'GrammarFukugouDoushiScreen' },
-  { title: '～すぎる', screen: 'GrammarSugiruScreen' },
-  { title: '～やすい、～にくい', screen: 'GrammarYasuiNIkuiScreen' },
-  { title: 'Thể bị động (受身形)', screen: 'GrammarUkemiScreen' },
-  { title: 'Thể sai khiến (使役形)', screen: 'GrammarShiekikeiScreen' },
-  { title: 'Thể mệnh lệnh (命令形)', screen: 'GrammarMeireikeiScreen' },
-  {
-    title: '～てあげます、～てくれます、～てもらいます',
-    screen: 'GrammarTeAgeruKureruMorauScreen',
-  },
-  { title: '～てしまう', screen: 'GrammarTeShimauScreen' },
-  { title: '～てある', screen: 'GrammarTeAruScreen' },
-  { title: '～ておく', screen: 'GrammarTeOkuScreen' },
-  { title: '～かもしれません、～はずです', screen: 'GrammarKamoshiremasenHasuScreen' },
-  { title: '～てみる', screen: 'GrammarTeMiruScreen' },
-  { title: '～たらいいですか/ ～たらどうですか', screen: 'GrammarTaraIiDesuKaScreen' },
-  { title: '～ていただけませんか', screen: 'GrammarTeItadakemasenScreen' },
-  { title: '～か、～かどうか', screen: 'GrammarKaKaDoukaScreen' },
-  { title: 'Kính ngữ', screen: 'GrammarKeigoScreen' },
-  { title: '〜し〜', screen: 'GrammarShiScreen' },
-]
+import TopicListScreen, { TopicItem } from '@components/TopicListScreen'
+import { grammarN4 } from 'assets/data/grammar/n4/grammarN4'
+import { RootStackParamList } from 'src/types/navigation'
+import { grammarN4IdToScreen } from 'assets/data/grammar/n4/screens'
+import BackButtonSelect from '@components/grammar/BackButtonSelect'
+
+const STORAGE_KEY_N4 = 'unlockedGrammarN4'
+
 const GrammarN4CategoryScreen = () => {
-  return <TopicListScreen screenTitle="Ngữ pháp N4" topics={topics} />
+  const [unlocked, setUnlocked] = useState<number[]>([])
+  const route = useRoute<any>()
+
+  const loadUnlocked = useCallback(async () => {
+    const saved = await AsyncStorage.getItem(STORAGE_KEY_N4)
+    const parsed: number[] = saved ? JSON.parse(saved) : [0]
+    if (!parsed.includes(0)) parsed.unshift(0)
+    console.log('N4 unlocked loaded:', parsed)
+    setUnlocked(parsed)
+  }, [])
+
+  useFocusEffect(
+    useCallback(() => {
+      loadUnlocked()
+    }, [loadUnlocked]),
+  )
+
+  const topics: TopicItem[] = grammarN4.map((item) => ({
+    id: item.id,
+    title: item.title,
+    screen: grammarN4IdToScreen[item.id] as keyof RootStackParamList,
+    locked: !unlocked.includes(Number(item.id)),
+    params: {
+      topicIndex: Number(item.id) - 1,
+      totalTopics: grammarN4.length,
+      storageKey: STORAGE_KEY_N4,
+    },
+  }))
+
+  return (
+    <View style={{ flex: 1 }}>
+      <BackButtonSelect />
+      <TopicListScreen screenTitle="Ngữ pháp N4" topics={topics} />
+    </View>
+  )
 }
+
 export default GrammarN4CategoryScreen

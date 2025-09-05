@@ -296,6 +296,7 @@ import ChooseWordCountKanjiScreen from '@screens/select-option/practice/kanji/Ch
 import GrammarVerbN5Screen from '@components/grammar/grammarN5/verb/GrammarVerbN5Screen'
 import ChooseGrammarCountScreen from '@screens/select-option/practice/grammar/ChooseGrammarCountScreen'
 import StudyScreen from '@screens/options/StudyScreen'
+import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
 const Stack = createStackNavigator<RootStackParamList>()
 
 interface RoutersProps {
@@ -599,6 +600,7 @@ const screens: {
   { name: 'KanjiResultScreen', component: KanjiResultScreen },
   { name: 'ChooseWordCountKanjiScreen', component: ChooseWordCountKanjiScreen },
   { name: 'ChooseGrammarCountScreen', component: ChooseGrammarCountScreen },
+  { name: 'GrammarTemplateScreen', component: GrammarTemplateScreen },
 ]
 
 export default function Routers({ initialRouteName }: RoutersProps) {

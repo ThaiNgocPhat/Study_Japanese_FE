@@ -1,6 +1,6 @@
 import React from 'react'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import grammarN4 from '@assets/data/grammar/grammarN4'
+import { grammarN4 } from 'assets/data/grammar/n4/grammarN4'
 
 const GrammarYouToOmoimasuScreen = () => {
   const grammarData = grammarN4.find((item) => item.id === 'you_to_omoimasu')

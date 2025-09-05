@@ -59,7 +59,7 @@ const VocabularyN5LessonListScreen = () => {
       type: 'info',
       text1: 'Bài học bị khoá',
       text2: 'Vui lòng hoàn thành từng bài để mở khoá bài tiếp theo.',
-      position: 'bottom',
+      position: 'top',
     })
   }
 

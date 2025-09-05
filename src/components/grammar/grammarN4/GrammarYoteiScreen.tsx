@@ -1,6 +1,6 @@
 import React from 'react'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import grammarN4 from '@assets/data/grammar/grammarN4'
+import { grammarN4 } from 'assets/data/grammar/n4/grammarN4'
 
 const GrammarYoteiScreen = () => {
   const grammarData = grammarN4.find((item) => item.id === 'yotei')

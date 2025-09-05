@@ -1,17 +1,19 @@
-import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
+import { noun } from '@assets/data/grammar/n5/noun'
 import { nounIdToScreen } from '@assets/data/grammar/n5/screens'
 import BackButton from '@components/BackButton'
-import { useNavigation } from '@react-navigation/native'
+import { useNavigation, useFocusEffect } from '@react-navigation/native'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import { LinearGradient } from 'expo-linear-gradient'
-import React from 'react'
 import TopicListScreen, { TopicItem } from 'src/components/TopicListScreen'
 import { RootStackParamList } from 'src/types/navigation'
 
+const STORAGE_KEY_NOUN = 'unlockedGrammarNounN5'
+
 const GrammarNounN5TopicListScreen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
-  const nounCategory = grammarN5.find((cat) => 'noun' in cat)?.noun || []
-  const topics: TopicItem[] = nounCategory.map((item) => ({
+
+  const topics: TopicItem[] = noun.map((item) => ({
+    id: item.id,
     title: item.title,
     screen: nounIdToScreen[item.id] as keyof RootStackParamList,
     locked: true,

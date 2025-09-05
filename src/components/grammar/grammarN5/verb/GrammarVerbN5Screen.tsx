@@ -1,12 +1,10 @@
 import React from 'react'
 import { Text } from 'react-native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
+import { verb } from 'assets/data/grammar/n5/verb'
 
 const GrammarVerbN5Screen = () => {
-  const grammarData = grammarN5
-    .find((item) => item.verb?.some((v) => v.id === '1'))
-    ?.verb?.find((v) => v.id === '1')
+  const grammarData = verb.find((item) => item.id === '1')
 
   if (!grammarData) {
     return (

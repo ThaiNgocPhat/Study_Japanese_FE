@@ -1,97 +1,19 @@
-import React from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
-import { useNavigation } from '@react-navigation/native'
-import { Ionicons } from '@expo/vector-icons'
-import { LinearGradient } from 'expo-linear-gradient'
-import type { NativeStackNavigationProp } from '@react-navigation/native-stack'
-import type { RootStackParamList } from 'src/types/navigation'
-import Banner from 'assets/images/Banner.png'
-import BackButton from '@components/BackButton'
+      <Button
+        title="Reset Progress (debug)"
+        onPress={async () => {
+          // Xoá dữ liệu lưu progress động từ và tính từ
+          await AsyncStorage.removeItem(STORAGE_KEY_VERB)
+          await AsyncStorage.removeItem(STORAGE_KEY_ADJ)
+          // Xoá luôn last completed
+          await AsyncStorage.removeItem('lastCompletedGrammarVerbN5')
+          // Reset state local
+          setUnlocked([0])
+          Toast.show({
+            type: 'success',
+            text1: 'Đã reset progress',
+            text2: 'Mở lại chỉ bài đầu tiên động từ và khoá tất cả bài khác',
+          })
+        }}
+      />
 
-const GrammarN5CategoryScreen = () => {
-  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
-
-  const categories = [
-    {
-      name: 'Động từ',
-      icon: <Ionicons name="walk-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarVerbN5TopicListScreen'),
-    },
-    {
-      name: 'Tính từ',
-      icon: <Ionicons name="sunny-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarAdjectiveN5TopicListScreen'),
-    },
-    {
-      name: 'Danh từ',
-      icon: <Ionicons name="book-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarNounN5TopicListScreen'),
-    },
-    {
-      name: 'Trợ từ',
-      icon: <Ionicons name="ellipsis-horizontal-circle-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('GrammarParticleN5TopicListScreen'),
-    },
-    {
-      name: 'Các mẫu câu khác',
-      icon: <Ionicons name="chatbubbles-outline" size={32} color="#88c9bf" />,
-      onPress: () => navigation.navigate('OtherSentencePatternsScreen'),
-    },
-  ]
-
-  return (
-    <LinearGradient colors={['#fdf6e3', '#fcefe3']} style={styles.container}>
-      <BackButton />
-      <Image source={Banner} style={styles.banner} resizeMode="cover" />
-      <View style={styles.content}>
-        <Text style={styles.title}>Ngữ pháp N5</Text>
-
-        <View style={styles.grid}>
-          {categories.map((item, index) => (
-            <TouchableOpacity key={index} style={styles.box} onPress={item.onPress}>
-              {item.icon}
-              <Text style={styles.label}>{item.name}</Text>
-            </TouchableOpacity>
-          ))}
-        </View>
-      </View>
-    </LinearGradient>
-  )
-}
-
-export default GrammarN5CategoryScreen
-giừo tôi có cái này nhưng mà hiện tại là tất cả các bài ngữ pháp trong N5 đã được mở, ai cũng có thể học, nhưng mà tôi không muốn, tôi muốn người dùng học từng bài chứ không phải muốn học bài nào thì học, bây giờ nhé đầu tiên ta sẽ mở thằng động từ trước và mở bài đầu tiên cảu nó còn mấy bài kia khoá lại(ví dụ trong N5 có 10 ngữ pháp thì ngữ pháp đầu tiên sẽ được mở, cong mấy bài sau sẽ khoá, sau khi bấm vào ngữ pháp nào thì ở dưới cùng sẽ có nút hoàn thanhg bài học, sau khi bấm vào hoàn thành bài học thì bài tiếp theo sẽ được mở), làm trước thằng N5 này tôi xem thử 
-
-
-  // const categories = [
-  //   {
-  //     name: 'Động từ',
-  //     icon: <Ionicons name="walk-outline" size={32} color="#88c9bf" />,
-  //     onPress: () => navigation.navigate('GrammarVerbN5TopicListScreen'),
-  //     locked: false,
-  //   },
-  //   {
-  //     name: 'Tính từ',
-  //     icon: <Ionicons name="sunny-outline" size={32} color="#88c9bf" />,
-  //     onPress: () => navigation.navigate('GrammarAdjectiveN5TopicListScreen'),
-  //     locked: true,
-  //   },
-  //   {
-  //     name: 'Danh từ',
-  //     icon: <Ionicons name="book-outline" size={32} color="#88c9bf" />,
-  //     onPress: () => navigation.navigate('GrammarNounN5TopicListScreen'),
-  //     locked: true,
-  //   },
-  //   {
-  //     name: 'Trợ từ',
-  //     icon: <Ionicons name="ellipsis-horizontal-circle-outline" size={32} color="#88c9bf" />,
-  //     onPress: () => navigation.navigate('GrammarParticleN5TopicListScreen'),
-  //     locked: true,
-  //   },
-  //   {
-  //     name: 'Các mẫu câu khác',
-  //     icon: <Ionicons name="chatbubbles-outline" size={32} color="#88c9bf" />,
-  //     onPress: () => navigation.navigate('OtherSentencePatternsScreen'),
-  //     locked: true,
-  //   },
-  // ]
+      

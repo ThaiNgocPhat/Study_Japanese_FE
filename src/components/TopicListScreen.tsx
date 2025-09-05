@@ -11,21 +11,16 @@ export type TopicItem<K extends keyof RootStackParamList = keyof RootStackParamL
   title: string
   screen: K
   params?: RootStackParamList[K]
-  onPress?: () => void
   locked?: boolean
-  onComplete?: () => void
-  completed?: boolean
 }
 
 type Props = {
   screenTitle: string
   topics: TopicItem[]
   onLockedPress?: () => void
-  onComplete?: (index: number) => void
 }
-const STORAGE_KEY = 'unlockedGrammarVerbN5'
 
-const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress, onComplete }) => {
+const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress }) => {
   const navigation =
     useNavigation<NativeStackNavigationProp<RootStackParamList, keyof RootStackParamList>>()
 
@@ -40,7 +35,7 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress, 
             style={[styles.item, topic.locked && { opacity: 0.5 }]}
             onPress={() => {
               if (topic.locked) {
-                if (onLockedPress) onLockedPress()
+                onLockedPress?.()
                 return
               }
               if (topic.params) {
@@ -49,8 +44,6 @@ const TopicListScreen: React.FC<Props> = ({ screenTitle, topics, onLockedPress, 
                 navigation.navigate(topic.screen as any, {
                   topicIndex: index,
                   totalTopics: topics.length,
-                  storageKey: STORAGE_KEY,
-                  onComplete: () => onComplete?.(index),
                 })
               }
             }}

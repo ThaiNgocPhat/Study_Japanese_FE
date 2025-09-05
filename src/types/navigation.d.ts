@@ -34,7 +34,7 @@ export type RootStackParamList = {
   GrammarGaHoshiiDesuScreen: undefined
   GrammarGaSukiDesuScreen: undefined
   GrammarGaJouzuHetaDesuScreen: undefined
-  GrammarNounN5TopicListScreen: undefined
+  GrammarNounN5TopicListScreen: { refresh?: number } | undefined
   GrammarNounBasicScreen: undefined
   GrammarCountingPeopleThingScreen: undefined
   GrammarDateDayMonthScreen: undefined
@@ -53,7 +53,7 @@ export type RootStackParamList = {
   GrammarDeshouScreen: undefined
   GrammarAdverbsNegativeScreen: undefined
   GrammarQuestionWordsScreen: undefined
-  GrammarN4CategoryScreen: undefined
+  GrammarN4CategoryScreen: { refresh?: number } | undefined
   GrammarNdesuScreen: undefined
   GrammarHougaiiScreen: undefined
   GrammarNoniScreen: undefined
@@ -282,6 +282,16 @@ export type RootStackParamList = {
     lessonNumber: number
     level: 'N5' | 'N4' | 'N3' | 'N2' | 'N1'
   }
+  GrammarTemplateScreen:
+    | {
+        level: 'N5'
+        category: 'verb' | 'adjective' | 'particle' | 'noun' | 'other'
+        lessonNumber: number
+      }
+    | {
+        level: 'N4' | 'N3' | 'N2' | 'N1'
+        lessonNumber: number
+      }
   VocabularyN3LessonListScreen: undefined
   VocabularyN2LessonListScreen: undefined
   SelectVocabularyTest: undefined

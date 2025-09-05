@@ -1,11 +1,9 @@
 import React from 'react'
 import { Text } from 'react-native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
+import { noun } from '@assets/data/grammar/n5/noun'
 const GrammarVerbModifyNounScreen = () => {
-  const grammarData = grammarN5
-    .find((item) => item.noun?.some((v) => v.id === '4'))
-    ?.noun?.find((v) => v.id === '4')
+  const grammarData = noun.find((item) => item.id === '4')
   if (!grammarData) {
     return (
       <Text style={{ padding: 20 }}>

@@ -1,12 +1,11 @@
 import React from 'react'
 import { Text } from 'react-native'
 import GrammarTemplateScreen from '@components/GrammarTemplateScreen'
-import { grammarN5 } from '@assets/data/grammar/n5/grammarN5'
+import { other } from 'assets/data/grammar/n5/other'
 
 const GrammarNodeKaraScreen = () => {
-  const grammarData = grammarN5
-    .find((item) => item.otherPatterns?.some((v) => v.id === '6'))
-    ?.otherPatterns?.find((v) => v.id === '6')
+  const grammarData = other.find((item) => item.id === '6')
+
   if (!grammarData) {
     return <Text style={{ padding: 20 }}>Không tìm thấy dữ liệu ngữ pháp ～ので、～から</Text>
   }
